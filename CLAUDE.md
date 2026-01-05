@@ -8,8 +8,44 @@ This is a documentation repository containing advisory materials for Forward Dep
 
 ## Repository Structure
 
+### Core Documents
 - `README.md` - Brief repository introduction
-- `framework.md` - Comprehensive FDE Advisory Services Framework covering 17 practice areas
+- `framework.md` - High-level framework overview and navigation hub (v3.0)
+- `CLAUDE.md` - This file, guidance for AI assistants
+- `CHANGELOG.md` - Version history and changes
+- `CONTRIBUTING.md` - Guidelines for content contributions
+- `CROSS-REFERENCE-MAP.md` - Dependencies between practice areas
+
+### Practice Area Folders (17 detailed guides)
+- `people/` - 6 practice areas on human capital & talent
+  - organizational-design.md
+  - hiring-talent-strategy.md
+  - training-career-development.md
+  - change-management.md
+  - geographic-distribution.md
+  - community-knowledge-management.md
+- `product/` - 4 practice areas on product & technical operations
+  - product-fde-interface.md
+  - technical-enablement.md
+  - domain-expertise.md
+  - failure-recovery-risk.md
+- `commercial/` - 5 practice areas on revenue & market operations
+  - commercial-model-gtm.md
+  - customer-deployment-success.md
+  - legal-contracts-ip.md
+  - partner-ecosystem.md
+  - competitive-positioning.md
+- `operations/` - 2 practice areas on operating model & execution
+  - operating-model-metrics.md
+  - scaling-organization.md
+
+### Templates Folder
+- `templates/` - Ready-to-use templates organized by theme
+  - `people/` - Hiring, onboarding, career templates
+  - `product/` - Technical standards, documentation templates
+  - `commercial/` - Contracts, pricing, customer success templates
+  - `operations/` - Metrics, governance templates
+  - `shared/` - Cross-cutting templates (RACI, stakeholder analysis)
 
 ## Key Concepts
 
@@ -60,18 +96,52 @@ The main `framework.md` document covers 17 practice areas organized into themes:
 
 ### Document Editing Guidelines
 
-When modifying the framework document:
+**For Practice Area Documents (in people/, product/, commercial/, operations/):**
 
-1. **Maintain consistent structure** - Each practice area follows the pattern:
-   - "The Challenge" section explaining the problem
+1. **Maintain consistent structure** - Each practice area file follows this pattern:
+   - Frontmatter (YAML metadata)
+   - Title with TL;DR
+   - Navigation links
+   - "The Challenge" section
    - "Key Topics" with numbered subsections
-   - "Deliverables Available" listing tangible outputs
+   - "Implementation Guide" section
+   - "Templates & Tools" section
+   - "Real-World Examples" section
+   - "Decision Trees" section
+   - "Common Pitfalls" section
+   - "Success Metrics" section
+   - "Related Practices" section with cross-references
 
-2. **Keep cross-references updated** - Practice areas reference each other (e.g., hiring references org design, scaling references metrics)
+2. **File Naming Convention** - Use semantic slugs without numbers:
+   - ✅ Good: `hiring-talent-strategy.md`
+   - ❌ Bad: `03-hiring-talent-strategy.md`
+   - Rationale: Easier to maintain, reorder, and reference
 
-3. **Preserve the advisory perspective** - Content is written for consultants/advisors helping organizations, not for practitioners implementing directly
+3. **Keep cross-references updated** - Use relative paths with arrow notation:
+   - Format: `→ [Practice Area Name](../folder/file.md)`
+   - Update CROSS-REFERENCE-MAP.md when adding new relationships
+   - Update frontmatter `related_practices` metadata
 
-4. **Maintain phase alignment** - The appendix table maps practice areas to typical engagement phases
+4. **Preserve the advisory perspective** - Content is written for consultants/advisors helping organizations, not for practitioners implementing directly
+
+5. **Status tracking** - Use frontmatter `status` field:
+   - `draft` - Structure only, content incomplete
+   - `in-progress` - Actively being written
+   - `complete` - Fully fleshed out
+
+**For framework.md (Navigation Hub):**
+
+- `framework.md` is now a navigation document, not comprehensive content
+- Keep practice area summaries to 3-4 lines
+- Ensure all links to practice area files are correct
+- Update "Getting Started" guides when adding new content
+
+**For Templates:**
+
+- Templates go in `templates/{theme}/` folders
+- Use naming convention: `{purpose}-{type}.{extension}`
+- Include "Purpose" and "When to Use" sections
+- Mark incomplete templates with "🚧 Content In Progress"
 
 ### Content Philosophy
 
@@ -83,22 +153,53 @@ When modifying the framework document:
 ### Common Tasks
 
 **Adding a new practice area:**
-1. Add to table of contents with anchor link
-2. Create new section following the standard structure
-3. Update the Appendix quick reference table
-4. Consider which engagement phase it belongs to
+1. Create new file in appropriate theme folder (people/, product/, commercial/, operations/)
+2. Use semantic slug naming (no numbers)
+3. Copy skeleton structure from existing practice area
+4. Fill in frontmatter metadata (number, theme, phase, stakeholders, related_practices)
+5. Add to framework.md in appropriate theme section
+6. Add to framework.md "Practice Area Summaries" section
+7. Add to framework.md appendix table
+8. Update CROSS-REFERENCE-MAP.md
+9. Update CHANGELOG.md
 
 **Expanding an existing practice area:**
-1. Add new key topics under the appropriate practice area
-2. Ensure consistent numbering (e.g., 3.1, 3.2)
-3. Update "Deliverables Available" if applicable
+1. Find the practice area file in its theme folder
+2. Locate sections marked "🚧 Content In Progress"
+3. Add content following the structure guidelines
+4. Update `last_updated` date in frontmatter
+5. Change `status` from "draft" to "in-progress" or "complete"
+6. Ensure cross-references are accurate
+7. Update CHANGELOG.md if significant changes
 
-**Updating engagement models:**
-1. Engagement models and progression are near the end of the document
-2. Maintain consistency between phases and practice area priorities
+**Adding a new template:**
+1. Determine which theme folder it belongs in (templates/people/, etc.)
+2. Create file with naming convention: `{purpose}-{type}.{extension}`
+3. Include Purpose, When to Use, and Template Structure sections
+4. Reference from appropriate practice area documents
+5. Add to templates/README.md quick reference
+
+**Updating cross-references:**
+1. Update practice area file frontmatter `related_practices`
+2. Update "Related Practices" section in the document
+3. Update CROSS-REFERENCE-MAP.md
+4. Verify all relative links are correct
+
+**Transforming placeholder content:**
+1. Find sections with "🚧 Content In Progress"
+2. Replace with 2-3 paragraphs of detailed guidance
+3. Add examples, decision trees, or how-to steps as appropriate
+4. Remove the placeholder banner
+5. Update status in frontmatter if section is now complete
 
 ## Version Control
 
-- Document version and last updated date are at the bottom of framework.md
-- Update version number and date when making significant changes
-- Commit messages should reference which practice areas were modified
+- Framework version is at bottom of framework.md (currently v3.0)
+- Each practice area file has `last_updated` in frontmatter
+- Update CHANGELOG.md for all significant changes
+- Use semantic versioning:
+  - Major (X.0.0): Significant restructuring
+  - Minor (x.X.0): New content additions
+  - Patch (x.x.X): Minor updates, corrections
+- Commit messages should reference which files/practice areas were modified
+- Use conventional commit format: `feat:`, `fix:`, `docs:`, `refactor:`
