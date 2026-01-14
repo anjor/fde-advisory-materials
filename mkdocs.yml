@@ -1,0 +1,79 @@
+site_name: FDE Advisory Materials
+site_description: Practical guidance for organizations building Forward Deployed Engineering capabilities
+site_author: FDE Advisory
+site_url: https://anjor.github.io/fde-advisory-materials/
+
+repo_name: anjor/fde-advisory-materials
+repo_url: https://github.com/anjor/fde-advisory-materials
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant       # Fast page loading
+    - navigation.tracking      # URL updates as you scroll
+    - navigation.tabs          # Top-level sections as tabs
+    - navigation.sections      # Sections in navigation
+    - navigation.expand        # Expand all sections by default
+    - navigation.top           # Back to top button
+    - search.suggest           # Search suggestions
+    - search.highlight         # Highlight search terms
+    - content.code.copy        # Copy button for code blocks
+    - content.action.edit      # Edit button on each page
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-\.]+'
+
+markdown_extensions:
+  - admonition              # Callout boxes
+  - pymdownx.details        # Collapsible sections
+  - pymdownx.superfences    # Code blocks
+  - pymdownx.tabbed:        # Tabbed content
+      alternate_style: true
+  - tables                  # Table support
+  - attr_list               # Add attributes to elements
+  - md_in_html             # Markdown in HTML blocks
+
+nav:
+  - Home: index.md
+  - Getting Started: 00-fde-startup-kit.md
+  - Practice Areas:
+      - Hiring & Talent Strategy: 01-hiring-talent-strategy.md
+      - Product-FDE Interface: 02-product-fde-interface.md
+      - Technical Enablement: 03-technical-enablement.md
+  - About:
+      - MVP Priorities: mvp-priorities.md
+      - Changelog: CHANGELOG.md
+      - Contributing: CLAUDE.md
+  - Templates:
+      - People:
+          - Job Description: templates/people/job-description-fde.md
+          - Interview Scorecard: templates/people/interview-scorecard.md
+          - Onboarding Checklist: templates/people/onboarding-checklist.md
+      - Product:
+          - Interface Agreement: templates/product/interface-agreement-template.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/anjor/fde-advisory-materials

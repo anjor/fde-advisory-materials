@@ -1,75 +1,69 @@
-# FDE Advisory Materials (MVP)
+# FDE Advisory Materials
 
-Practical guidance for organizations building Forward Deployed Engineering capabilities.
+Documentation site for Forward Deployed Engineering advisory materials.
 
-**MVP Scope**: This repository focuses on the 3 critical areas that solve immediate problems:
-1. Hiring & Talent Strategy
-2. Product-FDE Interface
-3. Technical Enablement
+📚 **[View the Documentation Site](https://anjor.github.io/fde-advisory-materials/)**
 
-→ **Start here**: [FDE Startup Kit](00-fde-startup-kit.md)
+## About
 
----
+This repository contains practical guidance for organizations building Forward Deployed Engineering (FDE) capabilities. The documentation covers three critical areas:
 
-## What is FDE?
+1. **Hiring & Talent Strategy** - How to hire and evaluate FDEs
+2. **Product-FDE Interface** - Managing FDE-Product team relationships
+3. **Technical Enablement** - Minimum standards for FDE-ready products
 
-Forward Deployed Engineers (FDEs) are technical, client-facing engineers who solve customer problems by building on and extending product platforms. They differ from traditional consulting or staff augmentation roles by:
+## Development
 
-- **Taking ownership** of customer outcomes
-- **Contributing directly** to product/platform development
-- **Working across** the full technical stack
-- **Operating with** high autonomy and pain tolerance
+This site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
----
+### Local Development
 
-## What's Included
+```bash
+# Install dependencies (requires uv)
+uv sync
 
-### Core Documents
+# Serve locally
+uv run mkdocs serve
 
-- **[00-fde-startup-kit.md](00-fde-startup-kit.md)** - Quick reference guide for FDE essentials. Start here for an overview.
-- **[01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)** - How to hire FDEs (interview process, evaluation, channels)
-- **[02-product-fde-interface.md](02-product-fde-interface.md)** - Managing FDE-Product team relationships and expectations
-- **[03-technical-enablement.md](03-technical-enablement.md)** - Minimum standards for FDE-ready products
+# Build static site
+uv run mkdocs build
+```
 
-### Templates
+Visit http://127.0.0.1:8000 to preview the site locally.
 
-Ready-to-use templates in `templates/`:
-- **Hiring**: Job descriptions, interview scorecards, onboarding checklists
-- **Product Interface**: FDE-Product team agreements
+### Project Structure
 
----
+```
+.
+├── docs/                    # Documentation source files
+│   ├── index.md            # Homepage
+│   ├── 00-fde-startup-kit.md
+│   ├── 01-hiring-talent-strategy.md
+│   ├── 02-product-fde-interface.md
+│   ├── 03-technical-enablement.md
+│   ├── templates/          # Template files
+│   └── ...
+├── mkdocs.yml              # MkDocs configuration
+└── pyproject.toml          # Python dependencies
+```
 
-## Getting Started by Challenge
+## Contributing
 
-- **"We need to hire 3-5 FDEs immediately"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
-- **"FDEs and Product teams are constantly in conflict"** → [02-product-fde-interface.md](02-product-fde-interface.md)
-- **"FDEs spend days just trying to set up environments"** → [03-technical-enablement.md](03-technical-enablement.md)
-- **"I need a quick overview"** → [00-fde-startup-kit.md](00-fde-startup-kit.md)
+All documentation files are located in the `docs/` directory. To contribute:
 
----
+1. Edit markdown files in `docs/`
+2. Test locally with `uv run mkdocs serve`
+3. Submit a pull request
 
-## Why MVP?
+See [docs/CLAUDE.md](docs/CLAUDE.md) for detailed contribution guidelines.
 
-This repository intentionally limits scope to 3 priority areas based on real field engagement patterns (the organization, Nov-Dec 2024). The burning problems were:
+## Deployment
 
-1. **Hiring urgency** - Need to hire 3-5 FDEs by Feb 2025
-2. **Product-FDE friction** - Single biggest source of operational pain
-3. **Technical chaos** - No documentation, scattered repos, can't work
-
-Everything else is deferred until there's demand based on real deployments. See [mvp-priorities.md](mvp-priorities.md) for the full rationale.
-
----
+The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch. The deployment is handled by GitHub Actions (see `.github/workflows/deploy-docs.yml`).
 
 ## Version
 
 **Current Version**: MVP-1.0.0
-**Last Updated**: January 6, 2026
+**Last Updated**: January 14, 2026
 
-See [CHANGELOG.md](CHANGELOG.md) for transformation details.
-
----
-
-## Documentation
-
-- **[CLAUDE.md](CLAUDE.md)** - Guidance for AI assistants working with this repository
-- **[mvp-priorities.md](mvp-priorities.md)** - MVP scope definition and rationale
+See [docs/CHANGELOG.md](docs/CHANGELOG.md) for version history.
