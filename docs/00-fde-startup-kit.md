@@ -8,12 +8,14 @@
 ## What Is an FDE?
 
 Forward Deployed Engineers are **technical, client-facing problem solvers** who:
+
 - Own client outcomes (not just tasks)
 - Build on and extend the platform for specific client needs
 - Work across the full stack as needed
 - Tolerate ambiguity, broken systems, and missing documentation
 
 **FDEs are NOT:**
+
 - Staff augmentation (we own outcomes, not hours)
 - Pure consultants (we build working software, not PowerPoints)
 - Support engineers (we deploy new solutions, not maintain old ones)
@@ -76,6 +78,7 @@ Discovery → Demo → Pilot → Production → Steady State
 | Ownership mindset | "That's not my job" |
 
 **Interview Process:**
+
 1. Phone screen (15-30 min) - Basic communication check
 2. Tech screen (60 min) - Verify competence
 3. Learning & Reengineering (60 min) - Navigate unfamiliar system

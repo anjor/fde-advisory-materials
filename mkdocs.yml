@@ -28,16 +28,16 @@ theme:
         name: Switch to light mode
 
   features:
-    - navigation.instant       # Fast page loading
-    - navigation.tracking      # URL updates as you scroll
-    - navigation.tabs          # Top-level sections as tabs
-    - navigation.sections      # Sections in navigation
-    - navigation.expand        # Expand all sections by default
-    - navigation.top           # Back to top button
-    - search.suggest           # Search suggestions
-    - search.highlight         # Highlight search terms
-    - content.code.copy        # Copy button for code blocks
-    - content.action.edit      # Edit button on each page
+    - navigation.instant # Fast page loading
+    - navigation.tracking # URL updates as you scroll
+    - navigation.tabs # Top-level sections as tabs
+    - navigation.sections # Sections in navigation
+    - navigation.expand # Expand all sections by default
+    - navigation.top # Back to top button
+    - search.suggest # Search suggestions
+    - search.highlight # Highlight search terms
+    - content.code.copy # Copy button for code blocks
+    - content.action.edit # Edit button on each page
 
 plugins:
   - search:
@@ -45,14 +45,14 @@ plugins:
       separator: '[\s\-\.]+'
 
 markdown_extensions:
-  - admonition              # Callout boxes
-  - pymdownx.details        # Collapsible sections
-  - pymdownx.superfences    # Code blocks
-  - pymdownx.tabbed:        # Tabbed content
+  - admonition # Callout boxes
+  - pymdownx.details # Collapsible sections
+  - pymdownx.superfences # Code blocks
+  - pymdownx.tabbed: # Tabbed content
       alternate_style: true
-  - tables                  # Table support
-  - attr_list               # Add attributes to elements
-  - md_in_html             # Markdown in HTML blocks
+  - tables # Table support
+  - attr_list # Add attributes to elements
+  - md_in_html # Markdown in HTML blocks
 
 nav:
   - Home: index.md
@@ -61,10 +61,6 @@ nav:
       - Hiring & Talent Strategy: 01-hiring-talent-strategy.md
       - Product-FDE Interface: 02-product-fde-interface.md
       - Technical Enablement: 03-technical-enablement.md
-  - About:
-      - MVP Priorities: mvp-priorities.md
-      - Changelog: CHANGELOG.md
-      - Contributing: CLAUDE.md
   - Templates:
       - People:
           - Job Description: templates/people/job-description-fde.md

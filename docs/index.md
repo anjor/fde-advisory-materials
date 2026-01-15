@@ -33,7 +33,8 @@ Forward Deployed Engineers (FDEs) are technical, client-facing engineers who sol
 
 ### Templates
 
-Ready-to-use templates in `templates/`:
+Ready-to-use templates:
+
 - **Hiring**: Job descriptions, interview scorecards, onboarding checklists
 - **Product Interface**: FDE-Product team agreements
 
@@ -50,7 +51,7 @@ Ready-to-use templates in `templates/`:
 
 ## Why MVP?
 
-This repository intentionally limits scope to 3 priority areas based on real field engagement patterns (the organization, Nov-Dec 2024). The burning problems were:
+This repository intentionally limits scope to 3 priority areas based on real field engagement patterns. The burning problems were:
 
 1. **Hiring urgency** - Need to hire 3-5 FDEs by Feb 2025
 2. **Product-FDE friction** - Single biggest source of operational pain

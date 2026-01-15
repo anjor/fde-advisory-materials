@@ -7,11 +7,13 @@
 ## The Challenge
 
 Traditional engineering hiring optimizes for:
+
 - Specific technology skills (Python, React, AWS)
 - Algorithm performance
 - System design for scale
 
 FDE hiring must additionally evaluate:
+
 - Ability to learn unfamiliar domains quickly
 - Client-facing communication under ambiguity
 - Pain tolerance when systems are broken
@@ -52,6 +54,7 @@ Organizations that use standard engineering interviews will hire technically com
 People you or trusted colleagues have worked with directly.
 
 **Modified Process:**
+
 1. Skip phone screen
 2. Skip first tech screen  
 3. Go straight to Learning & Reengineering exercise
@@ -64,6 +67,7 @@ People you or trusted colleagues have worked with directly.
 Existing employees who want to transition to FDE role.
 
 **Modified Process:**
+
 1. Manager endorsement (replaces phone screen)
 2. Technical screen (verify current skills)
 3. Learning & Reengineering exercise
@@ -76,6 +80,7 @@ Existing employees who want to transition to FDE role.
 Unknown candidates from job postings, recruiters, etc.
 
 **Full Process:**
+
 1. Phone screen (15-30 min) - Basic communication, interest validation
 2. Technical screen (60 min) - Verify baseline technical competence
 3. Learning & Reengineering (60 min) - FDE-specific evaluation
@@ -109,16 +114,19 @@ Unknown candidates from job postings, recruiters, etc.
 **Format:** Adapt based on candidate background. The goal is confirming they can code, not testing specific technologies.
 
 **For Backend-Heavy Candidates:**
+
 - API design problem
 - Data modeling scenario
 - System integration discussion
 
 **For Frontend-Heavy Candidates:**
+
 - Component architecture
 - State management approaches
 - API consumption patterns
 
 **For Data/ML Candidates:**
+
 - Pipeline design
 - Evaluation methodology discussion
 - Data quality handling
@@ -131,18 +139,21 @@ Unknown candidates from job postings, recruiters, etc.
 **Purpose:** Evaluate how quickly they can understand and extend unfamiliar systems.
 
 **Format:** Give candidate access to an unfamiliar codebase or system. Ask them to:
+
 1. Understand what it does (15 min)
 2. Explain it back to you (10 min)
 3. Propose and implement a small change (25 min)
 4. Discuss what they'd do differently (10 min)
 
 **What to Observe:**
+
 - How do they navigate unfamiliar code?
 - Do they use available tools effectively (search, AI assistants)?
 - Can they form a mental model quickly?
 - How do they communicate their understanding?
 
 **High Signal Topics:**
+
 - Evaluation methodology ("How would you know if this is working?")
 - Edge case thinking ("What could go wrong?")
 - Production awareness ("How would this behave under load?")
@@ -163,6 +174,7 @@ Unknown candidates from job postings, recruiters, etc.
 > "A client's sales team isn't adopting the new CRM we deployed. Adoption is at 20% after 3 months. What would you do?"
 
 **What to Observe:**
+
 - Do they ask clarifying questions or jump to solutions?
 - Can they identify the key sub-problems?
 - Do they consider constraints (time, budget, client politics)?
@@ -178,16 +190,19 @@ Unknown candidates from job postings, recruiters, etc.
 
 **Before the Interview:**
 Write a "hiring thesis" based on previous rounds:
+
 - "I believe this candidate would be strong at X because of Y"
 - "I'm uncertain about Z and need to probe further"
 
 **During the Interview:**
+
 - Test your thesis with targeted questions
 - Discuss career goals and FDE fit
 - Assess culture add
 - Sell the role (if candidate is strong)
 
 **Topics to Cover:**
+
 - Most challenging client/stakeholder situation they've navigated
 - Time they had to deliver despite inadequate support/resources
 - What they're looking for in next role
@@ -233,6 +248,7 @@ Put them on an active client engagement with a senior FDE who can provide contex
 
 ### Red Flags to Align On
 Everyone should reject candidates who:
+
 - Can't explain their thinking clearly
 - Blame others for past failures
 - Show no curiosity about the problem domain
@@ -245,6 +261,7 @@ Everyone should reject candidates who:
 
 ### Compensation Philosophy
 FDEs should be paid at or above senior engineering levels. The role requires:
+
 - Engineering skills PLUS
 - Client skills PLUS
 - Pain tolerance PLUS
@@ -302,20 +319,23 @@ For each interview round, rate 1-5 on:
 
 ### Hiring Thesis Template
 
-**Candidate:** [Name]
-**Role:** FDE
-**Interviewer:** [Your name]
-**Date:** [Date]
+- **Candidate:** [Name]
+- **Role:** FDE
+- **Interviewer:** [Your name]
+- **Date:** [Date]
 
 **Based on previous rounds, I believe:**
+
 - This candidate would be strong at: [specific areas]
 - Evidence: [what you saw]
 
 **I am uncertain about:**
+
 - [specific concern]
 - I plan to probe by asking: [question]
 
 **Key questions for this interview:**
+
 1. [Question targeting thesis validation]
 2. [Question targeting uncertainty]
 3. [Question about culture/fit]
