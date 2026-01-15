@@ -1078,6 +1078,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1301,6 +1312,34 @@
     
   
     Interview Scorecard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/people/hiring-thesis-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hiring Thesis Template
   
 
     
@@ -2000,6 +2039,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2032,23 +2082,29 @@
 <hr />
 <h2 id="the-challenge">The Challenge</h2>
 <p>The most common dysfunction in FDE organizations:</p>
-<p><strong>Product Team Thinks:</strong>
-- "FDEs will handle client customization"
-- "We need to focus on the roadmap"
-- "They can figure it out from the code"</p>
-<p><strong>FDE Team Experiences:</strong>
-- Can't set up development environment (takes days, not hours)
-- No documentation on how things work
-- Product priorities don't align with client needs
-- Blocked waiting for Product team responses</p>
+<p><strong>Product Team Thinks:</strong></p>
+<ul>
+<li>"FDEs will handle client customization"</li>
+<li>"We need to focus on the roadmap"</li>
+<li>"They can figure it out from the code"</li>
+</ul>
+<p><strong>FDE Team Experiences:</strong></p>
+<ul>
+<li>Can't set up development environment (takes days, not hours)</li>
+<li>No documentation on how things work</li>
+<li>Product priorities don't align with client needs</li>
+<li>Blocked waiting for Product team responses</li>
+</ul>
 <p><strong>Result:</strong> FDEs spend 70% of time fighting internal friction, 30% on client work.</p>
 <hr />
 <h2 id="core-principle-fdes-are-your-products-first-real-users">Core Principle: FDEs Are Your Product's First Real Users</h2>
 <p>If FDEs can't use your product effectively, neither will clients.</p>
-<p>Every hour an FDE spends fighting your codebase is:
-- An hour not spent on client outcomes
-- A preview of what clients will experience
-- Technical debt you're exporting to the field</p>
+<p>Every hour an FDE spends fighting your codebase is:</p>
+<ul>
+<li>An hour not spent on client outcomes</li>
+<li>A preview of what clients will experience</li>
+<li>Technical debt you're exporting to the field</li>
+</ul>
 <hr />
 <h2 id="ownership-boundaries">Ownership Boundaries</h2>
 <h3 id="fde-team-owns">FDE Team Owns</h3>
@@ -2162,34 +2218,42 @@
 <p>These are non-negotiable. Without them, FDEs cannot work effectively.</p>
 <h3 id="1-working-development-environment">1. Working Development Environment</h3>
 <p><strong>Standard:</strong> An FDE should be able to go from zero to running code in &lt; 4 hours.</p>
-<p><strong>Product Team Must Provide:</strong>
-- [ ] Single repository (or clear multi-repo guide) - not scattered across GitHub, Azure DevOps, and local machines
-- [ ] README with setup instructions that actually work
-- [ ] Docker/containerized setup OR clear dependency list
-- [ ] Seed data for local development
-- [ ] Environment variables documented with example values</p>
+<p><strong>Product Team Must Provide:</strong></p>
+<ul>
+<li>[ ] Single repository (or clear multi-repo guide) - not scattered across GitHub, Azure DevOps, and local machines</li>
+<li>[ ] README with setup instructions that actually work</li>
+<li>[ ] Docker/containerized setup OR clear dependency list</li>
+<li>[ ] Seed data for local development</li>
+<li>[ ] Environment variables documented with example values</li>
+</ul>
 <p><strong>Verification:</strong> New FDE can complete setup following only written instructions.</p>
 <h3 id="2-target-data-model-documentation">2. Target Data Model Documentation</h3>
 <p><strong>Standard:</strong> FDE should understand what shape of data the product expects.</p>
-<p><strong>Product Team Must Provide:</strong>
-- [ ] Entity relationship diagram or equivalent
-- [ ] Field-level documentation for key entities
-- [ ] Example data that exercises main workflows
-- [ ] Validation rules and constraints</p>
+<p><strong>Product Team Must Provide:</strong></p>
+<ul>
+<li>[ ] Entity relationship diagram or equivalent</li>
+<li>[ ] Field-level documentation for key entities</li>
+<li>[ ] Example data that exercises main workflows</li>
+<li>[ ] Validation rules and constraints</li>
+</ul>
 <p><strong>Why This Matters:</strong> FDEs build adapters from client data to product data model. Without knowing the target, they're guessing.</p>
 <h3 id="3-apiintegration-documentation">3. API/Integration Documentation</h3>
 <p><strong>Standard:</strong> FDE should be able to integrate without reading source code.</p>
-<p><strong>Product Team Must Provide:</strong>
-- [ ] API endpoint documentation (request/response formats)
-- [ ] Authentication/authorization guide
-- [ ] Error codes and handling guidance
-- [ ] Rate limits and performance expectations</p>
+<p><strong>Product Team Must Provide:</strong></p>
+<ul>
+<li>[ ] API endpoint documentation (request/response formats)</li>
+<li>[ ] Authentication/authorization guide</li>
+<li>[ ] Error codes and handling guidance</li>
+<li>[ ] Rate limits and performance expectations</li>
+</ul>
 <h3 id="4-feature-flag-configuration-guide">4. Feature Flag / Configuration Guide</h3>
 <p><strong>Standard:</strong> FDE should know what's configurable without code changes.</p>
-<p><strong>Product Team Must Provide:</strong>
-- [ ] List of feature flags and what they control
-- [ ] Configuration options and their effects
-- [ ] How to enable/disable features per client</p>
+<p><strong>Product Team Must Provide:</strong></p>
+<ul>
+<li>[ ] List of feature flags and what they control</li>
+<li>[ ] Configuration options and their effects</li>
+<li>[ ] How to enable/disable features per client</li>
+</ul>
 <h3 id="5-response-time-sla">5. Response Time SLA</h3>
 <p><strong>Standard:</strong> FDEs should not be blocked waiting for Product team responses.</p>
 <table>
@@ -2251,18 +2315,24 @@
 <li>Realistic expectations about FDE work</li>
 </ol>
 <h3 id="how-to-structure-it">How to Structure It</h3>
-<p><strong>Client 1:</strong> Product team leads (90%), FDE shadows (10%)
-- FDE learns the product through observation
-- Product team creates documentation as they go
-- FDE provides client relationship support</p>
-<p><strong>Client 2:</strong> Shared (50/50)
-- FDE takes on more technical work
-- Product team fills gaps and answers questions
-- Documentation gets tested and improved</p>
-<p><strong>Client 3+:</strong> FDE leads, Product team supports
-- Full handoff
-- Product team available for escalations
-- Regular feedback sync (weekly)</p>
+<p><strong>Client 1:</strong> Product team leads (90%), FDE shadows (10%)</p>
+<ul>
+<li>FDE learns the product through observation</li>
+<li>Product team creates documentation as they go</li>
+<li>FDE provides client relationship support</li>
+</ul>
+<p><strong>Client 2:</strong> Shared (50/50)</p>
+<ul>
+<li>FDE takes on more technical work</li>
+<li>Product team fills gaps and answers questions</li>
+<li>Documentation gets tested and improved</li>
+</ul>
+<p><strong>Client 3+:</strong> FDE leads, Product team supports</p>
+<ul>
+<li>Full handoff</li>
+<li>Product team available for escalations</li>
+<li>Regular feedback sync (weekly)</li>
+</ul>
 <h3 id="when-to-skip-this">When to Skip This</h3>
 <ul>
 <li>Product has 3+ successful client deployments already</li>
@@ -2272,30 +2342,38 @@
 <hr />
 <h2 id="feedback-loops">Feedback Loops</h2>
 <h3 id="weekly-sync-required">Weekly Sync (Required)</h3>
-<p><strong>Attendees:</strong> FDE lead + Product lead
-<strong>Duration:</strong> 30 min
-<strong>Agenda:</strong>
-1. FDE blockers (5 min) - What's preventing progress?
-2. Client patterns (10 min) - What are we seeing across clients?
-3. Roadmap check (5 min) - Any changes affecting FDE work?
-4. Action items (10 min) - Who does what by when?</p>
+<p><strong>Attendees:</strong> FDE lead + Product lead</p>
+<p><strong>Duration:</strong> 30 min</p>
+<p><strong>Agenda:</strong></p>
+<ol>
+<li>FDE blockers (5 min) - What's preventing progress?</li>
+<li>Client patterns (10 min) - What are we seeing across clients?</li>
+<li>Roadmap check (5 min) - Any changes affecting FDE work?</li>
+<li>Action items (10 min) - Who does what by when?</li>
+</ol>
 <h3 id="backlog-visibility">Backlog Visibility</h3>
 <p>FDE implementation backlogs should be visible to Product team.</p>
-<p><strong>Purpose:</strong>
-- Identify common requests across clients (→ should be product features)
-- Spot conflicts between client needs and product direction
-- Inform prioritization decisions</p>
-<p><strong>Format:</strong> Shared board (Jira, Linear, etc.) with:
-- Client name
-- Request description
-- Business impact
-- Current workaround (if any)</p>
+<p><strong>Purpose:</strong></p>
+<ul>
+<li>Identify common requests across clients (→ should be product features)</li>
+<li>Spot conflicts between client needs and product direction</li>
+<li>Inform prioritization decisions</li>
+</ul>
+<p><strong>Format:</strong> Shared board (Jira, Linear, etc.) with:</p>
+<ul>
+<li>Client name</li>
+<li>Request description</li>
+<li>Business impact</li>
+<li>Current workaround (if any)</li>
+</ul>
 <h3 id="quarterly-review">Quarterly Review</h3>
-<p>Full FDE + Product team review:
-- What patterns emerged this quarter?
-- What should move from "FDE customization" to "product feature"?
-- What documentation/tooling gaps remain?
-- Roadmap alignment for next quarter</p>
+<p>Full FDE + Product team review:</p>
+<ul>
+<li>What patterns emerged this quarter?</li>
+<li>What should move from "FDE customization" to "product feature"?</li>
+<li>What documentation/tooling gaps remain?</li>
+<li>Roadmap alignment for next quarter</li>
+</ul>
 <hr />
 <h2 id="escalation-process">Escalation Process</h2>
 <h3 id="when-to-escalate">When to Escalate</h3>
@@ -2353,44 +2431,58 @@ What happens if this isn&#39;t resolved?
 <h3 id="the-mistake">The Mistake</h3>
 <p>Optimizing for "low-code/no-code" end users before your FDEs can use the platform effectively.</p>
 <h3 id="the-reality">The Reality</h3>
-<p>For early-stage products:
-1. FDEs are your first users
-2. FDEs need developer experience (DX), not end-user experience (UX)
-3. If FDEs can't build on your platform, clients won't be able to either</p>
+<p>For early-stage products:</p>
+<ol>
+<li>FDEs are your first users</li>
+<li>FDEs need developer experience (DX), not end-user experience (UX)</li>
+<li>If FDEs can't build on your platform, clients won't be able to either</li>
+</ol>
 <h3 id="what-this-means">What This Means</h3>
-<p><strong>Prioritize:</strong>
-- API-first development
-- SDK/programmatic access
-- Clear extension points
-- Developer documentation</p>
-<p><strong>Deprioritize (for now):</strong>
-- Visual builders
-- Drag-and-drop interfaces
-- No-code configuration
-- End-user tutorials</p>
-<p><strong>The Sequence:</strong>
-1. Build APIs that work
-2. Build SDK on top of APIs
-3. Build visual tools on top of SDK
-4. Only then: no-code/low-code features</p>
+<p><strong>Prioritize:</strong></p>
+<ul>
+<li>API-first development</li>
+<li>SDK/programmatic access</li>
+<li>Clear extension points</li>
+<li>Developer documentation</li>
+</ul>
+<p><strong>Deprioritize (for now):</strong></p>
+<ul>
+<li>Visual builders</li>
+<li>Drag-and-drop interfaces</li>
+<li>No-code configuration</li>
+<li>End-user tutorials</li>
+</ul>
+<p><strong>The Sequence:</strong></p>
+<ol>
+<li>Build APIs that work</li>
+<li>Build SDK on top of APIs</li>
+<li>Build visual tools on top of SDK</li>
+<li>Only then: no-code/low-code features</li>
+</ol>
 <hr />
 <h2 id="fde-contribution-to-product">FDE Contribution to Product</h2>
 <h3 id="fdes-should-contribute-code">FDEs Should Contribute Code</h3>
-<p>FDEs discovering gaps should be empowered to:
-1. Build working prototypes
-2. Submit PRs to core product
-3. Propose architectural changes</p>
+<p>FDEs discovering gaps should be empowered to:</p>
+<ol>
+<li>Build working prototypes</li>
+<li>Submit PRs to core product</li>
+<li>Propose architectural changes</li>
+</ol>
 <h3 id="contribution-rules">Contribution Rules</h3>
-<p><strong>Do:</strong>
-- Build the fastest path to solving client problem
-- Document what you built and why
-- Flag anything that should be generalized
-- Follow existing code conventions</p>
-<p><strong>Don't:</strong>
-- Maintain long-lived forks
-- Build parallel systems that duplicate product functionality
-- Make changes that only work for one client
-- Skip tests or documentation</p>
+<p><strong>Do:</strong></p>
+<ul>
+<li>Build the fastest path to solving client problem</li>
+<li>Document what you built and why</li>
+<li>Flag anything that should be generalized</li>
+<li>Follow existing code conventions</li>
+</ul>
+<p><strong>Don't:</strong></p>
+<ul>
+<li>Maintain long-lived forks</li>
+<li>Build parallel systems that duplicate product functionality</li>
+<li>Make changes that only work for one client</li>
+<li>Skip tests or documentation</li>
+</ul>
 <h3 id="merge-expectations">Merge Expectations</h3>
 <table>
 <thead>
@@ -2420,43 +2512,53 @@ What happens if this isn&#39;t resolved?
 </table>
 <h3 id="long-lived-branches-are-forbidden">Long-Lived Branches Are Forbidden</h3>
 <p>A branch that diverges from main for &gt;2 weeks is a failure mode.</p>
-<p><strong>If you have a long-lived branch:</strong>
-1. It should have been merged (break it into smaller changes)
-2. It should be a product feature (get it on the roadmap)
-3. It should be abandoned (client-specific hack that won't scale)</p>
+<p><strong>If you have a long-lived branch:</strong></p>
+<ol>
+<li>It should have been merged (break it into smaller changes)</li>
+<li>It should be a product feature (get it on the roadmap)</li>
+<li>It should be abandoned (client-specific hack that won't scale)</li>
+</ol>
 <hr />
 <h2 id="common-dysfunctions-and-fixes">Common Dysfunctions and Fixes</h2>
 <h3 id="product-team-is-too-busy-for-fde-requests">"Product team is too busy for FDE requests"</h3>
 <p><strong>Symptom:</strong> FDE requests sit in backlog for weeks.</p>
 <p><strong>Root Cause:</strong> Product team doesn't feel accountable for FDE success.</p>
-<p><strong>Fix:</strong> 
-- Include FDE blockers in Product team sprint planning
-- Track "FDE blocked time" as a metric
-- Executive visibility on FDE friction</p>
+<p><strong>Fix:</strong> </p>
+<ul>
+<li>Include FDE blockers in Product team sprint planning</li>
+<li>Track "FDE blocked time" as a metric</li>
+<li>Executive visibility on FDE friction</li>
+</ul>
 <hr />
 <h3 id="fdes-keep-asking-for-things-that-arent-on-the-roadmap">"FDEs keep asking for things that aren't on the roadmap"</h3>
 <p><strong>Symptom:</strong> Tension between what clients need and what Product is building.</p>
 <p><strong>Root Cause:</strong> Roadmap isn't informed by field reality.</p>
-<p><strong>Fix:</strong>
-- FDE input required in quarterly planning
-- Explicit allocation: X% of roadmap driven by field feedback
-- Joint client visits by Product team members</p>
+<p><strong>Fix:</strong></p>
+<ul>
+<li>FDE input required in quarterly planning</li>
+<li>Explicit allocation: X% of roadmap driven by field feedback</li>
+<li>Joint client visits by Product team members</li>
+</ul>
 <hr />
 <h3 id="documentation-is-always-out-of-date">"Documentation is always out of date"</h3>
 <p><strong>Symptom:</strong> FDEs can't trust written documentation.</p>
 <p><strong>Root Cause:</strong> Documentation is treated as separate from code.</p>
-<p><strong>Fix:</strong>
-- Documentation lives in code repo
-- PR reviews include documentation updates
-- FDEs fix docs when they find issues (and it's merged quickly)</p>
+<p><strong>Fix:</strong></p>
+<ul>
+<li>Documentation lives in code repo</li>
+<li>PR reviews include documentation updates</li>
+<li>FDEs fix docs when they find issues (and it's merged quickly)</li>
+</ul>
 <hr />
 <h3 id="we-dont-know-what-fdes-are-doing">"We don't know what FDEs are doing"</h3>
 <p><strong>Symptom:</strong> Product team surprised by FDE customizations.</p>
 <p><strong>Root Cause:</strong> No visibility into FDE work.</p>
-<p><strong>Fix:</strong>
-- Shared board for FDE implementation work
-- Weekly sync (non-negotiable)
-- FDE demos at Product team meetings</p>
+<p><strong>Fix:</strong></p>
+<ul>
+<li>Shared board for FDE implementation work</li>
+<li>Weekly sync (non-negotiable)</li>
+<li>FDE demos at Product team meetings</li>
+</ul>
 <hr />
 <h2 id="success-metrics">Success Metrics</h2>
 <h3 id="leading-indicators">Leading Indicators</h3>
@@ -2473,18 +2575,25 @@ What happens if this isn&#39;t resolved?
 </ul>
 <hr />
 <h2 id="checklist-is-your-interface-working">Checklist: Is Your Interface Working?</h2>
-<p><strong>For FDE Leaders:</strong>
-- [ ] Can a new FDE set up their environment in &lt;4 hours?
-- [ ] Do FDEs know exactly what Product team must provide?
-- [ ] Is there a weekly sync that actually happens?
-- [ ] Do FDEs feel empowered to contribute code?
-- [ ] Is there a clear escalation path when blocked?</p>
-<p><strong>For Product Leaders:</strong>
-- [ ] Do you know what FDEs are working on right now?
-- [ ] Have you personally experienced a client deployment in the last quarter?
-- [ ] Is FDE feedback visibly influencing your roadmap?
-- [ ] Are your docs accurate enough that FDEs trust them?
-- [ ] Can you name the top 3 FDE friction points?</p>
+<p><strong>For FDE Leaders:</strong></p>
+<ul>
+<li>[ ] Can a new FDE set up their environment in &lt;4 hours?</li>
+<li>[ ] Do FDEs know exactly what Product team must provide?</li>
+<li>[ ] Is there a weekly sync that actually happens?</li>
+<li>[ ] Do FDEs feel empowered to contribute code?</li>
+<li>[ ] Is there a clear escalation path when blocked?</li>
+</ul>
+<p><strong>For Product Leaders:</strong></p>
+<ul>
+<li>[ ] Do you know what FDEs are working on right now?</li>
+<li>[ ] Have you personally experienced a client deployment in the last quarter?</li>
+<li>[ ] Is FDE feedback visibly influencing your roadmap?</li>
+<li>[ ] Are your docs accurate enough that FDEs trust them?</li>
+<li>[ ] Can you name the top 3 FDE friction points?</li>
+</ul>
+<hr />
+<h2 id="further-reading">Further Reading</h2>
+<p>Additional blog posts on Product-FDE collaboration coming soon.</p>
 
 
 

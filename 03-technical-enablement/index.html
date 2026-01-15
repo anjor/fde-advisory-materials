@@ -1151,6 +1151,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1346,6 +1357,34 @@
     
   
     Interview Scorecard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/people/hiring-thesis-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hiring Thesis Template
   
 
     
@@ -2090,6 +2129,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2276,11 +2326,13 @@
 <span class="k">-</span><span class="w"> </span>On-call: [who to contact]
 </code></pre></div>
 <h3 id="when-setup-fails">When Setup Fails</h3>
-<p>If an FDE cannot complete setup following documentation:
-1. FDE documents exactly where they got stuck
-2. Product team fixes the issue within 24 hours
-3. Documentation is updated to prevent recurrence
-4. Incident logged to track setup reliability</p>
+<p>If an FDE cannot complete setup following documentation:</p>
+<ol>
+<li>FDE documents exactly where they got stuck</li>
+<li>Product team fixes the issue within 24 hours</li>
+<li>Documentation is updated to prevent recurrence</li>
+<li>Incident logged to track setup reliability</li>
+</ol>
 <hr />
 <h2 id="documentation-standards">Documentation Standards</h2>
 <h3 id="required-documentation">Required Documentation</h3>
@@ -2347,11 +2399,13 @@
 <li>[ ] Does it explain WHY, not just WHAT?</li>
 </ul>
 <h3 id="living-documentation">Living Documentation</h3>
-<p>Documentation should be:
-- <strong>In the code repo</strong> (not a separate wiki)
-- <strong>Version controlled</strong> (changes tracked)
-- <strong>PR-reviewed</strong> (someone else verifies it works)
-- <strong>FDE-maintained</strong> (FDEs fix what they find broken)</p>
+<p>Documentation should be:</p>
+<ul>
+<li><strong>In the code repo</strong> (not a separate wiki)</li>
+<li><strong>Version controlled</strong> (changes tracked)</li>
+<li><strong>PR-reviewed</strong> (someone else verifies it works)</li>
+<li><strong>FDE-maintained</strong> (FDEs fix what they find broken)</li>
+</ul>
 <hr />
 <h2 id="the-learn-by-doing-document-immediately-workflow">The "Learn by Doing, Document Immediately" Workflow</h2>
 <p>FDEs will encounter undocumented systems. Here's how to handle it:</p>
@@ -2369,12 +2423,14 @@
 6. Next FDE doesn&#39;t have same problem
 </code></pre></div>
 <h3 id="what-to-document">What to Document</h3>
-<p>When you figure something out, document:
-- <strong>What you were trying to do</strong>
-- <strong>What wasn't clear</strong>
-- <strong>How it actually works</strong>
-- <strong>Commands/steps that worked</strong>
-- <strong>Gotchas you discovered</strong></p>
+<p>When you figure something out, document:</p>
+<ul>
+<li><strong>What you were trying to do</strong></li>
+<li><strong>What wasn't clear</strong></li>
+<li><strong>How it actually works</strong></li>
+<li><strong>Commands/steps that worked</strong></li>
+<li><strong>Gotchas you discovered</strong></li>
+</ul>
 <h3 id="documentation-pr-template">Documentation PR Template</h3>
 <div class="highlight"><pre><span></span><code><span class="gu">## What This Adds</span>
 
@@ -2393,18 +2449,22 @@ Who I asked / what I tried / how long it took.
 I&#39;ve verified this documentation by [how you verified].
 </code></pre></div>
 <h3 id="product-team-obligation">Product Team Obligation</h3>
-<p>Product teams must:
-- Merge documentation PRs within 48 hours
-- Not block on "let me clean this up first"
-- Give FDEs write access to docs folders
-- Review for accuracy, not style</p>
+<p>Product teams must:</p>
+<ul>
+<li>Merge documentation PRs within 48 hours</li>
+<li>Not block on "let me clean this up first"</li>
+<li>Give FDEs write access to docs folders</li>
+<li>Review for accuracy, not style</li>
+</ul>
 <hr />
 <h2 id="repository-standards">Repository Standards</h2>
 <h3 id="the-problem">The Problem</h3>
-<p>Common dysfunction:
-- Code in GitHub, infrastructure in Azure DevOps, scripts on someone's laptop
-- Different services in different repos with no guide
-- "Just ask [person]" as the documentation</p>
+<p>Common dysfunction:</p>
+<ul>
+<li>Code in GitHub, infrastructure in Azure DevOps, scripts on someone's laptop</li>
+<li>Different services in different repos with no guide</li>
+<li>"Just ask [person]" as the documentation</li>
+</ul>
 <h3 id="minimum-standards">Minimum Standards</h3>
 <table>
 <thead>
@@ -2533,16 +2593,20 @@ I&#39;ve verified this documentation by [how you verified].
 </tbody>
 </table>
 <h3 id="enabling-ai-effectiveness">Enabling AI Effectiveness</h3>
-<p>For AI tools to help FDEs, Product teams should:
-- [ ] Ensure codebase is in standard structure AI can understand
-- [ ] Add inline comments explaining non-obvious code
-- [ ] Maintain accurate README and docs (AI reads these)
-- [ ] Avoid proprietary DSLs that AI doesn't know</p>
+<p>For AI tools to help FDEs, Product teams should:</p>
+<ul>
+<li>[ ] Ensure codebase is in standard structure AI can understand</li>
+<li>[ ] Add inline comments explaining non-obvious code</li>
+<li>[ ] Maintain accurate README and docs (AI reads these)</li>
+<li>[ ] Avoid proprietary DSLs that AI doesn't know</li>
+</ul>
 <h3 id="it-provisioning">IT Provisioning</h3>
-<p>AI tools require IT approval in most organizations. Leadership should:
-- Pre-approve common tools (list them)
-- Fast-track requests for FDE team
-- Accept that AI tools are productivity multipliers, not security threats</p>
+<p>AI tools require IT approval in most organizations. Leadership should:</p>
+<ul>
+<li>Pre-approve common tools (list them)</li>
+<li>Fast-track requests for FDE team</li>
+<li>Accept that AI tools are productivity multipliers, not security threats</li>
+</ul>
 <hr />
 <h2 id="code-quality-baseline">Code Quality Baseline</h2>
 <h3 id="minimum-expectations">Minimum Expectations</h3>
@@ -2647,38 +2711,52 @@ I&#39;ve verified this documentation by [how you verified].
 </tbody>
 </table>
 <h3 id="when-in-doubt">When In Doubt</h3>
-<p>If you're unsure whether something is allowed:
-1. Ask before doing
-2. Document the question and answer
-3. Err on the side of caution</p>
+<p>If you're unsure whether something is allowed:</p>
+<ol>
+<li>Ask before doing</li>
+<li>Document the question and answer</li>
+<li>Err on the side of caution</li>
+</ol>
 <hr />
 <h2 id="checklist-is-technical-enablement-sufficient">Checklist: Is Technical Enablement Sufficient?</h2>
 <h3 id="for-fde-leaders">For FDE Leaders</h3>
-<p><strong>Environment:</strong>
-- [ ] Can a new FDE set up their environment in &lt; 4 hours?
-- [ ] Is there a single source of truth for code?
-- [ ] Do FDEs have access to everything they need?</p>
-<p><strong>Documentation:</strong>
-- [ ] Can FDEs find answers without asking people?
-- [ ] Is documentation trusted (accurate and current)?
-- [ ] Can FDEs contribute documentation fixes?</p>
-<p><strong>Demo:</strong>
-- [ ] Can FDEs build demos without Product team help?
-- [ ] Is there reference demo data available?
-- [ ] Can demo environments be reset easily?</p>
+<p><strong>Environment:</strong></p>
+<ul>
+<li>[ ] Can a new FDE set up their environment in &lt; 4 hours?</li>
+<li>[ ] Is there a single source of truth for code?</li>
+<li>[ ] Do FDEs have access to everything they need?</li>
+</ul>
+<p><strong>Documentation:</strong></p>
+<ul>
+<li>[ ] Can FDEs find answers without asking people?</li>
+<li>[ ] Is documentation trusted (accurate and current)?</li>
+<li>[ ] Can FDEs contribute documentation fixes?</li>
+</ul>
+<p><strong>Demo:</strong></p>
+<ul>
+<li>[ ] Can FDEs build demos without Product team help?</li>
+<li>[ ] Is there reference demo data available?</li>
+<li>[ ] Can demo environments be reset easily?</li>
+</ul>
 <h3 id="for-product-leaders">For Product Leaders</h3>
-<p><strong>Baseline:</strong>
-- [ ] Is your README actually a quick start (&lt; 15 min)?
-- [ ] Does main branch always work?
-- [ ] Are your repos organized and discoverable?</p>
-<p><strong>Documentation:</strong>
-- [ ] Is your data model documented?
-- [ ] Are your APIs documented?
-- [ ] Is your configuration documented?</p>
-<p><strong>Support:</strong>
-- [ ] Do FDEs know who to ask for help?
-- [ ] Do you respond to FDE requests within 24 hours?
-- [ ] Do you merge FDE documentation PRs quickly?</p>
+<p><strong>Baseline:</strong></p>
+<ul>
+<li>[ ] Is your README actually a quick start (&lt; 15 min)?</li>
+<li>[ ] Does main branch always work?</li>
+<li>[ ] Are your repos organized and discoverable?</li>
+</ul>
+<p><strong>Documentation:</strong></p>
+<ul>
+<li>[ ] Is your data model documented?</li>
+<li>[ ] Are your APIs documented?</li>
+<li>[ ] Is your configuration documented?</li>
+</ul>
+<p><strong>Support:</strong></p>
+<ul>
+<li>[ ] Do FDEs know who to ask for help?</li>
+<li>[ ] Do you respond to FDE requests within 24 hours?</li>
+<li>[ ] Do you merge FDE documentation PRs quickly?</li>
+</ul>
 <hr />
 <h2 id="when-standards-arent-met">When Standards Aren't Met</h2>
 <h3 id="escalation-triggers">Escalation Triggers</h3>
@@ -2718,6 +2796,11 @@ I&#39;ve verified this documentation by [how you verified].
 <li><strong>Verify:</strong> FDE attempts setup from scratch</li>
 <li><strong>Maintain:</strong> Regular checks to prevent regression</li>
 </ol>
+<hr />
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://anjor.xyz/writing/2025/11/20/the-fde-manifesto-what-would-stokes-do/">The FDE Manifesto: What Would Stokes Do?</a> - See "Own the Product Stack" and "Treat Information as Infrastructure" sections for the mindset behind technical enablement requirements.</li>
+</ul>
 
 
 
