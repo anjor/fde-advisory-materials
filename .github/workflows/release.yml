@@ -1,0 +1,61 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Triggers on version tags like v1.0.0, v1.1.0, etc.
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract version from tag
+        id: version
+        run: |
+          # Extract version from tag (e.g., v1.1.0 -> 1.1.0)
+          VERSION=${GITHUB_REF#refs/tags/v}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Extract release notes from CHANGELOG
+        id: changelog
+        run: |
+          # Extract the section for this version from CHANGELOG.md
+          VERSION="${{ steps.version.outputs.version }}"
+
+          # Handle MVP-prefixed versions (e.g., MVP-1.1.0)
+          if grep -q "## \[MVP-${VERSION}\]" docs/CHANGELOG.md; then
+            SECTION_HEADER="## \[MVP-${VERSION}\]"
+          elif grep -q "## \[${VERSION}\]" docs/CHANGELOG.md; then
+            SECTION_HEADER="## \[${VERSION}\]"
+          else
+            echo "Version ${VERSION} not found in CHANGELOG.md"
+            exit 1
+          fi
+
+          # Extract content between this version and the next version header
+          NOTES=$(awk "/$SECTION_HEADER/,/^## \[/" docs/CHANGELOG.md | sed '1d;$d')
+
+          # Save to file (GitHub Actions doesn't handle multiline outputs well)
+          echo "$NOTES" > release_notes.md
+
+          echo "Release notes extracted for version ${VERSION}"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Release ${{ steps.version.outputs.tag }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
