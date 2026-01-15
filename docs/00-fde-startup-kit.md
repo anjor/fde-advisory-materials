@@ -168,7 +168,7 @@ If your branch is >2 weeks old, something is wrong. Merge smaller pieces or get 
 | Hiring process | [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md) |
 | Product team expectations | [02-product-fde-interface.md](02-product-fde-interface.md) |
 | Technical standards | [03-technical-enablement.md](03-technical-enablement.md) |
-| Templates | [templates/](templates/) folder |
+| Resources | [resources/](resources/index.md) |
 | Escalation help | Your FDE lead |
 | Something not covered | Ask, then document the answer |
 

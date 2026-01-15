@@ -61,13 +61,14 @@ nav:
       - Hiring & Talent Strategy: 01-hiring-talent-strategy.md
       - Product-FDE Interface: 02-product-fde-interface.md
       - Technical Enablement: 03-technical-enablement.md
-  - Templates:
+  - Resources:
+      - resources/index.md
       - People:
-          - Job Description: templates/people/job-description-fde.md
-          - Interview Scorecard: templates/people/interview-scorecard.md
-          - Onboarding Checklist: templates/people/onboarding-checklist.md
+          - Job Description: resources/people/job-description-fde.md
+          - Interview Scorecard: resources/people/interview-scorecard.md
+          - Onboarding Checklist: resources/people/onboarding-checklist.md
       - Product:
-          - Interface Agreement: templates/product/interface-agreement-template.md
+          - Interface Agreement: resources/product/interface-agreement-template.md
 
 extra:
   social:

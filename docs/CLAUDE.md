@@ -22,12 +22,12 @@ This is a MkDocs-based documentation site. All content files are in the `docs/` 
 - `CHANGELOG.md` - Version history
 - `CLAUDE.md` - This file, guidance for AI assistants
 
-### Templates Folder (in docs/templates/)
-- `templates/people/` - Hiring and onboarding templates (3 files)
+### Resources Folder (in docs/resources/)
+- `resources/people/` - Hiring and onboarding templates (3 files)
   - job-description-fde.md
   - interview-scorecard.md
   - onboarding-checklist.md
-- `templates/product/` - Product-FDE interface template (1 file)
+- `resources/product/` - Product-FDE interface template (1 file)
   - interface-agreement-template.md
 
 ### Site Configuration
@@ -76,9 +76,9 @@ Everything else is deferred until there's actual demand based on real deployment
 
 4. **Status tracking** - Update version/date at bottom of files when making changes
 
-**For Templates:**
+**For Resources:**
 
-- Templates go in `templates/{theme}/` folders (people/ or product/)
+- Resources go in `resources/{theme}/` folders (people/ or product/)
 - Use naming convention: `{purpose}-{type}.{extension}`
 - Include "Purpose" and "When to Use" sections
 
@@ -98,7 +98,7 @@ Everything else is deferred until there's actual demand based on real deployment
 4. Update version/date at bottom of file
 
 **Adding a new template:**
-1. Determine which theme folder it belongs in (templates/people/ or templates/product/)
+1. Determine which theme folder it belongs in (resources/people/ or resources/product/)
 2. Create file with naming convention: `{purpose}-{type}.{extension}`
 3. Include Purpose, When to Use, and Template Structure sections
 4. Reference from appropriate practice area documents
@@ -126,5 +126,5 @@ Everything else is deferred until there's actual demand based on real deployment
 - Do not reference deleted content (framework.md, thematic folders, deferred practice areas)
 - All documentation files are in the `docs/` directory - all internal links should be relative to this directory
 - The startup kit (00-) is the primary entry point - keep it up to date
-- Templates should be ready-to-use, not aspirational placeholders
+- Resources should be ready-to-use, not aspirational placeholders
 - When making edits, edit files in `docs/` directory - changes auto-deploy via GitHub Actions
