@@ -171,3 +171,25 @@ If your branch is >2 weeks old, something is wrong. Merge smaller pieces or get 
 | Resources | [resources/](resources/index.md) |
 | Escalation help | Your FDE lead |
 | Something not covered | Ask, then document the answer |
+
+---
+
+## Further Reading
+
+External perspectives on Forward Deployed Engineering from practitioners and thought leaders:
+
+- [**The FDE Playbook for AI Startups**](https://www.ycombinator.com/library/Mt-the-fde-playbook-for-ai-startups-with-bob-mcgrew) - Y Combinator podcast with Bob McGrew (former Palantir executive and OpenAI Chief Research Officer) on how FDEs work in AI companies
+
+- [**What are Forward Deployed Engineers, and why are they so in demand?**](https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers) - Pragmatic Engineer's comprehensive overview of the role's origins at Palantir and current adoption across tech
+
+- [**Reflections on Palantir**](https://nabeelqu.co/reflections-on-palantir) - Nabeel Qureshi's insights from 8 years at Palantir on company culture and the FDE model
+
+- [**How to Build Your 1st Forward Deployed Engineering Team**](https://www.peraspera.us/forward-deployed/) - Mark Scianna (former Palantir FDE for 11 years) shares practical guidance on building FDE teams
+
+- [**Sorry, that isn't an FDE**](https://tedmabrey.substack.com/p/sorry-that-isnt-an-fde) - Ted Mabrey (Palantir Head of Commercial) clarifies what makes a true FDE vs. imitations
+
+- [**Understanding Forward Deployed Engineering**](https://www.barry.ooo/posts/fde-culture) - Barry McCardel (Hex CEO) offers a critical perspective on why most companies shouldn't adopt the FDE model
+
+---
+
+*Version MVP-1.0 | Last Updated: January 15, 2026*
