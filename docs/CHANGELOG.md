@@ -1,5 +1,20 @@
 # Changelog
 
+## [MVP-1.1.0] - 2026-01-15
+
+### Added
+- Further Reading sections to all three practice area documents (01, 02, 03) linking to blog posts
+- New hiring thesis template (resources/people/hiring-thesis-template.md)
+- FDE Mindset Indicators section in interview scorecard based on FDE Manifesto principles
+- Scaling Note callout in hiring document to provide context for different hiring volumes
+
+### Changed
+- Generalized time references throughout documentation (removed specific dates like "Feb 2025" in favor of "target timeline")
+- Updated mkdocs.yml navigation to include new hiring thesis template
+- Interview scorecard enhanced with tactical evaluation criteria from FDE Manifesto
+
+---
+
 ## [MVP-1.0.0] - 2026-01-06
 
 ### Major Transformation
@@ -27,7 +42,7 @@ Restructured from comprehensive 17-practice-area framework to focused MVP with 3
 
 ### Rationale
 Based on actual field engagement (the organization Nov-Dec 2024), MVP focuses on burning problems:
-- Need to hire 3-5 FDEs by Feb 2025
+- Need to hire initial FDE cohort within target timeline
 - Product teams not delivering what FDEs need
 - No documentation, scattered repos, FDEs can't work
 

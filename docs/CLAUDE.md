@@ -47,7 +47,7 @@ FDEs are technical, client-facing engineers who solve customer problems by build
 ### MVP Philosophy
 
 This repository intentionally limits scope to 3 areas:
-1. **Hiring & Talent Strategy** - Immediate need to hire 3-5 FDEs
+1. **Hiring & Talent Strategy** - Immediate need to hire initial FDE cohort
 2. **Product-FDE Interface** - Single biggest source of friction
 3. **Technical Enablement** - FDEs can't work without this
 

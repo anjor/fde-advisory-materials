@@ -41,7 +41,7 @@ Ready-to-use resources in `resources/`:
 
 ## Getting Started by Challenge
 
-- **"We need to hire 3-5 FDEs immediately"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
+- **"We need to hire our initial FDE team"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
 - **"FDEs and Product teams are constantly in conflict"** → [02-product-fde-interface.md](02-product-fde-interface.md)
 - **"FDEs spend days just trying to set up environments"** → [03-technical-enablement.md](03-technical-enablement.md)
 - **"I need a quick overview"** → [00-fde-startup-kit.md](00-fde-startup-kit.md)
@@ -52,7 +52,7 @@ Ready-to-use resources in `resources/`:
 
 This repository intentionally limits scope to 3 priority areas based on real field engagement patterns (the organization, Nov-Dec 2024). The burning problems were:
 
-1. **Hiring urgency** - Need to hire 3-5 FDEs by Feb 2025
+1. **Hiring urgency** - Need to hire initial FDE cohort within target timeline
 2. **Product-FDE friction** - Single biggest source of operational pain
 3. **Technical chaos** - No documentation, scattered repos, can't work
 

@@ -9,11 +9,13 @@
 The most common dysfunction in FDE organizations:
 
 **Product Team Thinks:**
+
 - "FDEs will handle client customization"
 - "We need to focus on the roadmap"
 - "They can figure it out from the code"
 
 **FDE Team Experiences:**
+
 - Can't set up development environment (takes days, not hours)
 - No documentation on how things work
 - Product priorities don't align with client needs
@@ -28,6 +30,7 @@ The most common dysfunction in FDE organizations:
 If FDEs can't use your product effectively, neither will clients.
 
 Every hour an FDE spends fighting your codebase is:
+
 - An hour not spent on client outcomes
 - A preview of what clients will experience
 - Technical debt you're exporting to the field
@@ -76,6 +79,7 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 **Standard:** An FDE should be able to go from zero to running code in < 4 hours.
 
 **Product Team Must Provide:**
+
 - [ ] Single repository (or clear multi-repo guide) - not scattered across GitHub, Azure DevOps, and local machines
 - [ ] README with setup instructions that actually work
 - [ ] Docker/containerized setup OR clear dependency list
@@ -89,6 +93,7 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 **Standard:** FDE should understand what shape of data the product expects.
 
 **Product Team Must Provide:**
+
 - [ ] Entity relationship diagram or equivalent
 - [ ] Field-level documentation for key entities
 - [ ] Example data that exercises main workflows
@@ -101,6 +106,7 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 **Standard:** FDE should be able to integrate without reading source code.
 
 **Product Team Must Provide:**
+
 - [ ] API endpoint documentation (request/response formats)
 - [ ] Authentication/authorization guide
 - [ ] Error codes and handling guidance
@@ -111,6 +117,7 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 **Standard:** FDE should know what's configurable without code changes.
 
 **Product Team Must Provide:**
+
 - [ ] List of feature flags and what they control
 - [ ] Configuration options and their effects
 - [ ] How to enable/disable features per client
@@ -153,16 +160,19 @@ For any product without production client deployments, **the Product team should
 ### How to Structure It
 
 **Client 1:** Product team leads (90%), FDE shadows (10%)
+
 - FDE learns the product through observation
 - Product team creates documentation as they go
 - FDE provides client relationship support
 
 **Client 2:** Shared (50/50)
+
 - FDE takes on more technical work
 - Product team fills gaps and answers questions
 - Documentation gets tested and improved
 
 **Client 3+:** FDE leads, Product team supports
+
 - Full handoff
 - Product team available for escalations
 - Regular feedback sync (weekly)
@@ -178,8 +188,11 @@ For any product without production client deployments, **the Product team should
 
 ### Weekly Sync (Required)
 **Attendees:** FDE lead + Product lead
+
 **Duration:** 30 min
+
 **Agenda:**
+
 1. FDE blockers (5 min) - What's preventing progress?
 2. Client patterns (10 min) - What are we seeing across clients?
 3. Roadmap check (5 min) - Any changes affecting FDE work?
@@ -189,11 +202,13 @@ For any product without production client deployments, **the Product team should
 FDE implementation backlogs should be visible to Product team.
 
 **Purpose:**
+
 - Identify common requests across clients (→ should be product features)
 - Spot conflicts between client needs and product direction
 - Inform prioritization decisions
 
 **Format:** Shared board (Jira, Linear, etc.) with:
+
 - Client name
 - Request description
 - Business impact
@@ -201,6 +216,7 @@ FDE implementation backlogs should be visible to Product team.
 
 ### Quarterly Review
 Full FDE + Product team review:
+
 - What patterns emerged this quarter?
 - What should move from "FDE customization" to "product feature"?
 - What documentation/tooling gaps remain?
@@ -255,6 +271,7 @@ Optimizing for "low-code/no-code" end users before your FDEs can use the platfor
 
 ### The Reality
 For early-stage products:
+
 1. FDEs are your first users
 2. FDEs need developer experience (DX), not end-user experience (UX)
 3. If FDEs can't build on your platform, clients won't be able to either
@@ -262,18 +279,21 @@ For early-stage products:
 ### What This Means
 
 **Prioritize:**
+
 - API-first development
 - SDK/programmatic access
 - Clear extension points
 - Developer documentation
 
 **Deprioritize (for now):**
+
 - Visual builders
 - Drag-and-drop interfaces
 - No-code configuration
 - End-user tutorials
 
 **The Sequence:**
+
 1. Build APIs that work
 2. Build SDK on top of APIs
 3. Build visual tools on top of SDK
@@ -285,6 +305,7 @@ For early-stage products:
 
 ### FDEs Should Contribute Code
 FDEs discovering gaps should be empowered to:
+
 1. Build working prototypes
 2. Submit PRs to core product
 3. Propose architectural changes
@@ -292,12 +313,14 @@ FDEs discovering gaps should be empowered to:
 ### Contribution Rules
 
 **Do:**
+
 - Build the fastest path to solving client problem
 - Document what you built and why
 - Flag anything that should be generalized
 - Follow existing code conventions
 
 **Don't:**
+
 - Maintain long-lived forks
 - Build parallel systems that duplicate product functionality
 - Make changes that only work for one client
@@ -315,6 +338,7 @@ FDEs discovering gaps should be empowered to:
 A branch that diverges from main for >2 weeks is a failure mode.
 
 **If you have a long-lived branch:**
+
 1. It should have been merged (break it into smaller changes)
 2. It should be a product feature (get it on the roadmap)
 3. It should be abandoned (client-specific hack that won't scale)
@@ -330,6 +354,7 @@ A branch that diverges from main for >2 weeks is a failure mode.
 **Root Cause:** Product team doesn't feel accountable for FDE success.
 
 **Fix:** 
+
 - Include FDE blockers in Product team sprint planning
 - Track "FDE blocked time" as a metric
 - Executive visibility on FDE friction
@@ -343,6 +368,7 @@ A branch that diverges from main for >2 weeks is a failure mode.
 **Root Cause:** Roadmap isn't informed by field reality.
 
 **Fix:**
+
 - FDE input required in quarterly planning
 - Explicit allocation: X% of roadmap driven by field feedback
 - Joint client visits by Product team members
@@ -356,6 +382,7 @@ A branch that diverges from main for >2 weeks is a failure mode.
 **Root Cause:** Documentation is treated as separate from code.
 
 **Fix:**
+
 - Documentation lives in code repo
 - PR reviews include documentation updates
 - FDEs fix docs when they find issues (and it's merged quickly)
@@ -369,6 +396,7 @@ A branch that diverges from main for >2 weeks is a failure mode.
 **Root Cause:** No visibility into FDE work.
 
 **Fix:**
+
 - Shared board for FDE implementation work
 - Weekly sync (non-negotiable)
 - FDE demos at Product team meetings
@@ -392,6 +420,7 @@ A branch that diverges from main for >2 weeks is a failure mode.
 ## Checklist: Is Your Interface Working?
 
 **For FDE Leaders:**
+
 - [ ] Can a new FDE set up their environment in <4 hours?
 - [ ] Do FDEs know exactly what Product team must provide?
 - [ ] Is there a weekly sync that actually happens?
@@ -399,8 +428,15 @@ A branch that diverges from main for >2 weeks is a failure mode.
 - [ ] Is there a clear escalation path when blocked?
 
 **For Product Leaders:**
+
 - [ ] Do you know what FDEs are working on right now?
 - [ ] Have you personally experienced a client deployment in the last quarter?
 - [ ] Is FDE feedback visibly influencing your roadmap?
 - [ ] Are your docs accurate enough that FDEs trust them?
 - [ ] Can you name the top 3 FDE friction points?
+
+---
+
+## Further Reading
+
+Additional blog posts on Product-FDE collaboration coming soon.

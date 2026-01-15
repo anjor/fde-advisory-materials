@@ -91,6 +91,8 @@ Unknown candidates from job postings, recruiters, etc.
 
 ## Interview Process Details
 
+> **Scaling Note:** This process assumes hiring an initial cohort of 3-5 FDEs over 2-3 months. For faster scaling (10+ hires), add a dedicated hiring manager role. For slower growth (1-2 hires), consider combining the Technical Screen with Learning & Reengineering.
+
 ### Phone Screen (15-30 min)
 **Purpose:** Filter obvious mismatches quickly.
 
@@ -351,3 +353,16 @@ For each interview round, rate 1-5 on:
 | Hiring "nice" people without grit | Likability bias | Specifically probe for adversity examples |
 | Slow process loses candidates | Too many interview stages | Compress timeline, make decisions quickly |
 | Lowballing offers | Budget pressure | Benchmark against competing offers, not internal bands |
+
+---
+
+## Further Reading
+
+For the philosophy and reasoning behind these practices:
+
+- [The FDE Manifesto: What Would Stokes Do?](https://anjor.xyz/writing/2025/11/20/the-fde-manifesto-what-would-stokes-do/) - Tactical principles that define exceptional FDE behavior. Use as evaluation criteria.
+- [Hiring Theses](https://anjor.xyz/writing/2024/08/02/hiring-theses/) - Why documenting your hiring rationale matters and how to do it.
+- [Interviews Are Unfair](https://anjor.xyz/writing/2024/08/13/interviews-are-unfair/) - Balancing empathy with objectivity during evaluation.
+- [The Unreasonable Effectiveness of Hiring Assholes](https://anjor.xyz/writing/2025/11/13/the-unreasonable-effectiveness-of-hiring-assholes/) - Separating conviction from toxicity in candidates.
+- [The Database Selection Trap](https://anjor.xyz/writing/2025/07/05/the-database-selection-trap-why-your-technical-interviews-might-be-testing-the-wrong-things/) - Common interview anti-patterns to avoid.
+- [Criticality and Engagement](https://anjor.xyz/writing/2024/12/17/criticality-and-engagement/) - The two must-have traits in any hire.

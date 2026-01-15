@@ -33,6 +33,17 @@ Standardized evaluation rubric for assessing FDE candidates across key competenc
 - Pain tolerance
 - Creative problem-solving
 
+### FDE Mindset Indicators
+*Based on [The FDE Manifesto](https://anjor.xyz/writing/2025/11/20/the-fde-manifesto-what-would-stokes-do/)*
+
+| Principle | What to Look For | Signal |
+|-----------|------------------|--------|
+| **No Shortcuts That Compound** | Do they take the harder right path over the easier wrong one? Do they resist quick fixes? | |
+| **Own the Product Stack** | Do they want to understand how things work, not just use them? Do they contribute upstream? | |
+| **Information as Infrastructure** | Do they value logging, metrics, documentation? Do they read before asking? | |
+| **Root Cause Everything** | Do they accept "it's working now" or dig deeper? Do they document their debugging? | |
+| **Build Strategic Relationships** | Do they see support tickets as relationship opportunities? Do they understand organizational dynamics? | |
+
 ### Overall Recommendation
 - [ ] Strong hire
 - [ ] Hire

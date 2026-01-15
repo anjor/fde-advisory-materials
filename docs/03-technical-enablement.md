@@ -109,6 +109,7 @@ A new FDE should go from "I have access" to "I can make and test changes" in **<
 
 ### When Setup Fails
 If an FDE cannot complete setup following documentation:
+
 1. FDE documents exactly where they got stuck
 2. Product team fixes the issue within 24 hours
 3. Documentation is updated to prevent recurrence
@@ -141,6 +142,7 @@ If an FDE cannot complete setup following documentation:
 ### Living Documentation
 
 Documentation should be:
+
 - **In the code repo** (not a separate wiki)
 - **Version controlled** (changes tracked)
 - **PR-reviewed** (someone else verifies it works)
@@ -171,6 +173,7 @@ FDEs will encounter undocumented systems. Here's how to handle it:
 ### What to Document
 
 When you figure something out, document:
+
 - **What you were trying to do**
 - **What wasn't clear**
 - **How it actually works**
@@ -200,6 +203,7 @@ I've verified this documentation by [how you verified].
 ### Product Team Obligation
 
 Product teams must:
+
 - Merge documentation PRs within 48 hours
 - Not block on "let me clean this up first"
 - Give FDEs write access to docs folders
@@ -212,6 +216,7 @@ Product teams must:
 ### The Problem
 
 Common dysfunction:
+
 - Code in GitHub, infrastructure in Azure DevOps, scripts on someone's laptop
 - Different services in different repos with no guide
 - "Just ask [person]" as the documentation
@@ -292,6 +297,7 @@ FDEs need to build and run demos. Product teams must provide:
 ### Enabling AI Effectiveness
 
 For AI tools to help FDEs, Product teams should:
+
 - [ ] Ensure codebase is in standard structure AI can understand
 - [ ] Add inline comments explaining non-obvious code
 - [ ] Maintain accurate README and docs (AI reads these)
@@ -300,6 +306,7 @@ For AI tools to help FDEs, Product teams should:
 ### IT Provisioning
 
 AI tools require IT approval in most organizations. Leadership should:
+
 - Pre-approve common tools (list them)
 - Fast-track requests for FDE team
 - Accept that AI tools are productivity multipliers, not security threats
@@ -356,6 +363,7 @@ AI tools require IT approval in most organizations. Leadership should:
 ### When In Doubt
 
 If you're unsure whether something is allowed:
+
 1. Ask before doing
 2. Document the question and answer
 3. Err on the side of caution
@@ -367,16 +375,19 @@ If you're unsure whether something is allowed:
 ### For FDE Leaders
 
 **Environment:**
+
 - [ ] Can a new FDE set up their environment in < 4 hours?
 - [ ] Is there a single source of truth for code?
 - [ ] Do FDEs have access to everything they need?
 
 **Documentation:**
+
 - [ ] Can FDEs find answers without asking people?
 - [ ] Is documentation trusted (accurate and current)?
 - [ ] Can FDEs contribute documentation fixes?
 
 **Demo:**
+
 - [ ] Can FDEs build demos without Product team help?
 - [ ] Is there reference demo data available?
 - [ ] Can demo environments be reset easily?
@@ -384,16 +395,19 @@ If you're unsure whether something is allowed:
 ### For Product Leaders
 
 **Baseline:**
+
 - [ ] Is your README actually a quick start (< 15 min)?
 - [ ] Does main branch always work?
 - [ ] Are your repos organized and discoverable?
 
 **Documentation:**
+
 - [ ] Is your data model documented?
 - [ ] Are your APIs documented?
 - [ ] Is your configuration documented?
 
 **Support:**
+
 - [ ] Do FDEs know who to ask for help?
 - [ ] Do you respond to FDE requests within 24 hours?
 - [ ] Do you merge FDE documentation PRs quickly?
@@ -421,3 +435,9 @@ If a product consistently fails technical enablement:
 4. **Execute:** Product team owns, FDE team supports
 5. **Verify:** FDE attempts setup from scratch
 6. **Maintain:** Regular checks to prevent regression
+
+---
+
+## Further Reading
+
+- [The FDE Manifesto: What Would Stokes Do?](https://anjor.xyz/writing/2025/11/20/the-fde-manifesto-what-would-stokes-do/) - See "Own the Product Stack" and "Treat Information as Infrastructure" sections for the mindset behind technical enablement requirements.
