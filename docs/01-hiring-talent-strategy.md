@@ -296,7 +296,7 @@ Underpaying attracts people who can't get other offers.
 
 ---
 
-## Templates
+## Resources
 
 ### Interview Scorecard
 For each interview round, rate 1-5 on:

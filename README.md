@@ -41,7 +41,7 @@ Visit http://127.0.0.1:8000 to preview the site locally.
 │   ├── 01-hiring-talent-strategy.md
 │   ├── 02-product-fde-interface.md
 │   ├── 03-technical-enablement.md
-│   ├── templates/          # Template files
+│   ├── resources/          # Template files
 │   └── ...
 ├── mkdocs.yml              # MkDocs configuration
 └── pyproject.toml          # Python dependencies

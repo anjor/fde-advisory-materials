@@ -31,9 +31,9 @@ Forward Deployed Engineers (FDEs) are technical, client-facing engineers who sol
 - **[02-product-fde-interface.md](02-product-fde-interface.md)** - Managing FDE-Product team relationships and expectations
 - **[03-technical-enablement.md](03-technical-enablement.md)** - Minimum standards for FDE-ready products
 
-### Templates
+### Resources
 
-Ready-to-use templates in `templates/`:
+Ready-to-use resources in `resources/`:
 - **Hiring**: Job descriptions, interview scorecards, onboarding checklists
 - **Product Interface**: FDE-Product team agreements
 
