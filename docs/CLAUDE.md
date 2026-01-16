@@ -120,6 +120,35 @@ Everything else is deferred until there's actual demand based on real deployment
 - Commit messages should reference which files were modified
 - Use conventional commit format: `feat:`, `fix:`, `docs:`, `refactor:`
 
+## Release Process
+
+To create a new release:
+
+1. **Update version in files:**
+   - `docs/CHANGELOG.md` - Add new version section with changes
+   - Root `README.md` - Update "Current Version" and "Last Updated"
+
+2. **Commit changes:**
+   ```bash
+   git add docs/CHANGELOG.md README.md
+   git commit -m "docs: release MVP-X.Y.Z"
+   ```
+
+3. **Create and push version tag:**
+   ```bash
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+4. **GitHub Actions will automatically:**
+   - Create GitHub Release with notes from CHANGELOG.md
+   - Mark as "Latest release"
+   - Notify watchers subscribed to releases
+
+5. **Verify release at:** https://github.com/anjor/fde-advisory-materials/releases
+
+**Note:** The release workflow (`.github/workflows/release.yml`) extracts release notes from `docs/CHANGELOG.md` based on the version tag. Ensure the CHANGELOG follows the format `## [MVP-X.Y.Z] - YYYY-MM-DD` for proper extraction.
+
 ## Important Notes
 
 - This is an **MVP-only** repository - scope is intentionally limited to 3 areas

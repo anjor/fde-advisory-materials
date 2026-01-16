@@ -41,6 +41,18 @@ Ready-to-use [resources](resources/index.md) for building your FDE program:
 
 ---
 
+## Stay Updated
+
+Subscribe to updates and new versions:
+
+- **GitHub Releases**: [Watch this repository](https://github.com/anjor/fde-advisory-materials) → Custom → Releases only (email notifications)
+- **RSS Feed**: Subscribe to [releases feed](https://github.com/anjor/fde-advisory-materials/releases.atom) in your RSS reader
+- **Check manually**: View [CHANGELOG.md](CHANGELOG.md) for version history
+
+Current version: **MVP-1.1.0** (updated 2026-01-15)
+
+---
+
 ## Getting Started by Challenge
 
 - **"We need to hire our initial FDE team"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
