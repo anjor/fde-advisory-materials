@@ -169,6 +169,3 @@ If your branch is >2 weeks old, something is wrong. Merge smaller pieces or get 
 | Escalation help | Your FDE lead |
 | Something not covered | Ask, then document the answer |
 
----
-
-*Version MVP-1.0 | Last Updated: January 6, 2026*
