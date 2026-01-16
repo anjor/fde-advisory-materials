@@ -58,4 +58,4 @@ Subscribe to updates and new versions:
 - **RSS Feed**: Subscribe to [releases feed](https://github.com/anjor/fde-advisory-materials/releases.atom) in your RSS reader
 - **Check manually**: View [CHANGELOG.md](CHANGELOG.md) for version history
 
-Current version: **MVP-1.1.0** (updated 2026-01-15)
+Current version: **MVP-1.3.1** (updated 2026-01-16)

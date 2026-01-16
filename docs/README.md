@@ -62,8 +62,8 @@ Everything else is deferred until there's demand based on real deployments. See 
 
 ## Version
 
-**Current Version**: MVP-1.0.0
-**Last Updated**: January 6, 2026
+**Current Version**: MVP-1.3.1
+**Last Updated**: January 16, 2026
 
 See [CHANGELOG.md](CHANGELOG.md) for transformation details.
 
