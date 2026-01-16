@@ -22,6 +22,32 @@ Forward Deployed Engineers are **technical, client-facing problem solvers** who:
 
 ---
 
+## FDE Archetypes
+
+FDEs specialize into two main archetypes, each solving different problems in the deployment lifecycle:
+
+| Archetype | Focus | Day-to-Day | Builds Toward |
+|-----------|-------|------------|---------------|
+| Business-facing | Finding market fit | Embed with clients, identify pain points, land & expand | Client relationships, new use cases |
+| Product-facing | Filling product gaps | Build the 15-20% the product doesn't cover | Upstream contributions, next FDE's starting point |
+
+### Which Do You Need?
+
+- **Early stage** (0-10 deployments): Start with product-facing FDEs to build reusable patterns
+- **Scaling stage** (10+ deployments): Add business-facing FDEs to drive land & expand
+- **Most orgs need both**: Individual FDEs specialize, but the team requires both archetypes
+
+### Mapping Existing Roles
+
+Your organization may already have people doing FDE work under different titles:
+- Solutions engineers with strong technical skills → Business-facing FDEs
+- Platform engineers who work on client projects → Product-facing FDEs
+- "Technical consultants" who own outcomes → Either archetype
+
+→ See [Hiring & Talent Strategy](01-hiring-talent-strategy.md) for how to evaluate candidates for each archetype.
+
+---
+
 ## The Four Teams
 
 | Team | Owns | Typical Work |
@@ -192,4 +218,4 @@ External perspectives on Forward Deployed Engineering from practitioners and tho
 
 ---
 
-*Version MVP-1.0 | Last Updated: January 15, 2026*
+*Version MVP-1.0 | Last Updated: January 16, 2026*
