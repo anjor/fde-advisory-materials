@@ -1,7 +1,5 @@
 # Changelog
 
-## [Unreleased]
-
 ---
 
 ## [MVP-1.3.0] - 2026-01-16
