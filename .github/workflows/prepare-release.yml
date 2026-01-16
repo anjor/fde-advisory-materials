@@ -157,6 +157,18 @@ jobs:
           SHORT_DATE="${{ steps.dates.outputs.short_date }}"
           RELEASE_NOTES="${{ inputs.release_notes }}"
 
+          # Verify [Unreleased] section exists
+          if ! grep -q "## \[Unreleased\]" docs/CHANGELOG.md; then
+            echo "Error: CHANGELOG.md must contain an [Unreleased] section"
+            echo "Expected format:"
+            echo "# Changelog"
+            echo ""
+            echo "## [Unreleased]"
+            echo ""
+            echo "---"
+            exit 1
+          fi
+
           # Create new changelog entry
           NEW_ENTRY="## [MVP-${VERSION}] - ${SHORT_DATE}\n\n${RELEASE_NOTES}\n\n---\n"
 
@@ -187,6 +199,18 @@ jobs:
         run: |
           echo "=== Files to be committed ==="
           git status --short
+
+          # Verify all 5 files were modified
+          MODIFIED_COUNT=$(git diff --name-only | grep -c "README.md\|docs/README.md\|docs/index.md\|docs/00-fde-startup-kit.md\|docs/CHANGELOG.md" || true)
+
+          if [ "$MODIFIED_COUNT" -ne 5 ]; then
+            echo "Error: Expected 5 files to be modified, but found $MODIFIED_COUNT"
+            echo "Modified files:"
+            git diff --name-only
+            exit 1
+          fi
+
+          echo "✓ All 5 version files were updated successfully"
 
           echo ""
           echo "=== Version changes ==="
@@ -219,10 +243,41 @@ jobs:
 
           echo "✓ Pushed commit to main"
 
-          # Push tag (this will trigger release.yml)
+          # Push tag
           git push origin "$TAG"
 
           echo "✓ Pushed tag $TAG"
+
+      - name: Extract release notes from CHANGELOG
+        id: changelog
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+
+          # Extract the section for this version from CHANGELOG.md (MVP-prefixed)
+          SECTION_HEADER="## \[MVP-${VERSION}\]"
+
+          # Extract content between this version and the next version header
+          NOTES=$(awk "/$SECTION_HEADER/,/^## \[/" docs/CHANGELOG.md | sed '1d;$d')
+
+          # Save to file for release creation
+          echo "$NOTES" > release_notes.md
+
+          echo "✓ Extracted release notes for MVP-${VERSION}"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          TAG="${{ steps.version.outputs.tag }}"
+
+          # Create the release using GitHub CLI
+          gh release create "$TAG" \
+            --title "Release $TAG" \
+            --notes-file release_notes.md \
+            --latest
+
+          echo "✓ Created GitHub Release for $TAG"
 
       - name: Output summary
         run: |
@@ -238,7 +293,7 @@ jobs:
           echo "🏷️  Tag: ${TAG}"
           echo "📝 Files updated: 5"
           echo ""
-          echo "🔗 GitHub Release (creating now):"
+          echo "🔗 GitHub Release created:"
           echo "   https://github.com/${{ github.repository }}/releases/tag/${TAG}"
           echo ""
           echo "📚 Documentation site will auto-deploy in ~1-2 minutes"
