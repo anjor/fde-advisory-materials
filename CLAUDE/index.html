@@ -1080,6 +1080,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#release-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Release Process
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#important-notes" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1229,6 +1240,39 @@
 <li>Commit messages should reference which files were modified</li>
 <li>Use conventional commit format: <code>feat:</code>, <code>fix:</code>, <code>docs:</code>, <code>refactor:</code></li>
 </ul>
+<h2 id="release-process">Release Process</h2>
+<p>To create a new release:</p>
+<ol>
+<li><strong>Update version in files:</strong></li>
+<li><code>docs/CHANGELOG.md</code> - Add new version section with changes</li>
+<li>
+<p>Root <code>README.md</code> - Update "Current Version" and "Last Updated"</p>
+</li>
+<li>
+<p><strong>Commit changes:</strong>
+   <div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>docs/CHANGELOG.md<span class="w"> </span>README.md
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;docs: release MVP-X.Y.Z&quot;</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Create and push version tag:</strong>
+   <div class="highlight"><pre><span></span><code>git<span class="w"> </span>tag<span class="w"> </span>vX.Y.Z
+git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main<span class="w"> </span>--tags
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>GitHub Actions will automatically:</strong></p>
+</li>
+<li>Create GitHub Release with notes from CHANGELOG.md</li>
+<li>Mark as "Latest release"</li>
+<li>
+<p>Notify watchers subscribed to releases</p>
+</li>
+<li>
+<p><strong>Verify release at:</strong> https://github.com/anjor/fde-advisory-materials/releases</p>
+</li>
+</ol>
+<p><strong>Note:</strong> The release workflow (<code>.github/workflows/release.yml</code>) extracts release notes from <code>docs/CHANGELOG.md</code> based on the version tag. Ensure the CHANGELOG follows the format <code>## [MVP-X.Y.Z] - YYYY-MM-DD</code> for proper extraction.</p>
 <h2 id="important-notes">Important Notes</h2>
 <ul>
 <li>This is an <strong>MVP-only</strong> repository - scope is intentionally limited to 3 areas</li>
