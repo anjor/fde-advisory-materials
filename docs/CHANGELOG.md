@@ -1,5 +1,23 @@
 # Changelog
 
+## [Unreleased]
+
+---
+
+## [MVP-1.3.1] - 2026-01-16
+
+### Added
+- Automated release preparation workflow via GitHub Actions
+  - One-click release process through GitHub UI (Actions > Prepare Release)
+  - Automatic version bumping (major/minor/patch/custom)
+  - Automatic file updates across 5 version files
+  - Automatic CHANGELOG update with release notes
+  - Automatic git commit, tag creation, and GitHub Release creation
+
+### Changed
+- Release process reduced from ~5 minutes (manual) to ~1 minute (automated)
+- Eliminated manual version editing across multiple files
+
 ---
 
 ## [MVP-1.3.0] - 2026-01-16
