@@ -1,0 +1,246 @@
+name: Prepare Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_bump_type:
+        description: 'Version bump type'
+        required: true
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+          - custom
+        default: 'minor'
+      custom_version:
+        description: 'Custom version (e.g., 1.4.0) - only used if bump type is "custom"'
+        required: false
+        type: string
+      release_notes:
+        description: 'Release notes (will be added to CHANGELOG.md)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  prepare-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Calculate new version
+        id: version
+        run: |
+          # Get the latest tag
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+          echo "Latest tag: $LATEST_TAG"
+
+          # Extract version number (remove 'v' prefix)
+          CURRENT_VERSION=${LATEST_TAG#v}
+          echo "Current version: $CURRENT_VERSION"
+
+          # Split version into components
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$CURRENT_VERSION"
+
+          # Calculate new version based on bump type
+          BUMP_TYPE="${{ inputs.version_bump_type }}"
+
+          if [ "$BUMP_TYPE" = "custom" ]; then
+            NEW_VERSION="${{ inputs.custom_version }}"
+            # Validate custom version format
+            if ! [[ "$NEW_VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+              echo "Error: Custom version must be in format X.Y.Z (e.g., 1.4.0)"
+              exit 1
+            fi
+          elif [ "$BUMP_TYPE" = "major" ]; then
+            NEW_VERSION="$((MAJOR + 1)).0.0"
+          elif [ "$BUMP_TYPE" = "minor" ]; then
+            NEW_VERSION="${MAJOR}.$((MINOR + 1)).0"
+          elif [ "$BUMP_TYPE" = "patch" ]; then
+            NEW_VERSION="${MAJOR}.${MINOR}.$((PATCH + 1))"
+          else
+            echo "Error: Invalid bump type"
+            exit 1
+          fi
+
+          # Validate new version is different from current
+          if [ "$NEW_VERSION" = "$CURRENT_VERSION" ]; then
+            echo "Error: New version ($NEW_VERSION) is the same as current version"
+            exit 1
+          fi
+
+          NEW_TAG="v${NEW_VERSION}"
+
+          echo "New version: $NEW_VERSION"
+          echo "New tag: $NEW_TAG"
+
+          # Export for later steps
+          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
+          echo "current_version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Generate dates
+        id: dates
+        run: |
+          # Long format for README files (e.g., "January 16, 2026")
+          LONG_DATE=$(date '+%B %d, %Y')
+          # Short format for CHANGELOG and index.md (e.g., "2026-01-16")
+          SHORT_DATE=$(date '+%Y-%m-%d')
+
+          echo "long_date=$LONG_DATE" >> $GITHUB_OUTPUT
+          echo "short_date=$SHORT_DATE" >> $GITHUB_OUTPUT
+
+          echo "Long date: $LONG_DATE"
+          echo "Short date: $SHORT_DATE"
+
+      - name: Update README.md (root)
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          LONG_DATE="${{ steps.dates.outputs.long_date }}"
+
+          # Update version line
+          sed -i "s/\*\*Current Version\*\*: MVP-[0-9]*\.[0-9]*\.[0-9]*/\*\*Current Version\*\*: MVP-${VERSION}/" README.md
+
+          # Update date line
+          sed -i "s/\*\*Last Updated\*\*: [A-Za-z]* [0-9]*, [0-9]*/\*\*Last Updated\*\*: ${LONG_DATE}/" README.md
+
+          echo "✓ Updated README.md"
+
+      - name: Update docs/README.md
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          LONG_DATE="${{ steps.dates.outputs.long_date }}"
+
+          # Update version line
+          sed -i "s/\*\*Current Version\*\*: MVP-[0-9]*\.[0-9]*\.[0-9]*/\*\*Current Version\*\*: MVP-${VERSION}/" docs/README.md
+
+          # Update date line
+          sed -i "s/\*\*Last Updated\*\*: [A-Za-z]* [0-9]*, [0-9]*/\*\*Last Updated\*\*: ${LONG_DATE}/" docs/README.md
+
+          echo "✓ Updated docs/README.md"
+
+      - name: Update docs/index.md
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          SHORT_DATE="${{ steps.dates.outputs.short_date }}"
+
+          # Update version with short date
+          sed -i "s/Current version: \*\*MVP-[0-9]*\.[0-9]*\.[0-9]*\*\* (updated [0-9]*-[0-9]*-[0-9]*)/Current version: \*\*MVP-${VERSION}\*\* (updated ${SHORT_DATE})/" docs/index.md
+
+          echo "✓ Updated docs/index.md"
+
+      - name: Update docs/00-fde-startup-kit.md footer
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          LONG_DATE="${{ steps.dates.outputs.long_date }}"
+
+          # Update footer version and date
+          sed -i "s/\*Version MVP-[0-9]*\.[0-9]*\.[0-9]* | Last Updated: [A-Za-z]* [0-9]*, [0-9]*/\*Version MVP-${VERSION} | Last Updated: ${LONG_DATE}\*/" docs/00-fde-startup-kit.md
+
+          echo "✓ Updated docs/00-fde-startup-kit.md"
+
+      - name: Update docs/CHANGELOG.md
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          SHORT_DATE="${{ steps.dates.outputs.short_date }}"
+          RELEASE_NOTES="${{ inputs.release_notes }}"
+
+          # Create new changelog entry
+          NEW_ENTRY="## [MVP-${VERSION}] - ${SHORT_DATE}\n\n${RELEASE_NOTES}\n\n---\n"
+
+          # Insert after [Unreleased] section using awk
+          awk -v entry="$NEW_ENTRY" '
+            /## \[Unreleased\]/ {
+              print
+              # Print the blank line after [Unreleased]
+              getline
+              print
+              # Print the separator line
+              getline
+              print
+              # Print blank line
+              print ""
+              # Insert new entry
+              printf "%s", entry
+              next
+            }
+            { print }
+          ' docs/CHANGELOG.md > docs/CHANGELOG.md.tmp
+
+          mv docs/CHANGELOG.md.tmp docs/CHANGELOG.md
+
+          echo "✓ Updated docs/CHANGELOG.md"
+
+      - name: Verify changes
+        run: |
+          echo "=== Files to be committed ==="
+          git status --short
+
+          echo ""
+          echo "=== Version changes ==="
+          git diff README.md docs/README.md docs/index.md docs/00-fde-startup-kit.md docs/CHANGELOG.md
+
+      - name: Commit changes
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+
+          # Stage all modified files
+          git add README.md docs/README.md docs/index.md docs/00-fde-startup-kit.md docs/CHANGELOG.md
+
+          # Commit with version message
+          git commit -m "chore: release MVP-${VERSION}"
+
+          echo "✓ Committed changes"
+
+      - name: Create and push tag
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          TAG="${{ steps.version.outputs.tag }}"
+
+          # Create annotated tag
+          git tag -a "$TAG" -m "Release MVP-${VERSION}"
+
+          echo "✓ Created tag $TAG"
+
+          # Push commit to main
+          git push origin main
+
+          echo "✓ Pushed commit to main"
+
+          # Push tag (this will trigger release.yml)
+          git push origin "$TAG"
+
+          echo "✓ Pushed tag $TAG"
+
+      - name: Output summary
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          TAG="${{ steps.version.outputs.tag }}"
+          CURRENT="${{ steps.version.outputs.current_version }}"
+
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "✅ Release prepared successfully!"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo ""
+          echo "📦 Version: MVP-${CURRENT} → MVP-${VERSION}"
+          echo "🏷️  Tag: ${TAG}"
+          echo "📝 Files updated: 5"
+          echo ""
+          echo "🔗 GitHub Release (creating now):"
+          echo "   https://github.com/${{ github.repository }}/releases/tag/${TAG}"
+          echo ""
+          echo "📚 Documentation site will auto-deploy in ~1-2 minutes"
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
