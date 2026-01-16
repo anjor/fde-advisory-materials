@@ -116,12 +116,14 @@ These apply across your entire FDE team and help you understand program health:
 Unlike traditional engineering roles, **individual FDE metrics should remain subjective**. This is a feature, not a bug.
 
 **Why subjective evaluation works better:**
+
 - FDEs move between projects with wildly different complexity
 - Impact is often indirect (unblocking others, documentation, client relationships)
 - Hard problems don't correlate with countable outputs
 - Context matters more than numbers
 
 **How Palantir does it:**
+
 - Manager judgment is the primary signal
 - Peer feedback and client satisfaction carry significant weight
 - FDEs "plead their case" with narrative evidence
@@ -139,6 +141,7 @@ Unlike traditional engineering roles, **individual FDE metrics should remain sub
 ### Customer-Centric Indicators (Leading Signals)
 
 While individual FDE metrics stay subjective, customer feedback provides leading indicators:
+
 - **Client NPS or satisfaction scores** - Direct signal on FDE effectiveness
 - **Renewal/expansion rates** - Client sees value, wants more
 - **Reference willingness** - Ultimate vote of confidence
