@@ -4,6 +4,25 @@
 
 ---
 
+## [MVP-1.3.0] - 2026-01-16
+
+### Added
+- FDE Metrics & Performance section in startup kit (00-fde-startup-kit.md)
+  - Organizational metrics table: 5 key metrics with "Watch Out For" warnings
+  - Individual FDE performance philosophy: Explains why subjective evaluation is intentional
+  - Anti-patterns table: 4 metrics that seem reasonable but damage effectiveness
+  - Customer-centric indicators: Leading signals for FDE impact
+  - Incorporates insights from Palantir's evaluation model
+
+### Changed
+- Consolidated and replaced "Key Metrics (For Reference)" section with comprehensive metrics guidance
+- Repositioned metrics content earlier in startup kit (after "Who Does What") for better flow
+
+### Removed
+- Simplified "Key Metrics (For Reference)" section (replaced by comprehensive Metrics & Performance section)
+
+---
+
 ## [MVP-1.2.0] - 2026-01-16
 
 ### Added

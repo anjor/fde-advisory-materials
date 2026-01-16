@@ -93,6 +93,63 @@ Discovery → Demo → Pilot → Production → Steady State
 
 ---
 
+## FDE Metrics & Performance
+
+---
+
+### Organizational Metrics: Track These
+
+These apply across your entire FDE team and help you understand program health:
+
+| Metric | What It Measures | Watch Out For |
+|--------|------------------|---------------|
+| **Deployments per FDE** | Throughput and capacity | >5 active = overloaded; <2 = underutilized or blocked |
+| **Revenue per FDE** | Commercial efficiency | Trending down = inefficient engagements or wrong accounts |
+| **Time-to-value (new deployment)** | How fast you deliver value | Trending up = process debt or technical friction |
+| **Environment setup time** | Technical enablement quality | >4 hours = documentation gaps or platform issues |
+| **FDE blocked time** | Product-FDE interface health | Trending up = Product team can't support field needs |
+
+→ Track these monthly. Share trends with leadership. Investigate outliers.
+
+### Individual FDE Performance: Intentionally Subjective
+
+Unlike traditional engineering roles, **individual FDE metrics should remain subjective**. This is a feature, not a bug.
+
+**Why subjective evaluation works better:**
+
+- FDEs move between projects with wildly different complexity
+- Impact is often indirect (unblocking others, documentation, client relationships)
+- Hard problems don't correlate with countable outputs
+- Context matters more than numbers
+
+**How Palantir does it:**
+
+- Manager judgment is the primary signal
+- Peer feedback and client satisfaction carry significant weight
+- FDEs "plead their case" with narrative evidence
+- No formulas or scorecards for individual ratings
+
+### Anti-Patterns: Don't Measure These
+
+| Metric | Why It Backfires |
+|--------|------------------|
+| Lines of code / PRs merged | Misses client-facing work (calls, debugging, demos) |
+| Tickets closed | Incentivizes easy tickets over hard problems |
+| Utilization rate | Rewards being busy over being effective |
+| Time on single account | Ignores that some accounts need more time |
+
+### Customer-Centric Indicators (Leading Signals)
+
+While individual FDE metrics stay subjective, customer feedback provides leading indicators:
+
+- **Client NPS or satisfaction scores** - Direct signal on FDE effectiveness
+- **Renewal/expansion rates** - Client sees value, wants more
+- **Reference willingness** - Ultimate vote of confidence
+
+Track these per engagement, not per FDE.
+
+---
+
 ## FDE Hiring: Key Traits
 
 | Must Have | Red Flag |
@@ -163,18 +220,6 @@ If your branch is >2 weeks old, something is wrong. Merge smaller pieces or get 
 
 ---
 
-## Key Metrics (For Reference)
-
-| Metric | What It Measures | Healthy Range |
-|--------|------------------|---------------|
-| Deployments per FDE | Throughput | 2-4 active |
-| Environment setup time | Enablement quality | < 4 hours |
-| PR merge time (FDE → Product) | Collaboration health | < 1 week |
-| Client deployment time | Delivery efficiency | Trending down |
-| Revenue per FDE | Commercial efficiency | Varies by product |
-
----
-
 ## Common Failure Modes
 
 | Symptom | Likely Cause | Fix |
@@ -218,4 +263,4 @@ External perspectives on Forward Deployed Engineering from practitioners and tho
 
 ---
 
-*Version MVP-1.2.0 | Last Updated: January 16, 2026*
+*Version MVP-1.3.0 | Last Updated: January 16, 2026*
