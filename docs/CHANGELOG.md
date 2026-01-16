@@ -2,9 +2,20 @@
 
 ## [Unreleased]
 
+---
+
+## [MVP-1.2.0] - 2026-01-16
+
 ### Added
-- FDE Archetypes section in startup kit explaining business-facing vs product-facing FDE types
-- Guidance on when to hire each archetype and how existing roles map to FDE work
+- FDE Archetypes section in startup kit (00-fde-startup-kit.md)
+  - Defined two archetypes: business-facing vs product-facing FDEs
+  - Clear comparison table showing focus areas and responsibilities
+  - Guidance on when to hire each archetype based on deployment maturity
+  - Mapping of existing roles (solutions engineers, platform engineers, technical consultants) to FDE archetypes
+  - Strategy for scaling: start with product-facing FDEs (0-10 deployments), add business-facing at scale (10+)
+
+### Changed
+- Updated startup kit structure to include archetype guidance before diving into hiring details
 
 ---
 

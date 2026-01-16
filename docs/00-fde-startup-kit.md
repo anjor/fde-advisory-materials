@@ -218,4 +218,4 @@ External perspectives on Forward Deployed Engineering from practitioners and tho
 
 ---
 
-*Version MVP-1.0 | Last Updated: January 16, 2026*
+*Version MVP-1.2.0 | Last Updated: January 16, 2026*

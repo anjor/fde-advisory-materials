@@ -63,7 +63,7 @@ The site automatically deploys to GitHub Pages when changes are pushed to the `m
 
 ## Version
 
-**Current Version**: MVP-1.0.0
-**Last Updated**: January 14, 2026
+**Current Version**: MVP-1.2.0
+**Last Updated**: January 16, 2026
 
 See [docs/CHANGELOG.md](docs/CHANGELOG.md) for version history.
