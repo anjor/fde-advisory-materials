@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+- FDE Archetypes section in startup kit explaining business-facing vs product-facing FDE types
+- Guidance on when to hire each archetype and how existing roles map to FDE work
+
+---
+
 ## [MVP-1.1.0] - 2026-01-15
 
 ### Added
