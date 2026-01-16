@@ -41,6 +41,15 @@ Ready-to-use [resources](resources/index.md) for building your FDE program:
 
 ---
 
+## Getting Started by Challenge
+
+- **"We need to hire our initial FDE team"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
+- **"FDEs and Product teams are constantly in conflict"** → [02-product-fde-interface.md](02-product-fde-interface.md)
+- **"FDEs spend days just trying to set up environments"** → [03-technical-enablement.md](03-technical-enablement.md)
+- **"I need a quick overview"** → [00-fde-startup-kit.md](00-fde-startup-kit.md)
+
+---
+
 ## Stay Updated
 
 Subscribe to updates and new versions:
@@ -50,12 +59,3 @@ Subscribe to updates and new versions:
 - **Check manually**: View [CHANGELOG.md](CHANGELOG.md) for version history
 
 Current version: **MVP-1.1.0** (updated 2026-01-15)
-
----
-
-## Getting Started by Challenge
-
-- **"We need to hire our initial FDE team"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
-- **"FDEs and Product teams are constantly in conflict"** → [02-product-fde-interface.md](02-product-fde-interface.md)
-- **"FDEs spend days just trying to set up environments"** → [03-technical-enablement.md](03-technical-enablement.md)
-- **"I need a quick overview"** → [00-fde-startup-kit.md](00-fde-startup-kit.md)
