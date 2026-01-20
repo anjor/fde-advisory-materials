@@ -486,4 +486,4 @@ This agreement needs a full rewrite (not just updates) when:
 
 **Template Version:** 1.0
 **Last Updated:** 2026-01-18
-**Source:** [Product-FDE Interface](../02-product-fde-interface.md)
+**Source:** [Product-FDE Interface](../../02-product-fde-interface.md)

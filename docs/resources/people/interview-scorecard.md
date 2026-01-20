@@ -4,6 +4,7 @@
 Standardized evaluation rubric for assessing FDE candidates across key competencies. Ensures consistent assessment across interviewers and provides structured decision-making for hiring committees.
 
 ## When to Use
+
 - During every FDE interview round
 - For calibration across interviewers
 - For hiring committee decisions
@@ -297,6 +298,7 @@ Notes:
 ### Exercise Details
 
 **Phase 1 (15 min): Understand the system**
+
 - How did they approach exploration?
 - What tools did they use?
 - Did they ask clarifying questions?
@@ -305,6 +307,7 @@ Notes:
 
 
 **Phase 2 (10 min): Explain it back**
+
 - Quality of explanation: ☐ Weak  ☐ Adequate  ☐ Strong
 - Accuracy of mental model: ☐ Inaccurate  ☐ Mostly accurate  ☐ Precise
 
@@ -312,6 +315,7 @@ Notes:
 
 
 **Phase 3 (25 min): Implement a change**
+
 - Change requested:
 - Time to complete: _______
 - Quality of implementation: ☐ Doesn't work  ☐ Works with issues  ☐ Works well
@@ -321,6 +325,7 @@ Notes:
 
 
 **Phase 4 (10 min): Discuss improvements**
+
 - What would they do differently?
 - Quality of critique: ☐ Superficial  ☐ Reasonable  ☐ Insightful
 
@@ -332,16 +337,19 @@ Notes:
 ### High Signal Topics Discussed
 
 **Evaluation methodology:** "How would you know if this is working?"
+
 - [ ] Didn't discuss or weak response
 - [ ] Reasonable approach
 - [ ] Strong, thoughtful answer
 
 **Edge cases:** "What could go wrong?"
+
 - [ ] Didn't consider or minimal thought
 - [ ] Identified some edge cases
 - [ ] Comprehensive edge case analysis
 
 **Production awareness:** "How would this behave under load?"
+
 - [ ] No consideration
 - [ ] Some awareness
 - [ ] Strong production mindset
@@ -645,11 +653,13 @@ Notes:
 ### For New Interviewers
 
 **Before you start:**
+
 1. Shadow 3-5 interviews with experienced interviewers
 2. Understand what "good" and "bad" look like for each dimension
 3. Practice filling out scorecards on recordings (if available)
 
 **Your first interviews:**
+
 1. Co-interview with an experienced interviewer for 3-5 rounds
 2. Both fill out scorecards independently
 3. Compare scores and discuss differences
@@ -658,17 +668,20 @@ Notes:
 ### Calibration Practices
 
 **Weekly Hiring Huddle:**
+
 - Review recent candidates as a group
 - Discuss where scores diverged
 - Build shared understanding of "the bar"
 - Track: Are people we rated highly performing well?
 
 **Submit Scores Before Discussion:**
+
 - Write your recommendation before the group debrief
 - Prevents anchoring on others' opinions
 - Ensures independent assessment
 
 **Watch for Bias:**
+
 - Likability bias (charismatic but not capable)
 - Pedigree bias (big tech, top school = automatic good)
 - Recency bias (last interview matters more than it should)
@@ -677,6 +690,7 @@ Notes:
 ### Red Flags Everyone Should Reject
 
 **Immediate rejection signals:**
+
 - Can't explain their thinking clearly
 - Blames others for all past failures
 - Shows no curiosity about the problem domain
@@ -690,6 +704,7 @@ Notes:
 ### When Scores Diverge
 
 **If your score differs significantly from others:**
+
 1. Ask yourself: What did I see that they didn't (or vice versa)?
 2. Share specific examples from your interview
 3. Listen to others' examples with open mind
@@ -711,47 +726,58 @@ Notes:
 ### Making It Actionable
 
 **Use specific examples, not adjectives:**
+
 - ✅ Good: "When asked about edge cases, they listed 5 specific failure modes and how to handle each"
 - ❌ Bad: "They seemed smart and had good communication skills"
 
 **Focus on evidence, not gut feeling:**
+
 - What did they say or do that led to your score?
 - Could someone else read your notes and reach the same conclusion?
 
 **Be honest about uncertainty:**
+
 - "I'm not sure if..." is valuable information
 - Better to flag uncertainty than pretend confidence
 
 ### Common Mistakes
 
 **Mistake: Rating everyone 3s**
+
 - Fix: Force yourself to differentiate. What would a 5 do differently than this candidate?
 
 **Mistake: Letting one strong area override weak areas**
+
 - Fix: FDEs need multiple competencies. Great technical + poor communication = No Hire
 
 **Mistake: Comparing candidates to each other**
+
 - Fix: Compare each candidate to the role requirements, not to other candidates
 
 **Mistake: Not filling out scorecard immediately**
+
 - Fix: Block 10 minutes right after interview. Details fade fast.
 
 **Mistake: Only positive or only negative notes**
+
 - Fix: Every candidate has strengths and weaknesses. Document both.
 
 ### Adapting by Level
 
 **For Associate FDE candidates:**
+
 - Lower bar on experience, higher bar on learning velocity
 - Look for raw intelligence and attitude over polish
 - Side projects, hackathons = good signal for learning ability
 
 **For Senior+ candidates:**
+
 - Higher bar on independence and client management
 - Look for examples of leading complex projects
 - Should demonstrate pattern recognition across problems
 
 **For specialized roles (business-facing vs product-facing):**
+
 - Business-facing: Higher weight on communication and stakeholder management
 - Product-facing: Higher weight on technical depth and systems thinking
 
@@ -759,4 +785,4 @@ Notes:
 
 **Template Version:** 1.0
 **Last Updated:** 2026-01-18
-**Source:** [Hiring & Talent Strategy](../01-hiring-talent-strategy.md)
+**Source:** [Hiring & Talent Strategy](../../01-hiring-talent-strategy.md)
