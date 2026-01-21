@@ -29,12 +29,12 @@ Organizations that use standard engineering interviews will hire technically com
 
 | Trait | What It Looks Like | Red Flag |
 |-------|-------------------|----------|
-| **Technical breadth** | Can work across frontend, backend, data, infra as needed | "I only do backend" |
+| **Ownership** | "I'll figure it out" vs "That's not my job" | Waits to be told what to do |
 | **Learning velocity** | Picks up new domain/technology in days, not weeks | Needs extensive training before contributing |
 | **Pain tolerance** | Pushes through broken environments, missing docs, unclear requirements | Escalates blockers instead of working around them |
+| **GTD** | Comes up with creative ways to get things done | Disappears when things get hard |
+| **Technical breadth** | Can work across frontend, backend, data, infra as needed | "I only do backend" |
 | **Client communication** | Explains technical concepts to non-technical stakeholders | Uses jargon, talks past the client |
-| **Ownership** | "I'll figure it out" vs "That's not my job" | Waits to be told what to do |
-| **Follow-through** | Delivers what was promised, flags issues early | Disappears when things get hard |
 
 ### Nice-to-Have
 - Domain expertise in target verticals (finance, insurance, CPG)
@@ -97,11 +97,13 @@ Unknown candidates from job postings, recruiters, etc.
 **Purpose:** Filter obvious mismatches quickly.
 
 **Evaluate:**
+
 - Can they communicate clearly?
 - Do they understand what FDE work involves?
 - Are they genuinely interested or just applying broadly?
 
 **Questions:**
+
 - "Tell me about a time you had to figure something out with minimal documentation or guidance."
 - "What draws you to client-facing technical work vs. pure product development?"
 - "Describe a situation where you had to push back on a client or stakeholder."
@@ -133,7 +135,7 @@ Unknown candidates from job postings, recruiters, etc.
 - Evaluation methodology discussion
 - Data quality handling
 
-**Pass Criteria:** Can they think through technical problems systematically? Do they ask clarifying questions? Can they explain their reasoning?
+**Pass Criteria:** Can they think through technical problems systematically? Do they ask clarifying questions? Can they explain their reasoning? Do they have the right abstractions?
 
 ---
 

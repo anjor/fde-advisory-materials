@@ -261,6 +261,8 @@ External perspectives on Forward Deployed Engineering from practitioners and tho
 
 - [**Understanding Forward Deployed Engineering**](https://www.barry.ooo/posts/fde-culture) - Barry McCardel (Hex CEO) offers a critical perspective on why most companies shouldn't adopt the FDE model
 
+- [**The FDE Manifesto: What Would Stokes Do?**](https://anjor.xyz/writing/2025/11/20/the-fde-manifesto-what-would-stokes-do/) - Tactical principles that define exceptional FDE behavior. 
+
 ---
 
 *Version MVP-1.3.1 | Last Updated: January 16, 2026**

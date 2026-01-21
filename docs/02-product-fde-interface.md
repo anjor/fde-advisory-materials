@@ -80,11 +80,10 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] Single repository (or clear multi-repo guide) - not scattered across GitHub, Azure DevOps, and local machines
-- [ ] README with setup instructions that actually work
-- [ ] Docker/containerized setup OR clear dependency list
-- [ ] Seed data for local development
-- [ ] Environment variables documented with example values
+- Single repository (or clear multi-repo guide) - not scattered across GitHub, Azure DevOps, and local machines
+- README with setup instructions that actually work
+- Docker/containerized setup OR clear dependency list
+- Environment variables documented with example values
 
 **Verification:** New FDE can complete setup following only written instructions.
 
@@ -94,10 +93,10 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] Entity relationship diagram or equivalent
-- [ ] Field-level documentation for key entities
-- [ ] Example data that exercises main workflows
-- [ ] Validation rules and constraints
+- Entity relationship diagram or equivalent
+- Field-level documentation for key entities
+- Example data that exercises main workflows
+- Validation rules and constraints
 
 **Why This Matters:** FDEs build adapters from client data to product data model. Without knowing the target, they're guessing.
 
@@ -107,10 +106,10 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] API endpoint documentation (request/response formats)
-- [ ] Authentication/authorization guide
-- [ ] Error codes and handling guidance
-- [ ] Rate limits and performance expectations
+- API endpoint documentation (request/response formats)
+- Authentication/authorization guide
+- Error codes and handling guidance
+- Rate limits and performance expectations
 
 ### 4. Feature Flag / Configuration Guide
 
@@ -118,9 +117,9 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] List of feature flags and what they control
-- [ ] Configuration options and their effects
-- [ ] How to enable/disable features per client
+- List of feature flags and what they control
+- Configuration options and their effects
+- How to enable/disable features per client
 
 ### 5. Response Time SLA
 
@@ -421,22 +420,16 @@ A branch that diverges from main for >2 weeks is a failure mode.
 
 **For FDE Leaders:**
 
-- [ ] Can a new FDE set up their environment in <4 hours?
-- [ ] Do FDEs know exactly what Product team must provide?
-- [ ] Is there a weekly sync that actually happens?
-- [ ] Do FDEs feel empowered to contribute code?
-- [ ] Is there a clear escalation path when blocked?
+- Can a new FDE set up their environment in <4 hours?
+- Do FDEs know exactly what Product team must provide?
+- Is there a weekly sync that actually happens?
+- Do FDEs feel empowered to contribute code?
+- Is there a clear escalation path when blocked?
 
 **For Product Leaders:**
 
-- [ ] Do you know what FDEs are working on right now?
-- [ ] Have you personally experienced a client deployment in the last quarter?
-- [ ] Is FDE feedback visibly influencing your roadmap?
-- [ ] Are your docs accurate enough that FDEs trust them?
-- [ ] Can you name the top 3 FDE friction points?
-
----
-
-## Further Reading
-
-Additional blog posts on Product-FDE collaboration coming soon.
+- Do you know what FDEs are working on right now?
+- Have you personally experienced a client deployment in the last quarter?
+- Is FDE feedback visibly influencing your roadmap?
+- Are your docs accurate enough that FDEs trust them?
+- Can you name the top 3 FDE friction points?

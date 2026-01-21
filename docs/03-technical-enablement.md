@@ -133,11 +133,11 @@ If an FDE cannot complete setup following documentation:
 
 ### Documentation Quality Checklist
 
-- [ ] Can someone follow it without asking questions?
-- [ ] Are all commands copy-pasteable?
-- [ ] Are environment-specific values clearly marked?
-- [ ] Is it current (updated within last month)?
-- [ ] Does it explain WHY, not just WHAT?
+- Can someone follow it without asking questions?
+- Are all commands copy-pasteable?
+- Are environment-specific values clearly marked?
+- Is it current (updated within last month)?
+- Does it explain WHY, not just WHAT?
 
 ### Living Documentation
 
@@ -245,11 +245,11 @@ If your product spans multiple repos, you MUST have:
 
 ### Repository Checklist
 
-- [ ] Can I find all related code from one starting point?
-- [ ] Is it clear which repo to change for which feature?
-- [ ] Do all repos have working CI/CD?
-- [ ] Are there branch protection rules?
-- [ ] Is there a clear PR review process?
+- Can I find all related code from one starting point?
+- Is it clear which repo to change for which feature?
+- Do all repos have working CI/CD?
+- Are there branch protection rules?
+- Is there a clear PR review process?
 
 ---
 
@@ -268,11 +268,11 @@ FDEs need to build and run demos. Product teams must provide:
 
 ### Demo Environment Checklist
 
-- [ ] Always available (not taken down for maintenance without notice)
-- [ ] Accessible from customer networks (not behind corporate VPN)
-- [ ] Representative of production (same features, similar performance)
-- [ ] Can be reset without engineering support
-- [ ] Has data that looks real (not "test123", "asdf")
+- Always available (not taken down for maintenance without notice)
+- Accessible from customer networks (not behind corporate VPN)
+- Representative of production (same features, similar performance)
+- Can be reset without engineering support
+- Has data that looks real (not "test123", "asdf")
 
 ### FDE Demo Building Workflow
 
@@ -298,10 +298,10 @@ FDEs need to build and run demos. Product teams must provide:
 
 For AI tools to help FDEs, Product teams should:
 
-- [ ] Ensure codebase is in standard structure AI can understand
-- [ ] Add inline comments explaining non-obvious code
-- [ ] Maintain accurate README and docs (AI reads these)
-- [ ] Avoid proprietary DSLs that AI doesn't know
+- Ensure codebase is in standard structure AI can understand
+- Add inline comments explaining non-obvious code
+- Maintain accurate README and docs (AI reads these)
+- Avoid proprietary DSLs that AI doesn't know
 
 ### IT Provisioning
 
@@ -376,41 +376,41 @@ If you're unsure whether something is allowed:
 
 **Environment:**
 
-- [ ] Can a new FDE set up their environment in < 4 hours?
-- [ ] Is there a single source of truth for code?
-- [ ] Do FDEs have access to everything they need?
+- Can a new FDE set up their environment in < 4 hours?
+- Is there a single source of truth for code?
+- Do FDEs have access to everything they need?
 
 **Documentation:**
 
-- [ ] Can FDEs find answers without asking people?
-- [ ] Is documentation trusted (accurate and current)?
-- [ ] Can FDEs contribute documentation fixes?
+- Can FDEs find answers without asking people?
+- Is documentation trusted (accurate and current)?
+- Can FDEs contribute documentation fixes?
 
 **Demo:**
 
-- [ ] Can FDEs build demos without Product team help?
-- [ ] Is there reference demo data available?
-- [ ] Can demo environments be reset easily?
+- Can FDEs build demos without Product team help?
+- Is there reference demo data available?
+- Can demo environments be reset easily?
 
 ### For Product Leaders
 
 **Baseline:**
 
-- [ ] Is your README actually a quick start (< 15 min)?
-- [ ] Does main branch always work?
-- [ ] Are your repos organized and discoverable?
+- Is your README actually a quick start (< 15 min)?
+- Does main branch always work?
+- Are your repos organized and discoverable?
 
 **Documentation:**
 
-- [ ] Is your data model documented?
-- [ ] Are your APIs documented?
-- [ ] Is your configuration documented?
+- Is your data model documented?
+- Are your APIs documented?
+- Is your configuration documented?
 
 **Support:**
 
-- [ ] Do FDEs know who to ask for help?
-- [ ] Do you respond to FDE requests within 24 hours?
-- [ ] Do you merge FDE documentation PRs quickly?
+- Do FDEs know who to ask for help?
+- Do you respond to FDE requests within 24 hours?
+- Do you merge FDE documentation PRs quickly?
 
 ---
 
