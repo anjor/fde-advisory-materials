@@ -98,11 +98,13 @@ This means:
 - **Ownership mindset** - "I'll figure it out" instead of "That's not my job."
 
 **Nice-to-Have:**
+
 - Familiarity with [RELEVANT DOMAINS - e.g., "data engineering", "ML deployment", "enterprise SaaS"]
 - Side projects or hackathons that show you can build things independently
 - Experience working through ambiguity (startups, research projects, etc.)
 
 **Explicit Non-Requirements:**
+
 - Specific programming language expertise (you'll learn on the job)
 - Years of experience (we care about attitude and ability)
 - Top school or big tech background
@@ -141,6 +143,7 @@ We pay FDEs at or above traditional engineering levels because this role require
 [APPLICATION INSTRUCTIONS]
 
 Include in your application:
+
 - Resume/CV
 - Brief note (2-3 paragraphs) on why FDE work appeals to you
 - Link to code you've written (GitHub, project, anything that shows your work)
@@ -650,9 +653,3 @@ Be honest about this. The right candidates will find it appealing.
 - Need both archetypes in team
 - May have specialized roles (field CTO, solutions architect, etc.)
 - Clear career paths to FDE leadership roles
-
----
-
-**Template Version:** 1.0
-**Last Updated:** 2026-01-18
-**Source:** [Hiring & Talent Strategy](../../01-hiring-talent-strategy.md), [FDE Startup Kit](../../00-fde-startup-kit.md)

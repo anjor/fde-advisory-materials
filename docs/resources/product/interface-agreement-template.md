@@ -85,6 +85,7 @@ This is a working document. Update it when you discover gaps or conflicts.
 **Location:** [MEETING LINK / ROOM]
 
 **Agenda:**
+
 1. **FDE blockers** (5 min) - What's preventing progress?
 2. **Client patterns** (10 min) - What are we seeing across clients?
 3. **Roadmap check** (5 min) - Any changes affecting FDE work?
@@ -99,6 +100,7 @@ This is a working document. Update it when you discover gaps or conflicts.
 **Board Link:** [URL]
 
 **Format:** FDE implementation backlogs visible to Product team with:
+
 - Client name
 - Request description
 - Business impact
@@ -115,6 +117,7 @@ This is a working document. Update it when you discover gaps or conflicts.
 **When:** [SPECIFY QUARTER END TIMING]
 
 **Agenda:**
+
 1. What patterns emerged this quarter?
 2. What should move from "FDE customization" to "product feature"?
 3. What documentation/tooling gaps remain?
@@ -134,6 +137,7 @@ This is a working document. Update it when you discover gaps or conflicts.
 | **Integration support** | [X hours] | [Y days] | [ESCALATION PATH] |
 
 **Recommended baseline (adjust for your context):**
+
 - Environment blocker: 4 hours response, 24 hours resolution
 - Critical bug: 4 hours response, 48 hours resolution
 - Documentation question: 24 hours response
@@ -154,11 +158,11 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] Single repository (or clear multi-repo guide) - not scattered across GitHub, Azure DevOps, and local machines
-- [ ] README with setup instructions that actually work
-- [ ] Docker/containerized setup OR clear dependency list
-- [ ] Seed data for local development
-- [ ] Environment variables documented with example values
+- Single repository (or clear multi-repo guide) - not scattered across GitHub, Azure DevOps, and local machines
+- README with setup instructions that actually work
+- Docker/containerized setup OR clear dependency list
+- Seed data for local development
+- Environment variables documented with example values
 
 **Verification:** New FDE can complete setup following only written instructions.
 
@@ -170,10 +174,10 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] Entity relationship diagram or equivalent
-- [ ] Field-level documentation for key entities
-- [ ] Example data that exercises main workflows
-- [ ] Validation rules and constraints
+- Entity relationship diagram or equivalent
+- Field-level documentation for key entities
+- Example data that exercises main workflows
+- Validation rules and constraints
 
 **Why This Matters:** FDEs build adapters from client data to product data model. Without knowing the target, they're guessing.
 
@@ -185,10 +189,10 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] API endpoint documentation (request/response formats)
-- [ ] Authentication/authorization guide
-- [ ] Error codes and handling guidance
-- [ ] Rate limits and performance expectations
+- API endpoint documentation (request/response formats)
+- Authentication/authorization guide
+- Error codes and handling guidance
+- Rate limits and performance expectations
 
 **[COMPANY] Status:** [CURRENT STATE]
 
@@ -198,9 +202,9 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **Product Team Must Provide:**
 
-- [ ] List of feature flags and what they control
-- [ ] Configuration options and their effects
-- [ ] How to enable/disable features per client
+- List of feature flags and what they control
+- Configuration options and their effects
+- How to enable/disable features per client
 
 **[COMPANY] Status:** [CURRENT STATE]
 
@@ -224,22 +228,23 @@ These are non-negotiable. Without them, FDEs cannot work effectively.
 
 **To Product Team:**
 
-- [ ] Weekly patterns report - what we're seeing across clients
-- [ ] Prioritized feedback - distinguishing "nice to have" from "blocking adoption"
-- [ ] Field perspective on architecture decisions
-- [ ] Testing and validation of new features in real client contexts
-- [ ] Clear escalation when blocked (not silent suffering)
+- Weekly patterns report - what we're seeing across clients
+- Prioritized feedback - distinguishing "nice to have" from "blocking adoption"
+- Field perspective on architecture decisions
+- Testing and validation of new features in real client contexts
+- Clear escalation when blocked (not silent suffering)
 
 **To Clients:**
 
-- [ ] Ownership of deployment and adoption outcomes
-- [ ] Client-specific customization and configuration
-- [ ] Training and enablement
-- [ ] First line of support for deployment issues
+- Ownership of deployment and adoption outcomes
+- Client-specific customization and configuration
+- Training and enablement
+- First line of support for deployment issues
 
 **Code Quality Standards:**
 
 When FDEs contribute code to the product:
+
 - Follow existing conventions and patterns
 - Include tests where appropriate
 - Document what was built and why
@@ -305,6 +310,7 @@ What happens if this isn't resolved?
 **Location:** [SPECIFY WHERE DOCS LIVE - e.g., "GitHub wiki", "Confluence", "docs/ folder"]
 
 **Maintains:**
+
 - API documentation (kept current with code changes)
 - Data model documentation
 - Architecture diagrams
@@ -316,6 +322,7 @@ What happens if this isn't resolved?
 ### FDE Team Contributes
 
 **FDEs Fix Docs When They Find Issues:**
+
 - Submit PRs for doc corrections/improvements
 - Flag gaps or inaccuracies
 - Add examples from real client scenarios
@@ -325,6 +332,7 @@ What happens if this isn't resolved?
 ### Shared Documentation
 
 **Client Patterns Document:** [LOCATION]
+
 - FDEs maintain running list of common requests
 - Product team reviews quarterly for roadmap input
 
@@ -337,6 +345,7 @@ What happens if this isn't resolved?
 **Weekly Sync:** Agenda item #2 - client patterns (see Section 2)
 
 **Structured Feedback:** [SPECIFY TOOL/PROCESS]
+
 - Feature requests with business impact
 - Bug reports with client context
 - Pattern identification across clients
@@ -354,6 +363,7 @@ What happens if this isn't resolved?
 ### Success Metrics Review
 
 **Quarterly:** Review together:
+
 - Time for new FDE to set up environment (target: <4 hours)
 - FDE requests in backlog >1 week (target: 0)
 - % of FDE PRs merged within 1 week (target: >80%)
@@ -366,6 +376,7 @@ What happens if this isn't resolved?
 ### Contribution Philosophy
 
 FDEs discovering gaps are empowered to:
+
 1. Build working prototypes
 2. Submit PRs to core product
 3. Propose architectural changes
@@ -373,12 +384,14 @@ FDEs discovering gaps are empowered to:
 ### Contribution Rules
 
 **Do:**
+
 - Build the fastest path to solving client problem
 - Document what you built and why
 - Flag anything that should be generalized
 - Follow existing code conventions
 
 **Don't:**
+
 - Maintain long-lived forks
 - Build parallel systems that duplicate product functionality
 - Make changes that only work for one client
@@ -395,6 +408,7 @@ FDEs discovering gaps are empowered to:
 **Long-Lived Branches Are Forbidden:** A branch that diverges from main for >2 weeks is a failure mode.
 
 **If you have a long-lived branch:**
+
 1. It should have been merged (break it into smaller changes)
 2. It should be a product feature (get it on the roadmap)
 3. It should be abandoned (client-specific hack that won't scale)
@@ -413,18 +427,19 @@ FDEs discovering gaps are empowered to:
 
 **Agenda:**
 
-- [ ] Review Section 3 SLAs - are they being met? Do they need adjustment?
-- [ ] Review Section 4 Product Team Commitments - status on each item
-- [ ] Review Section 8 Success Metrics - what's improving? What's not?
-- [ ] Update Section 1 Ownership Boundaries if scope has shifted
-- [ ] Discuss what's working well - keep doing this
-- [ ] Discuss what's not working - what should change?
-- [ ] Update [PLACEHOLDER] sections based on what we've learned
-- [ ] Set date for next quarterly review
+- Review Section 3 SLAs - are they being met? Do they need adjustment?
+- Review Section 4 Product Team Commitments - status on each item
+- Review Section 8 Success Metrics - what's improving? What's not?
+- Update Section 1 Ownership Boundaries if scope has shifted
+- Discuss what's working well - keep doing this
+- Discuss what's not working - what should change?
+- Update [PLACEHOLDER] sections based on what we've learned
+- Set date for next quarterly review
 
 ### When to Do a Full Rewrite
 
 This agreement needs a full rewrite (not just updates) when:
+
 - Team structure changes significantly
 - Product architecture changes fundamentally
 - FDE scope expands to new areas
@@ -444,11 +459,13 @@ This agreement needs a full rewrite (not just updates) when:
 ### Getting Buy-In
 
 **For Engineering Leadership:**
+
 - Frame as "reducing FDE blocked time" - a measurable waste metric
 - Show cost: every hour FDEs fight internal friction is billable hours lost
 - Position as risk mitigation: clear interfaces prevent client commitment failures
 
 **For Product Teams:**
+
 - Emphasize: "FDEs are your first real users"
 - Show benefit: FDEs surface real-world issues before they become client problems
 - Make visible: FDE feedback directly influences roadmap prioritization
@@ -456,16 +473,19 @@ This agreement needs a full rewrite (not just updates) when:
 ### Common Pitfalls
 
 **"We'll figure it out as we go"**
+
 - Symptom: No written agreement, relying on goodwill
 - Result: Friction emerges, no framework for resolving it
 - Fix: Write this agreement even if it feels premature
 
 **"Product team is too busy for this"**
+
 - Symptom: Product team doesn't see FDE support as their job
 - Result: FDEs blocked constantly, can't deliver for clients
 - Fix: Executive sponsorship making FDE enablement a team priority
 
 **"Agreement sits in a doc, nobody follows it"**
+
 - Symptom: Agreement exists but isn't referenced or enforced
 - Result: Falls back to ad-hoc, relationship-dependent collaboration
 - Fix: Review in weekly syncs, track SLA adherence, update based on reality
@@ -473,17 +493,13 @@ This agreement needs a full rewrite (not just updates) when:
 ### Adaptation Guidance
 
 **Early-Stage Startups:**
+
 - Product team may act as FDEs for first 1-2 clients - add that to Section 1
 - SLAs may be shorter due to smaller team/higher urgency
 - Quarterly reviews may be monthly during rapid iteration
 
 **Mature Products:**
+
 - May need more detailed API/integration documentation commitments
 - May have separate platform team - add to ownership boundaries
 - May need client-tier SLAs (enterprise vs standard)
-
----
-
-**Template Version:** 1.0
-**Last Updated:** 2026-01-18
-**Source:** [Product-FDE Interface](../../02-product-fde-interface.md)

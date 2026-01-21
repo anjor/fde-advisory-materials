@@ -23,11 +23,11 @@ Standardized evaluation rubric for assessing FDE candidates across key competenc
 7. **Compare to the bar, not other candidates** - Would you hire this person? Yes/No.
 
 **Scoring Scale:**
-- **1 (Reject):** Clear weakness, would not succeed in role
-- **2 (Weak):** Below bar, significant concerns
-- **3 (Neutral):** Adequate, meets minimum bar
-- **4 (Good):** Above bar, clear strengths
-- **5 (Strong Hire):** Exceptional, significantly exceeds bar
+
+- **1 (Strong Reject):** Clear weakness, would not succeed in role
+- **2 (Reject):** Below bar, significant concerns
+- **3 (Hire):** Above bar, clear strengths
+- **4 (Strong Hire):** Exceptional, significantly exceeds bar
 
 ---
 
@@ -104,18 +104,18 @@ Notes:
 
 ### Red Flags (check if present)
 
-- [ ] Can't articulate why they're interested in FDE work
-- [ ] Seems to want remote job, doesn't care about role specifics
-- [ ] No examples of working through ambiguity
-- [ ] Never pushed back on stakeholders (always says yes)
-- [ ] Communication is painful or unclear
+- Can't articulate why they're interested in FDE work
+- Seems to want remote job, doesn't care about role specifics
+- No examples of working through ambiguity
+- Never pushed back on stakeholders (always says yes)
+- Communication is painful or unclear
 
 ---
 
 ### Overall Recommendation
 
-- [ ] **Pass to Technical Screen** - Clear communication, genuine interest, no red flags
-- [ ] **Reject** - Communication issues, misunderstanding of role, or clear mismatch
+- **Pass to Technical Screen** - Clear communication, genuine interest, no red flags
+- **Reject** - Communication issues, misunderstanding of role, or clear mismatch
 
 **Justification (required):**
 
@@ -199,20 +199,20 @@ Notes:
 
 ### Red Flags (check if present)
 
-- [ ] Can't code without constant help
-- [ ] Doesn't ask clarifying questions
-- [ ] Gives up when stuck
-- [ ] Can't explain their reasoning
-- [ ] Defensive when given feedback
+- Can't code without constant help
+- Doesn't ask clarifying questions
+- Gives up when stuck
+- Can't explain their reasoning
+- Defensive when given feedback
 
 ---
 
 ### Overall Recommendation
 
-- [ ] **Strong Hire** - Significantly exceeds technical bar
-- [ ] **Hire** - Meets or exceeds technical bar
-- [ ] **No Hire** - Below technical bar
-- [ ] **Strong No Hire** - Major technical gaps
+- **Strong Hire** - Significantly exceeds technical bar
+- **Hire** - Meets or exceeds technical bar
+- **No Hire** - Below technical bar
+- **Strong No Hire** - Major technical gaps
 
 **Justification (required):**
 
@@ -338,30 +338,30 @@ Notes:
 
 **Evaluation methodology:** "How would you know if this is working?"
 
-- [ ] Didn't discuss or weak response
-- [ ] Reasonable approach
-- [ ] Strong, thoughtful answer
+- Didn't discuss or weak response
+- Reasonable approach
+- Strong, thoughtful answer
 
 **Edge cases:** "What could go wrong?"
 
-- [ ] Didn't consider or minimal thought
-- [ ] Identified some edge cases
-- [ ] Comprehensive edge case analysis
+- Didn't consider or minimal thought
+- Identified some edge cases
+- Comprehensive edge case analysis
 
 **Production awareness:** "How would this behave under load?"
 
-- [ ] No consideration
-- [ ] Some awareness
-- [ ] Strong production mindset
+- No consideration
+- Some awareness
+- Strong production mindset
 
 ---
 
 ### Overall Recommendation
 
-- [ ] **Strong Hire** - Exceptional learning velocity, would excel with unfamiliar systems
-- [ ] **Hire** - Good learning velocity, can handle unfamiliar systems
-- [ ] **No Hire** - Learning velocity too slow, struggles with unfamiliar systems
-- [ ] **Strong No Hire** - Cannot function without extensive guidance
+- **Strong Hire** - Exceptional learning velocity, would excel with unfamiliar systems
+- **Hire** - Good learning velocity, can handle unfamiliar systems
+- **No Hire** - Learning velocity too slow, struggles with unfamiliar systems
+- **Strong No Hire** - Cannot function without extensive guidance
 
 **Justification (required):**
 
@@ -472,21 +472,21 @@ Notes:
 
 ### Red Flags (check if present)
 
-- [ ] Jumped to solution without understanding problem
-- [ ] Didn't ask any clarifying questions
-- [ ] Ignored constraints (time, budget, resources)
-- [ ] Only one solution, no alternatives
-- [ ] Couldn't prioritize what to tackle first
-- [ ] Proposed impractical or unrealistic approach
+- Jumped to solution without understanding problem
+- Didn't ask any clarifying questions
+- Ignored constraints (time, budget, resources)
+- Only one solution, no alternatives
+- Couldn't prioritize what to tackle first
+- Proposed impractical or unrealistic approach
 
 ---
 
 ### Overall Recommendation
 
-- [ ] **Strong Hire** - Exceptional problem decomposition, would handle ambiguous client situations
-- [ ] **Hire** - Good decomposition, can work through ambiguous problems
-- [ ] **No Hire** - Weak decomposition, struggles with ambiguity
-- [ ] **Strong No Hire** - Cannot structure problems, jumps to solutions
+- **Strong Hire** - Exceptional problem decomposition, would handle ambiguous client situations
+- **Hire** - Good decomposition, can work through ambiguous problems
+- **No Hire** - Weak decomposition, struggles with ambiguity
+- **Strong No Hire** - Cannot structure problems, jumps to solutions
 
 **Justification (required):**
 
@@ -622,10 +622,10 @@ Notes:
 
 ### Overall Recommendation
 
-- [ ] **Strong Hire** - Exceptional candidate, would significantly raise the bar
-- [ ] **Hire** - Good candidate, meets or exceeds bar
-- [ ] **No Hire** - Below bar or concerns about fit
-- [ ] **Strong No Hire** - Clear mismatch or significant concerns
+- **Strong Hire** - Exceptional candidate, would significantly raise the bar
+- **Hire** - Good candidate, meets or exceeds bar
+- **No Hire** - Below bar or concerns about fit
+- **Strong No Hire** - Clear mismatch or significant concerns
 
 **Justification (required):**
 
@@ -780,9 +780,3 @@ Notes:
 
 - Business-facing: Higher weight on communication and stakeholder management
 - Product-facing: Higher weight on technical depth and systems thinking
-
----
-
-**Template Version:** 1.0
-**Last Updated:** 2026-01-18
-**Source:** [Hiring & Talent Strategy](../../01-hiring-talent-strategy.md)

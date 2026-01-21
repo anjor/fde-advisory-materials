@@ -92,31 +92,33 @@ environment      by observing      with support    outcomes
 
 **Morning: Orientation (3 hours)**
 
-- [ ] HR paperwork and benefits enrollment
-- [ ] IT setup: laptop, email, Slack, calendar
-- [ ] Access provisioning request submitted (GitHub, tools, demo environments)
-- [ ] Meet your manager (60 min)
-  - Discuss this checklist
-  - Set weekly check-in time
-  - Get context on current client engagements
-- [ ] Meet your onboarding buddy (30 min)
-  - Set daily pairing schedule for Week 1
-  - Get added to relevant meetings
-
+- HR paperwork and benefits enrollment
+- IT setup: laptop, email, Slack, calendar
+- Access provisioning request submitted (GitHub, tools, demo environments)
+- Meet your manager (60 min)
+    - Discuss this checklist
+    - Set weekly check-in time
+    - Get context on current client engagements
+  
+- Meet your onboarding buddy (30 min)
+    - Set daily pairing schedule for Week 1
+    - Get added to relevant meetings
+  
 **Afternoon: Environment Setup (4 hours MAX)**
 
-- [ ] Clone primary repository
-- [ ] Follow README to get environment running locally
-- [ ] Verify you can run the product (see something on screen)
-- [ ] Run through "Quick Start" demo flow
-- [ ] Document any issues you hit (submit PR to fix README)
+- Clone primary repository
+- Follow README to get environment running locally
+- Verify you can run the product (see something on screen)
+- Run through "Quick Start" demo flow
+- Document any issues you hit (submit PR to fix README)
 
 **⚠️ CRITICAL:** If you can't get environment running in 4 hours, escalate to your manager immediately. This is a product problem, not your problem.
 
 **End of Day:**
-- [ ] Can run product locally
-- [ ] Know who to ask for help (buddy, manager, team channel)
-- [ ] Have access to team calendar and key meetings
+
+- Can run product locally
+- Know who to ask for help (buddy, manager, team channel)
+- Have access to team calendar and key meetings
 
 ---
 
@@ -124,24 +126,24 @@ environment      by observing      with support    outcomes
 
 **Morning: Product Deep Dive (3 hours)**
 
-- [ ] Read architecture documentation
-- [ ] Understand data model (what entities exist, how they relate)
-- [ ] Review API documentation
-- [ ] Explore codebase structure (where things live)
-- [ ] Ask questions (buddy or team channel)
+- Read architecture documentation
+- Understand data model (what entities exist, how they relate)
+- Review API documentation
+- Explore codebase structure (where things live)
+- Ask questions (buddy or team channel)
 
 **Afternoon: Process & Tools (2 hours)**
 
-- [ ] Understand PR process (how to get code merged)
-- [ ] Review past client deployments (read docs, see demos)
-- [ ] Join team standup or sync meeting
-- [ ] Set up AI coding tools (Claude Code, Copilot, etc.)
+- Understand PR process (how to get code merged)
+- Review past client deployments (read docs, see demos)
+- Join team standup or sync meeting
+- Set up AI coding tools (Claude Code, Copilot, etc.)
 
 **Learning Task:**
 
-- [ ] Pick one feature in the product
-- [ ] Trace it through codebase (frontend → backend → database)
-- [ ] Explain it to your buddy (they verify understanding)
+- Pick one feature in the product
+- Trace it through codebase (frontend → backend → database)
+- Explain it to your buddy (they verify understanding)
 
 ---
 
@@ -149,23 +151,23 @@ environment      by observing      with support    outcomes
 
 **Morning: Client Context (3 hours)**
 
-- [ ] Review current active client engagements
-- [ ] Understand who is working on what
-- [ ] Read docs from recent deployments
-- [ ] Watch recorded client demo (if available)
+- Review current active client engagements
+- Understand who is working on what
+- Read docs from recent deployments
+- Watch recorded client demo (if available)
 
 **Afternoon: FDE Workflows (2 hours)**
 
-- [ ] Understand how FDEs contribute to product codebase
-- [ ] Review escalation process (when/how to ask for help)
-- [ ] Learn demo environment access and reset process
-- [ ] Understand how documentation gets updated
+- Understand how FDEs contribute to product codebase
+- Review escalation process (when/how to ask for help)
+- Learn demo environment access and reset process
+- Understand how documentation gets updated
 
 **Mini-Project:**
 
-- [ ] Find one thing that confused you in docs/setup
-- [ ] Fix it (edit docs, update README, add comment)
-- [ ] Submit PR (practice the workflow)
+- Find one thing that confused you in docs/setup
+- Fix it (edit docs, update README, add comment)
+- Submit PR (practice the workflow)
 
 ---
 
@@ -173,18 +175,19 @@ environment      by observing      with support    outcomes
 
 **Shadow Active Client Work (Full Day)**
 
-- [ ] Attend all buddy's client meetings today
-- [ ] Observe (don't speak unless asked)
-- [ ] Take notes on:
-  - How FDEs communicate with clients
-  - What questions clients ask
-  - How technical concepts are explained
-  - How buddy handles unclear requirements
+- Attend all buddy's client meetings today
+- Observe (don't speak unless asked)
+- Take notes on:
+    - How FDEs communicate with clients
+    - What questions clients ask
+    - How technical concepts are explained
+    - How buddy handles unclear requirements
 
 **Reflection:**
-- [ ] Write down 3 things that surprised you
-- [ ] Write down 3 questions to ask buddy
-- [ ] Share observations with buddy (30 min debrief)
+
+- Write down 3 things that surprised you
+- Write down 3 questions to ask buddy
+- Share observations with buddy (30 min debrief)
 
 ---
 
@@ -192,26 +195,26 @@ environment      by observing      with support    outcomes
 
 **Morning: Technical Work (3 hours)**
 
-- [ ] Pair with buddy on their current work
-- [ ] Take on small, well-defined task
-- [ ] Submit PR (even if it's tiny)
-- [ ] Get feedback on code
+- Pair with buddy on their current work
+- Take on small, well-defined task
+- Submit PR (even if it's tiny)
+- Get feedback on code
 
 **Afternoon: Week 1 Checkpoint (2 hours)**
 
-- [ ] Review this checklist with manager
-- [ ] Discuss what's clear vs. still confusing
-- [ ] Identify any blockers
-- [ ] Set expectations for Weeks 2-4
+- Review this checklist with manager
+- Discuss what's clear vs. still confusing
+- Identify any blockers
+- Set expectations for Weeks 2-4
 
 **Week 1 Success Check:**
 
-- [ ] Environment works (<4 hours setup time achieved)
-- [ ] Can navigate codebase with AI tools
-- [ ] Understand product at high level
-- [ ] Met core team members
-- [ ] Submitted at least one PR (even if just docs)
-- [ ] Have clarity on what Weeks 2-4 will involve
+- Environment works (<4 hours setup time achieved)
+- Can navigate codebase with AI tools
+- Understand product at high level
+- Met core team members
+- Submitted at least one PR (even if just docs)
+- Have clarity on what Weeks 2-4 will involve
 
 ---
 
@@ -223,29 +226,29 @@ environment      by observing      with support    outcomes
 
 **Client Interaction (10-15 hours)**
 
-- [ ] Shadow buddy on ALL client calls/meetings this week
-- [ ] Observe at least 2 different clients (if possible)
-- [ ] Take notes on:
-  - How requirements are gathered
-  - How scope is negotiated
-  - How technical problems are explained
-  - How expectations are set
-- [ ] Ask buddy for context before and after each call
+- Shadow buddy on ALL client calls/meetings this week
+- Observe at least 2 different clients (if possible)
+- Take notes on:
+    - How requirements are gathered
+    - How scope is negotiated
+    - How technical problems are explained
+    - How expectations are set
+- Ask buddy for context before and after each call
 
 **Technical Work (15-20 hours)**
 
-- [ ] Take on 2-3 small, well-scoped tasks
-- [ ] Tasks should be: "Change X to do Y" (clear input/output)
-- [ ] Work independently, but check approach with buddy first
-- [ ] Submit PRs, respond to feedback
-- [ ] Update docs for anything you learned
+- Take on 2-3 small, well-scoped tasks
+- Tasks should be: "Change X to do Y" (clear input/output)
+- Work independently, but check approach with buddy first
+- Submit PRs, respond to feedback
+- Update docs for anything you learned
 
 **Learning Objectives:**
 
-- [ ] Understand how a client engagement progresses
-- [ ] See how FDEs balance client communication and technical work
-- [ ] Contribute code to product (even if small changes)
-- [ ] Practice PR process and code review
+- Understand how a client engagement progresses
+- See how FDEs balance client communication and technical work
+- Contribute code to product (even if small changes)
+- Practice PR process and code review
 
 **End of Week Check-in:**
 
@@ -259,24 +262,24 @@ environment      by observing      with support    outcomes
 
 **Client Interaction (10-15 hours)**
 
-- [ ] Continue shadowing buddy's client calls
-- [ ] Participate when asked (answer technical questions)
-- [ ] Practice explaining technical concepts simply
-- [ ] Prepare for one call (understand context beforehand)
+- Continue shadowing buddy's client calls
+- Participate when asked (answer technical questions)
+- Practice explaining technical concepts simply
+- Prepare for one call (understand context beforehand)
 
 **Technical Work (15-20 hours)**
 
-- [ ] Own a small feature or fix end-to-end
-- [ ] Break it into subtasks yourself
-- [ ] Implement, test, document
-- [ ] Present your work in team meeting
-- [ ] Help another new FDE (if applicable)
+- Own a small feature or fix end-to-end
+- Break it into subtasks yourself
+- Implement, test, document
+- Present your work in team meeting
+- Help another new FDE (if applicable)
 
 **Pattern Recognition:**
 
-- [ ] Identify one thing clients ask for repeatedly
-- [ ] Notice one gap in product that requires FDE workaround
-- [ ] Document both (for future reference)
+- Identify one thing clients ask for repeatedly
+- Notice one gap in product that requires FDE workaround
+- Document both (for future reference)
 
 **End of Week Check-in:**
 
@@ -290,39 +293,39 @@ environment      by observing      with support    outcomes
 
 **Client Interaction (10-15 hours)**
 
-- [ ] Lead one section of a client call (buddy supports)
-- [ ] Demo something you built
-- [ ] Answer client questions (with buddy as backup)
-- [ ] Take notes and send follow-up
+- Lead one section of a client call (buddy supports)
+- Demo something you built
+- Answer client questions (with buddy as backup)
+- Take notes and send follow-up
 
 **Technical Work (15-20 hours)**
 
-- [ ] Own a meaningful workstream (not just small tasks)
-- [ ] Example: "Build data import for client X"
-- [ ] Make decisions on approach (validate with buddy)
-- [ ] Deliver working solution
-- [ ] Document what you built (for future FDEs)
+- Own a meaningful workstream (not just small tasks)
+- Example: "Build data import for client X"
+- Make decisions on approach (validate with buddy)
+- Deliver working solution
+- Document what you built (for future FDEs)
 
 **Knowledge Sharing:**
 
-- [ ] Give 15-minute presentation to team on something you learned
-- [ ] Update onboarding docs based on your experience
-- [ ] Help next new hire (if one starts)
+- Give 15-minute presentation to team on something you learned
+- Update onboarding docs based on your experience
+- Help next new hire (if one starts)
 
 **30-Day Review with Manager:**
 
-- [ ] Assess progress against Week 4 success criteria
-- [ ] Identify strengths and growth areas
-- [ ] Discuss readiness for supported first deployment
-- [ ] Adjust plan if needed
+- Assess progress against Week 4 success criteria
+- Identify strengths and growth areas
+- Discuss readiness for supported first deployment
+- Adjust plan if needed
 
 **Week 4 Success Check:**
 
-- [ ] Comfortable participating in client calls
-- [ ] Can work independently on small-medium tasks
-- [ ] Have contributed meaningful code/docs
-- [ ] Understand product well enough to explain it
-- [ ] Ready to take on real client work (with support)
+- Comfortable participating in client calls
+- Can work independently on small-medium tasks
+- Have contributed meaningful code/docs
+- Understand product well enough to explain it
+- Ready to take on real client work (with support)
 
 ---
 
@@ -334,24 +337,24 @@ environment      by observing      with support    outcomes
 
 **Assignment:**
 
-- [ ] Get assigned to active client engagement
-- [ ] Take ownership of specific workstream
-- [ ] Example: "Data integration", "UI customization", "Deployment setup"
-- [ ] Buddy is on the same engagement (as support, not lead)
+- Get assigned to active client engagement
+- Take ownership of specific workstream
+- Example: "Data integration", "UI customization", "Deployment setup"
+- Buddy is on the same engagement (as support, not lead)
 
 **Execution (30-35 hours):**
 
-- [ ] Break down workstream into tasks
-- [ ] Estimate effort and timeline
-- [ ] Execute tasks with daily check-ins with buddy
-- [ ] Participate in client calls (present your progress)
-- [ ] Ask for help when stuck (don't struggle >2 hours alone)
+- Break down workstream into tasks
+- Estimate effort and timeline
+- Execute tasks with daily check-ins with buddy
+- Participate in client calls (present your progress)
+- Ask for help when stuck (don't struggle >2 hours alone)
 
 **Communication:**
 
-- [ ] Weekly status update to client (written or verbal)
-- [ ] Flag blockers immediately
-- [ ] Document decisions as you go
+- Weekly status update to client (written or verbal)
+- Flag blockers immediately
+- Document decisions as you go
 
 **Buddy Role This Week:**
 
@@ -372,25 +375,25 @@ environment      by observing      with support    outcomes
 
 **Execution (60-70 hours across 2 weeks):**
 
-- [ ] Make steady progress on workstream
-- [ ] Deliver working increments weekly
-- [ ] Demo progress to client
-- [ ] Handle client feedback and iterate
-- [ ] Keep buddy informed (don't go dark)
+- Make steady progress on workstream
+- Deliver working increments weekly
+- Demo progress to client
+- Handle client feedback and iterate
+- Keep buddy informed (don't go dark)
 
 **Client Interaction:**
 
-- [ ] Lead sections of client calls
-- [ ] Present your work
-- [ ] Answer questions (escalate to buddy if needed)
-- [ ] Build relationship with client team
+- Lead sections of client calls
+- Present your work
+- Answer questions (escalate to buddy if needed)
+- Build relationship with client team
 
 **Technical Work:**
 
-- [ ] Write production-quality code (not prototype)
-- [ ] Add tests where appropriate
-- [ ] Document what you're building
-- [ ] Contribute fixes back to product when you find gaps
+- Write production-quality code (not prototype)
+- Add tests where appropriate
+- Document what you're building
+- Contribute fixes back to product when you find gaps
 
 **Common Challenges (expect these):**
 
@@ -418,32 +421,32 @@ environment      by observing      with support    outcomes
 
 **Final Push (30-35 hours):**
 
-- [ ] Complete workstream deliverables
-- [ ] Get client sign-off
-- [ ] Hand off to client (training, docs, runbook)
-- [ ] Celebrate completion (even if imperfect)
+- Complete workstream deliverables
+- Get client sign-off
+- Hand off to client (training, docs, runbook)
+- Celebrate completion (even if imperfect)
 
 **Knowledge Capture:**
 
-- [ ] Document what you built (architecture, decisions)
-- [ ] Write "lessons learned" (for yourself and team)
-- [ ] Identify what should be product features (not custom work)
-- [ ] Update team knowledge base
+- Document what you built (architecture, decisions)
+- Write "lessons learned" (for yourself and team)
+- Identify what should be product features (not custom work)
+- Update team knowledge base
 
 **60-Day Review with Manager:**
 
-- [ ] Assess workstream delivery
-- [ ] Discuss technical growth
-- [ ] Evaluate client communication skills
-- [ ] Determine readiness for independent work
+- Assess workstream delivery
+- Discuss technical growth
+- Evaluate client communication skills
+- Determine readiness for independent work
 
 **Week 8 Success Check:**
 
-- [ ] Delivered real value to a client
-- [ ] Led workstream from start to finish (with support)
-- [ ] Communicated effectively with client
-- [ ] Escalated when stuck (appropriately)
-- [ ] Ready for more independence
+- Delivered real value to a client
+- Led workstream from start to finish (with support)
+- Communicated effectively with client
+- Escalated when stuck (appropriately)
+- Ready for more independence
 
 ---
 
@@ -455,24 +458,24 @@ environment      by observing      with support    outcomes
 
 **New Engagement:**
 
-- [ ] Get assigned to new client engagement (you're the lead FDE)
-- [ ] Buddy is available for questions but not actively involved
-- [ ] Manager expects you to drive (with appropriate escalation)
+- Get assigned to new client engagement (you're the lead FDE)
+- Buddy is available for questions but not actively involved
+- Manager expects you to drive (with appropriate escalation)
 
 **Kickoff (Week 9):**
 
-- [ ] Participate in client discovery/scoping
-- [ ] Break down work into phases
-- [ ] Estimate timeline and communicate to client
-- [ ] Set up regular check-ins with client
-- [ ] Identify risks and dependencies early
+- Participate in client discovery/scoping
+- Break down work into phases
+- Estimate timeline and communicate to client
+- Set up regular check-ins with client
+- Identify risks and dependencies early
 
 **Execution:**
 
-- [ ] Work independently (don't check every decision with buddy)
-- [ ] Make progress daily
-- [ ] Communicate status proactively
-- [ ] Escalate blockers (don't wait)
+- Work independently (don't check every decision with buddy)
+- Make progress daily
+- Communicate status proactively
+- Escalate blockers (don't wait)
 
 **Manager Check-in:**
 
@@ -486,11 +489,11 @@ environment      by observing      with support    outcomes
 
 **Full Ownership (60-70 hours):**
 
-- [ ] Lead all client interactions
-- [ ] Own delivery timeline and quality
-- [ ] Make technical decisions
-- [ ] Build client trust and relationship
-- [ ] Deliver working solutions
+- Lead all client interactions
+- Own delivery timeline and quality
+- Make technical decisions
+- Build client trust and relationship
+- Deliver working solutions
 
 **What "Independent" Means:**
 
@@ -525,10 +528,10 @@ environment      by observing      with support    outcomes
 
 **Final Week:**
 
-- [ ] Complete current client deliverables
-- [ ] Hand off gracefully (docs, runbook, training)
-- [ ] Get client feedback
-- [ ] Wrap up and transition
+- Complete current client deliverables
+- Hand off gracefully (docs, runbook, training)
+- Get client feedback
+- Wrap up and transition
 
 **90-Day Review with Manager (60-90 minutes):**
 
@@ -542,18 +545,18 @@ environment      by observing      with support    outcomes
 
 **Outcomes:**
 
-- [ ] Performance assessment (meeting expectations / above / below)
-- [ ] Development plan for next 90 days
-- [ ] Next assignment discussion
-- [ ] Compensation/level discussion (if applicable)
+- Performance assessment (meeting expectations / above / below)
+- Development plan for next 90 days
+- Next assignment discussion
+- Compensation/level discussion (if applicable)
 
 **Week 12 Success Check:**
 
-- [ ] Independently led client work from start to finish
-- [ ] Delivered value without constant supervision
-- [ ] Communicated effectively (clients, team, manager)
-- [ ] Escalated appropriately (not too much, not too little)
-- [ ] Ready for next engagement without special support
+- Independently led client work from start to finish
+- Delivered value without constant supervision
+- Communicated effectively (clients, team, manager)
+- Escalated appropriately (not too much, not too little)
+- Ready for next engagement without special support
 
 ---
 
@@ -891,9 +894,3 @@ Watch for these patterns. Intervene early.
 - "How are you doing?" → "Fine!" → repeat
 - Result: no real assessment until it's too late
 - Fix: Use success criteria checklist, be specific
-
----
-
-**Template Version:** 1.0
-**Last Updated:** 2026-01-18
-**Source:** [Hiring & Talent Strategy](../../01-hiring-talent-strategy.md), [Technical Enablement](../../03-technical-enablement.md), [FDE Startup Kit](../../00-fde-startup-kit.md)
