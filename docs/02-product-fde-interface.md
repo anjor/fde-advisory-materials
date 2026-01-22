@@ -39,6 +39,10 @@ Every hour an FDE spends fighting your codebase is:
 
 ## Ownership Boundaries
 
+<div align="center">
+  <img src="assets/images/ownership-boundaries.svg" alt="Ownership Boundaries: Venn diagram showing FDE Team owns client outcomes and deployment, Product Team owns core functionality and roadmap, and Shared Ownership includes early deployments and feature requests" width="850">
+</div>
+
 ### FDE Team Owns
 
 | Area | Scope | Examples |

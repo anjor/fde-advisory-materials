@@ -1,0 +1,52 @@
+<svg width="1000" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 28px; font-weight: bold; fill: #1B3B5F; }
+      .pillar-title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #FFFFFF; }
+      .pillar-text { font-family: Arial, sans-serif; font-size: 14px; fill: #1B3B5F; line-height: 1.4; }
+      .pillar-subtitle { font-family: Arial, sans-serif; font-size: 12px; fill: #666666; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="40" class="title" text-anchor="middle">FDE Advisory Materials: Three Critical Areas</text>
+
+  <!-- Pillar 1: Hiring & Talent Strategy -->
+  <rect x="50" y="80" width="280" height="100" rx="10" fill="#4DB8C4"/>
+  <text x="190" y="115" class="pillar-title" text-anchor="middle">1. Hiring & Talent Strategy</text>
+  <text x="190" y="145" class="pillar-title" text-anchor="middle" style="font-size: 16px;">🎯</text>
+
+  <rect x="50" y="190" width="280" height="180" rx="10" fill="#F5F7FA" stroke="#4DB8C4" stroke-width="2"/>
+  <text x="70" y="220" class="pillar-text">• Evaluate ownership mindset</text>
+  <text x="70" y="245" class="pillar-text">• Test learning velocity</text>
+  <text x="70" y="270" class="pillar-text">• Assess pain tolerance</text>
+  <text x="70" y="295" class="pillar-text">• Multi-track interview process</text>
+  <text x="70" y="320" class="pillar-text">• Business-facing vs Product-facing</text>
+  <text x="190" y="350" class="pillar-subtitle" text-anchor="middle">Who can thrive in ambiguity?</text>
+
+  <!-- Pillar 2: Product-FDE Interface -->
+  <rect x="360" y="80" width="280" height="100" rx="10" fill="#F39C6B"/>
+  <text x="500" y="115" class="pillar-title" text-anchor="middle">2. Product-FDE Interface</text>
+  <text x="500" y="145" class="pillar-title" text-anchor="middle" style="font-size: 16px;">🤝</text>
+
+  <rect x="360" y="190" width="280" height="180" rx="10" fill="#F5F7FA" stroke="#F39C6B" stroke-width="2"/>
+  <text x="380" y="220" class="pillar-text">• Clear ownership boundaries</text>
+  <text x="380" y="245" class="pillar-text">• FDE demands from Product</text>
+  <text x="380" y="270" class="pillar-text">• Escalation procedures</text>
+  <text x="380" y="295" class="pillar-text">• Shared early deployments</text>
+  <text x="380" y="320" class="pillar-text">• Regular feedback loops</text>
+  <text x="500" y="350" class="pillar-subtitle" text-anchor="middle">Prevent internal friction</text>
+
+  <!-- Pillar 3: Technical Enablement -->
+  <rect x="670" y="80" width="280" height="100" rx="10" fill="#A78EC3"/>
+  <text x="810" y="115" class="pillar-title" text-anchor="middle">3. Technical Enablement</text>
+  <text x="810" y="145" class="pillar-title" text-anchor="middle" style="font-size: 16px;">⚙️</text>
+
+  <rect x="670" y="190" width="280" height="180" rx="10" fill="#F5F7FA" stroke="#A78EC3" stroke-width="2"/>
+  <text x="690" y="220" class="pillar-text">• Dev environment &lt; 4 hours</text>
+  <text x="690" y="245" class="pillar-text">• Documentation standards</text>
+  <text x="690" y="270" class="pillar-text">• Repository structure</text>
+  <text x="690" y="295" class="pillar-text">• Learn by doing workflow</text>
+  <text x="690" y="320" class="pillar-text">• Three-tier maturity model</text>
+  <text x="810" y="350" class="pillar-subtitle" text-anchor="middle">Enable FDEs to work effectively</text>
+</svg>

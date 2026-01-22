@@ -1,0 +1,123 @@
+<svg width="1100" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1B3B5F; }
+      .track-label { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1B3B5F; }
+      .step-text { font-family: Arial, sans-serif; font-size: 12px; fill: #1B3B5F; text-anchor: middle; }
+      .timeline-text { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #666666; }
+      .icon { font-size: 18px; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1B3B5F" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="550" y="35" class="title" text-anchor="middle">Interview Process: Three Hiring Tracks</text>
+
+  <!-- Track Labels -->
+  <text x="20" y="120" class="track-label">Track 1:</text>
+  <text x="20" y="138" class="track-label" style="font-size: 14px;">Circle of Trust</text>
+
+  <text x="20" y="235" class="track-label">Track 2:</text>
+  <text x="20" y="253" class="track-label" style="font-size: 14px;">Internal Mobility</text>
+
+  <text x="20" y="370" class="track-label">Track 3:</text>
+  <text x="20" y="388" class="track-label" style="font-size: 14px;">External Sourcing</text>
+
+  <!-- Track 1: Circle of Trust (Green - Fastest) -->
+  <rect x="200" y="100" width="700" height="60" rx="10" fill="#E8F5E9" stroke="#4DB8C4" stroke-width="2"/>
+
+  <!-- Step 1 -->
+  <rect x="220" y="112" width="160" height="36" rx="5" fill="#4DB8C4"/>
+  <text x="300" y="127" class="step-text" fill="#FFFFFF">Learning &amp;</text>
+  <text x="300" y="140" class="step-text" fill="#FFFFFF">Reengineering</text>
+  <line x1="380" y1="130" x2="410" y2="130" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="410" y="112" width="120" height="36" rx="5" fill="#4DB8C4"/>
+  <text x="470" y="133" class="step-text" fill="#FFFFFF">Decomposition</text>
+  <line x1="530" y1="130" x2="560" y2="130" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect x="560" y="112" width="120" height="36" rx="5" fill="#4DB8C4"/>
+  <text x="620" y="127" class="step-text" fill="#FFFFFF">Hiring</text>
+  <text x="620" y="140" class="step-text" fill="#FFFFFF">Manager</text>
+
+  <!-- Timeline -->
+  <text x="850" y="133" class="timeline-text">2-3 weeks</text>
+
+  <!-- Track 2: Internal Mobility (Yellow - Medium) -->
+  <rect x="200" y="215" width="700" height="80" rx="10" fill="#FFF9E6" stroke="#F39C6B" stroke-width="2"/>
+
+  <!-- Step 1 -->
+  <rect x="220" y="232" width="120" height="36" rx="5" fill="#F39C6B"/>
+  <text x="280" y="247" class="step-text" fill="#FFFFFF">Manager</text>
+  <text x="280" y="260" class="step-text" fill="#FFFFFF">Endorsement</text>
+  <line x1="340" y1="250" x2="360" y2="250" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="360" y="232" width="100" height="36" rx="5" fill="#F39C6B"/>
+  <text x="410" y="247" class="step-text" fill="#FFFFFF">Technical</text>
+  <text x="410" y="260" class="step-text" fill="#FFFFFF">Screen</text>
+  <line x1="460" y1="250" x2="480" y2="250" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect x="480" y="227" width="140" height="36" rx="5" fill="#F39C6B"/>
+  <text x="550" y="242" class="step-text" fill="#FFFFFF">Learning &amp;</text>
+  <text x="550" y="255" class="step-text" fill="#FFFFFF">Reengineering</text>
+  <line x1="465" y1="265" x2="485" y2="265" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <rect x="485" y="257" width="100" height="36" rx="5" fill="#F39C6B"/>
+  <text x="535" y="278" class="step-text" fill="#FFFFFF">Decomposition</text>
+  <line x1="585" y1="275" x2="605" y2="275" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 5 -->
+  <rect x="605" y="257" width="100" height="36" rx="5" fill="#F39C6B"/>
+  <text x="655" y="272" class="step-text" fill="#FFFFFF">Hiring</text>
+  <text x="655" y="285" class="step-text" fill="#FFFFFF">Manager</text>
+
+  <!-- Timeline -->
+  <text x="850" y="260" class="timeline-text">3-4 weeks</text>
+
+  <!-- Track 3: External Sourcing (Purple - Full Process) -->
+  <rect x="200" y="350" width="700" height="100" rx="10" fill="#F3E5F5" stroke="#A78EC3" stroke-width="2"/>
+
+  <!-- Step 1 -->
+  <rect x="220" y="367" width="100" height="36" rx="5" fill="#A78EC3"/>
+  <text x="270" y="382" class="step-text" fill="#FFFFFF">Phone</text>
+  <text x="270" y="395" class="step-text" fill="#FFFFFF">Screen</text>
+  <line x1="320" y1="385" x2="340" y2="385" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="340" y="367" width="100" height="36" rx="5" fill="#A78EC3"/>
+  <text x="390" y="382" class="step-text" fill="#FFFFFF">Technical</text>
+  <text x="390" y="395" class="step-text" fill="#FFFFFF">Screen</text>
+  <line x1="440" y1="385" x2="460" y2="385" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect x="460" y="362" width="140" height="36" rx="5" fill="#A78EC3"/>
+  <text x="530" y="377" class="step-text" fill="#FFFFFF">Learning &amp;</text>
+  <text x="530" y="390" class="step-text" fill="#FFFFFF">Reengineering</text>
+  <line x1="445" y1="405" x2="465" y2="405" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <rect x="465" y="397" width="100" height="36" rx="5" fill="#A78EC3"/>
+  <text x="515" y="418" class="step-text" fill="#FFFFFF">Decomposition</text>
+  <line x1="565" y1="415" x2="585" y2="415" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 5 -->
+  <rect x="585" y="397" width="100" height="36" rx="5" fill="#A78EC3"/>
+  <text x="635" y="412" class="step-text" fill="#FFFFFF">Hiring</text>
+  <text x="635" y="425" class="step-text" fill="#FFFFFF">Manager</text>
+
+  <!-- Timeline -->
+  <text x="850" y="410" class="timeline-text">4-6 weeks</text>
+
+  <!-- Legend -->
+  <rect x="50" y="465" width="1000" height="25" rx="5" fill="#F5F7FA"/>
+  <text x="60" y="482" style="font-family: Arial; font-size: 12px; fill: #666666;">
+    💡 All tracks include Learning &amp; Reengineering (FDE-specific evaluation) and Decomposition (problem-solving approach)
+  </text>
+</svg>

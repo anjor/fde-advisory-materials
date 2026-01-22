@@ -1,0 +1,72 @@
+<svg width="1000" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .stage-name { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1B3B5F; }
+      .involvement-text { font-family: Arial, sans-serif; font-size: 14px; fill: #1B3B5F; }
+      .involvement-label { font-family: Arial, sans-serif; font-size: 12px; fill: #666666; }
+      .icon { font-size: 32px; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1B3B5F" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="25" style="font-family: Arial; font-size: 20px; font-weight: bold; fill: #1B3B5F;" text-anchor="middle">FDE Engagement Lifecycle</text>
+
+  <!-- Stage 1: Discovery -->
+  <circle cx="100" cy="80" r="25" fill="#E8F4F5" stroke="#4DB8C4" stroke-width="3"/>
+  <text x="100" y="70" class="icon" text-anchor="middle">🔍</text>
+  <text x="100" y="125" class="stage-name" text-anchor="middle">Discovery</text>
+  <rect x="60" y="145" width="80" height="40" rx="5" fill="#E8F4F5"/>
+  <text x="100" y="165" class="involvement-text" text-anchor="middle">FDE</text>
+  <text x="100" y="180" class="involvement-label" text-anchor="middle">light</text>
+
+  <!-- Arrow 1 -->
+  <line x1="125" y1="80" x2="225" y2="80" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 2: Demo -->
+  <circle cx="250" cy="80" r="25" fill="#F3E5F5" stroke="#A78EC3" stroke-width="3"/>
+  <text x="250" y="70" class="icon" text-anchor="middle">🎨</text>
+  <text x="250" y="125" class="stage-name" text-anchor="middle">Demo</text>
+  <rect x="210" y="145" width="80" height="60" rx="5" fill="#A78EC3"/>
+  <text x="250" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
+  <text x="250" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
+
+  <!-- Arrow 2 -->
+  <line x1="275" y1="80" x2="375" y2="80" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 3: Pilot -->
+  <circle cx="400" cy="80" r="25" fill="#F3E5F5" stroke="#A78EC3" stroke-width="3"/>
+  <text x="400" y="70" class="icon" text-anchor="middle">🧪</text>
+  <text x="400" y="125" class="stage-name" text-anchor="middle">Pilot</text>
+  <rect x="360" y="145" width="80" height="60" rx="5" fill="#A78EC3"/>
+  <text x="400" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
+  <text x="400" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
+
+  <!-- Arrow 3 -->
+  <line x1="425" y1="80" x2="525" y2="80" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 4: Production -->
+  <circle cx="550" cy="80" r="25" fill="#F3E5F5" stroke="#A78EC3" stroke-width="3"/>
+  <text x="550" y="70" class="icon" text-anchor="middle">🚀</text>
+  <text x="550" y="125" class="stage-name" text-anchor="middle">Production</text>
+  <rect x="510" y="145" width="80" height="60" rx="5" fill="#A78EC3"/>
+  <text x="550" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
+  <text x="550" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
+
+  <!-- Arrow 4 -->
+  <line x1="575" y1="80" x2="675" y2="80" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 5: Steady State -->
+  <circle cx="700" cy="80" r="25" fill="#E8F4F5" stroke="#4DB8C4" stroke-width="3"/>
+  <text x="700" y="70" class="icon" text-anchor="middle">⚙️</text>
+  <text x="700" y="125" class="stage-name" text-anchor="middle">Steady State</text>
+  <rect x="650" y="145" width="100" height="40" rx="5" fill="#E8F4F5"/>
+  <text x="700" y="165" class="involvement-text" text-anchor="middle">FDE or CS</text>
+  <text x="700" y="180" class="involvement-label" text-anchor="middle">light</text>
+
+  <!-- Legend -->
+  <text x="50" y="230" style="font-family: Arial; font-size: 12px; fill: #666666;">Light involvement: FDE shadows or supports</text>
+  <text x="450" y="230" style="font-family: Arial; font-size: 12px; fill: #666666;">Heavy involvement: FDE leads technical work</text>
+</svg>
