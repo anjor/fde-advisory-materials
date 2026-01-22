@@ -51,7 +51,7 @@ Organizations that use standard engineering interviews will hire technically com
 ## Hiring Channels
 
 <div align="center">
-  <img src="assets/images/interview-process-tracks.svg" alt="Interview Process Tracks: Three hiring channels showing Circle of Trust (fastest, 2-3 weeks), Internal Mobility (medium, 3-4 weeks), and External Sourcing (full process, 4-6 weeks)" width="1050">
+  <img src="../assets/images/interview-process-tracks.svg" alt="Interview Process Tracks: Three hiring channels showing Circle of Trust (fastest, 2-3 weeks), Internal Mobility (medium, 3-4 weeks), and External Sourcing (full process, 4-6 weeks)" width="1050">
 </div>
 
 ### Channel 1: Circle of Trust (Fastest)

@@ -13,7 +13,7 @@
 
   <!-- Pillar 1: Hiring & Talent Strategy -->
   <rect x="50" y="80" width="280" height="100" rx="10" fill="#4DB8C4"/>
-  <text x="190" y="115" class="pillar-title" text-anchor="middle">1. Hiring & Talent Strategy</text>
+  <text x="190" y="115" class="pillar-title" text-anchor="middle">1. Hiring &amp; Talent Strategy</text>
   <text x="190" y="145" class="pillar-title" text-anchor="middle" style="font-size: 16px;">🎯</text>
 
   <rect x="50" y="190" width="280" height="180" rx="10" fill="#F5F7FA" stroke="#4DB8C4" stroke-width="2"/>

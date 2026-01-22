@@ -32,7 +32,7 @@ FDEs specialize into two main archetypes, each solving different problems in the
 | Product-facing | Filling product gaps | Build the 15-20% the product doesn't cover | Upstream contributions, next FDE's starting point |
 
 <div align="center">
-  <img src="assets/images/fde-archetypes-comparison.svg" alt="FDE Archetypes Comparison: Business-facing FDE focuses on finding market fit and building client relationships, while Product-facing FDE focuses on filling product gaps and creating upstream contributions" width="850">
+  <img src="../assets/images/fde-archetypes-comparison.svg" alt="FDE Archetypes Comparison: Business-facing FDE focuses on finding market fit and building client relationships, while Product-facing FDE focuses on filling product gaps and creating upstream contributions" width="850">
 </div>
 
 ### Which Do You Need?
@@ -66,7 +66,7 @@ Your organization may already have people doing FDE work under different titles:
 ## FDE Engagement Lifecycle
 
 <div align="center">
-  <img src="assets/images/fde-engagement-lifecycle.svg" alt="FDE Engagement Lifecycle: Discovery (light FDE involvement) → Demo (heavy) → Pilot (heavy) → Production (heavy) → Steady State (light, FDE or CS)" width="950">
+  <img src="../assets/images/fde-engagement-lifecycle.svg" alt="FDE Engagement Lifecycle: Discovery (light FDE involvement) → Demo (heavy) → Pilot (heavy) → Production (heavy) → Steady State (light, FDE or CS)" width="950">
 </div>
 
 **Discovery:** Understand client problem. FDE may shadow or support Product team.
