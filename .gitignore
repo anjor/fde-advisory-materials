@@ -19,3 +19,6 @@ site/
 # OS
 .DS_Store
 Thumbs.db
+
+# Assistant
+.claude/
