@@ -4,7 +4,7 @@
       .stage-name { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1B3B5F; }
       .involvement-text { font-family: Arial, sans-serif; font-size: 14px; fill: #1B3B5F; }
       .involvement-label { font-family: Arial, sans-serif; font-size: 12px; fill: #666666; }
-      .icon { font-size: 32px; }
+      .icon { font-size: 11px; font-weight: bold; font-family: Arial, sans-serif; fill: #1B3B5F; }
     </style>
     <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
       <polygon points="0 0, 10 3, 0 6" fill="#1B3B5F" />
@@ -16,7 +16,7 @@
 
   <!-- Stage 1: Discovery -->
   <circle cx="100" cy="80" r="25" fill="#E8F4F5" stroke="#4DB8C4" stroke-width="3"/>
-  <text x="100" y="70" class="icon" text-anchor="middle">🔍</text>
+  <text x="100" y="72" class="icon" text-anchor="middle">DISC</text>
   <text x="100" y="125" class="stage-name" text-anchor="middle">Discovery</text>
   <rect x="60" y="145" width="80" height="40" rx="5" fill="#E8F4F5"/>
   <text x="100" y="165" class="involvement-text" text-anchor="middle">FDE</text>
@@ -27,9 +27,9 @@
 
   <!-- Stage 2: Demo -->
   <circle cx="250" cy="80" r="25" fill="#F3E5F5" stroke="#A78EC3" stroke-width="3"/>
-  <text x="250" y="70" class="icon" text-anchor="middle">🎨</text>
+  <text x="250" y="72" class="icon" text-anchor="middle">DEMO</text>
   <text x="250" y="125" class="stage-name" text-anchor="middle">Demo</text>
-  <rect x="210" y="145" width="80" height="60" rx="5" fill="#A78EC3"/>
+  <rect x="210" y="145" width="80" height="60" rx="5" fill="#7A63A8"/>
   <text x="250" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
   <text x="250" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
 
@@ -38,9 +38,9 @@
 
   <!-- Stage 3: Pilot -->
   <circle cx="400" cy="80" r="25" fill="#F3E5F5" stroke="#A78EC3" stroke-width="3"/>
-  <text x="400" y="70" class="icon" text-anchor="middle">🧪</text>
+  <text x="400" y="72" class="icon" text-anchor="middle">PILOT</text>
   <text x="400" y="125" class="stage-name" text-anchor="middle">Pilot</text>
-  <rect x="360" y="145" width="80" height="60" rx="5" fill="#A78EC3"/>
+  <rect x="360" y="145" width="80" height="60" rx="5" fill="#7A63A8"/>
   <text x="400" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
   <text x="400" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
 
@@ -49,9 +49,9 @@
 
   <!-- Stage 4: Production -->
   <circle cx="550" cy="80" r="25" fill="#F3E5F5" stroke="#A78EC3" stroke-width="3"/>
-  <text x="550" y="70" class="icon" text-anchor="middle">🚀</text>
+  <text x="550" y="72" class="icon" text-anchor="middle">PROD</text>
   <text x="550" y="125" class="stage-name" text-anchor="middle">Production</text>
-  <rect x="510" y="145" width="80" height="60" rx="5" fill="#A78EC3"/>
+  <rect x="510" y="145" width="80" height="60" rx="5" fill="#7A63A8"/>
   <text x="550" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
   <text x="550" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
 
@@ -60,7 +60,7 @@
 
   <!-- Stage 5: Steady State -->
   <circle cx="700" cy="80" r="25" fill="#E8F4F5" stroke="#4DB8C4" stroke-width="3"/>
-  <text x="700" y="70" class="icon" text-anchor="middle">⚙️</text>
+  <text x="700" y="72" class="icon" text-anchor="middle">OPS</text>
   <text x="700" y="125" class="stage-name" text-anchor="middle">Steady State</text>
   <rect x="650" y="145" width="100" height="40" rx="5" fill="#E8F4F5"/>
   <text x="700" y="165" class="involvement-text" text-anchor="middle">FDE or CS</text>

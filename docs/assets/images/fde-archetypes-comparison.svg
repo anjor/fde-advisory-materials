@@ -5,7 +5,7 @@
       .archetype-title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #FFFFFF; }
       .section-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1B3B5F; }
       .content-text { font-family: Arial, sans-serif; font-size: 13px; fill: #1B3B5F; }
-      .icon { font-size: 40px; }
+      .icon { font-size: 11px; font-weight: bold; font-family: Arial, sans-serif; fill: #1B3B5F; }
       .bridge-text { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1B3B5F; }
     </style>
   </defs>
@@ -14,9 +14,9 @@
   <text x="450" y="35" class="title" text-anchor="middle">FDE Archetypes: Two Specializations</text>
 
   <!-- Left Column: Business-facing FDE -->
-  <rect x="50" y="70" width="350" height="80" rx="10" fill="#F39C6B"/>
+  <rect x="50" y="70" width="350" height="80" rx="10" fill="#C96B2C"/>
   <text x="225" y="100" class="archetype-title" text-anchor="middle">Business-facing FDE</text>
-  <text x="225" y="130" class="icon" text-anchor="middle">🤝</text>
+  <text x="225" y="130" class="icon" text-anchor="middle">CLIENT</text>
 
   <!-- Business-facing content -->
   <rect x="50" y="160" width="350" height="240" rx="10" fill="#FFF5F0" stroke="#F39C6B" stroke-width="2"/>
@@ -42,9 +42,9 @@
   <text x="450" y="331" class="bridge-text" text-anchor="middle">both</text>
 
   <!-- Right Column: Product-facing FDE -->
-  <rect x="500" y="70" width="350" height="80" rx="10" fill="#A78EC3"/>
+  <rect x="500" y="70" width="350" height="80" rx="10" fill="#7A63A8"/>
   <text x="675" y="100" class="archetype-title" text-anchor="middle">Product-facing FDE</text>
-  <text x="675" y="130" class="icon" text-anchor="middle">💻</text>
+  <text x="675" y="130" class="icon" text-anchor="middle">PRODUCT</text>
 
   <!-- Product-facing content -->
   <rect x="500" y="160" width="350" height="240" rx="10" fill="#F8F5FC" stroke="#A78EC3" stroke-width="2"/>

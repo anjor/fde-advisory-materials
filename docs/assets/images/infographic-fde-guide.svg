@@ -12,9 +12,9 @@
   <text x="500" y="40" class="title" text-anchor="middle">FDE Advisory Materials: Three Critical Areas</text>
 
   <!-- Pillar 1: Hiring & Talent Strategy -->
-  <rect x="50" y="80" width="280" height="100" rx="10" fill="#4DB8C4"/>
+  <rect x="50" y="80" width="280" height="100" rx="10" fill="#1E7F8C"/>
   <text x="190" y="115" class="pillar-title" text-anchor="middle">1. Hiring &amp; Talent Strategy</text>
-  <text x="190" y="145" class="pillar-title" text-anchor="middle" style="font-size: 16px;">🎯</text>
+  <text x="190" y="145" class="pillar-title" text-anchor="middle" style="font-size: 12px;">HIRING</text>
 
   <rect x="50" y="190" width="280" height="180" rx="10" fill="#F5F7FA" stroke="#4DB8C4" stroke-width="2"/>
   <text x="70" y="220" class="pillar-text">• Evaluate ownership mindset</text>
@@ -25,9 +25,9 @@
   <text x="190" y="350" class="pillar-subtitle" text-anchor="middle">Who can thrive in ambiguity?</text>
 
   <!-- Pillar 2: Product-FDE Interface -->
-  <rect x="360" y="80" width="280" height="100" rx="10" fill="#F39C6B"/>
+  <rect x="360" y="80" width="280" height="100" rx="10" fill="#C96B2C"/>
   <text x="500" y="115" class="pillar-title" text-anchor="middle">2. Product-FDE Interface</text>
-  <text x="500" y="145" class="pillar-title" text-anchor="middle" style="font-size: 16px;">🤝</text>
+  <text x="500" y="145" class="pillar-title" text-anchor="middle" style="font-size: 12px;">INTERFACE</text>
 
   <rect x="360" y="190" width="280" height="180" rx="10" fill="#F5F7FA" stroke="#F39C6B" stroke-width="2"/>
   <text x="380" y="220" class="pillar-text">• Clear ownership boundaries</text>
@@ -38,9 +38,9 @@
   <text x="500" y="350" class="pillar-subtitle" text-anchor="middle">Prevent internal friction</text>
 
   <!-- Pillar 3: Technical Enablement -->
-  <rect x="670" y="80" width="280" height="100" rx="10" fill="#A78EC3"/>
+  <rect x="670" y="80" width="280" height="100" rx="10" fill="#7A63A8"/>
   <text x="810" y="115" class="pillar-title" text-anchor="middle">3. Technical Enablement</text>
-  <text x="810" y="145" class="pillar-title" text-anchor="middle" style="font-size: 16px;">⚙️</text>
+  <text x="810" y="145" class="pillar-title" text-anchor="middle" style="font-size: 12px;">ENABLEMENT</text>
 
   <rect x="670" y="190" width="280" height="180" rx="10" fill="#F5F7FA" stroke="#A78EC3" stroke-width="2"/>
   <text x="690" y="220" class="pillar-text">• Dev environment &lt; 4 hours</text>

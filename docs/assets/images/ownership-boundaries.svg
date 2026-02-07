@@ -3,7 +3,7 @@
     <style>
       .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1B3B5F; }
       .circle-title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #1B3B5F; }
-      .item-text { font-family: Arial, sans-serif; font-size: 13px; fill: #1B3B5F; }
+      .item-text { font-family: Arial, sans-serif; font-size: 14px; fill: #1B3B5F; }
       .overlap-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1B3B5F; }
     </style>
     <linearGradient id="fdeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -31,7 +31,7 @@
   <ellipse cx="600" cy="300" rx="220" ry="180" fill="url(#productGradient)" stroke="#A78EC3" stroke-width="3"/>
 
   <!-- Overlap Area -->
-  <path d="M 450 120 Q 450 200 450 300 Q 450 400 450 480" fill="url(#overlapGradient)" opacity="0.8"/>
+  <ellipse cx="450" cy="300" rx="105" ry="180" fill="url(#overlapGradient)" opacity="0.65"/>
 
   <!-- FDE Team Content -->
   <text x="220" y="180" class="circle-title">FDE Team Owns</text>
@@ -54,20 +54,20 @@
   <text x="450" y="240" class="overlap-title" text-anchor="middle">Ownership</text>
 
   <text x="450" y="270" class="item-text" text-anchor="middle">Early deployments</text>
-  <text x="450" y="293" class="item-text" text-anchor="middle" style="font-size: 11px;">(Product leads first 1-2)</text>
+  <text x="450" y="293" class="item-text" text-anchor="middle" style="font-size: 12px;">(Product leads first 1-2)</text>
 
   <text x="450" y="320" class="item-text" text-anchor="middle">Demo environments</text>
-  <text x="450" y="343" class="item-text" text-anchor="middle" style="font-size: 11px;">(Product baseline, FDE extends)</text>
+  <text x="450" y="343" class="item-text" text-anchor="middle" style="font-size: 12px;">(Product baseline, FDE extends)</text>
 
   <text x="450" y="370" class="item-text" text-anchor="middle">Feature requests</text>
-  <text x="450" y="393" class="item-text" text-anchor="middle" style="font-size: 11px;">(FDE identifies, Product builds)</text>
+  <text x="450" y="393" class="item-text" text-anchor="middle" style="font-size: 12px;">(FDE identifies, Product builds)</text>
 
   <text x="450" y="420" class="item-text" text-anchor="middle">Architecture decisions</text>
-  <text x="450" y="443" class="item-text" text-anchor="middle" style="font-size: 11px;">(Product decides, FDE contributes)</text>
+  <text x="450" y="443" class="item-text" text-anchor="middle" style="font-size: 12px;">(Product decides, FDE contributes)</text>
 
   <!-- Legend -->
   <rect x="50" y="500" width="800" height="35" rx="5" fill="#F5F7FA"/>
   <text x="60" y="520" style="font-family: Arial; font-size: 12px; fill: #666666;">
-    💡 Clear boundaries prevent friction. When in doubt: FDEs own client outcomes, Product owns platform.
+    Note: Clear boundaries prevent friction. When in doubt: FDEs own client outcomes, Product owns platform.
   </text>
 </svg>
