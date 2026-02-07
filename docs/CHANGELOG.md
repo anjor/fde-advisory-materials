@@ -4,7 +4,7 @@
 
 ---
 
-## [MVP-1.3.2] - 2026-02-07
+## [1.3.2] - 2026-02-07
 
 ### Changed
 - Updated SVG figures for layout and readability
@@ -15,7 +15,7 @@
 
 ---
 
-## [MVP-1.3.1] - 2026-01-16
+## [1.3.1] - 2026-01-16
 
 ### Added
 - Automated release preparation workflow via GitHub Actions
@@ -31,7 +31,7 @@
 
 ---
 
-## [MVP-1.3.0] - 2026-01-16
+## [1.3.0] - 2026-01-16
 
 ### Added
 - FDE Metrics & Performance section in startup kit (00-fde-startup-kit.md)
@@ -50,7 +50,7 @@
 
 ---
 
-## [MVP-1.2.0] - 2026-01-16
+## [1.2.0] - 2026-01-16
 
 ### Added
 - FDE Archetypes section in startup kit (00-fde-startup-kit.md)
@@ -65,7 +65,7 @@
 
 ---
 
-## [MVP-1.1.0] - 2026-01-15
+## [1.1.0] - 2026-01-15
 
 ### Added
 - Further Reading sections to all three practice area documents (01, 02, 03) linking to blog posts
@@ -80,7 +80,7 @@
 
 ---
 
-## [MVP-1.0.0] - 2026-01-06
+## [1.0.0] - 2026-01-06
 
 ### Major Transformation
 Restructured from comprehensive 17-practice-area framework to focused MVP with 3 priority areas.

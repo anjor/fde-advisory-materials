@@ -110,7 +110,7 @@ Everything else is deferred until there's actual demand based on real deployment
 
 ## Version Control
 
-- MVP version is in README.md (currently MVP-1.0.0)
+- Version is in README.md (currently 1.0.0)
 - Each core document file has version/date at bottom
 - Update CHANGELOG.md for all significant changes
 - Use semantic versioning:
@@ -131,7 +131,7 @@ To create a new release:
 2. **Commit changes:**
    ```bash
    git add docs/CHANGELOG.md README.md
-   git commit -m "docs: release MVP-X.Y.Z"
+   git commit -m "docs: release X.Y.Z"
    ```
 
 3. **Create and push version tag:**
@@ -147,7 +147,7 @@ To create a new release:
 
 5. **Verify release at:** https://github.com/anjor/fde-advisory-materials/releases
 
-**Note:** The release workflow (`.github/workflows/release.yml`) extracts release notes from `docs/CHANGELOG.md` based on the version tag. Ensure the CHANGELOG follows the format `## [MVP-X.Y.Z] - YYYY-MM-DD` for proper extraction.
+**Note:** The release workflow (`.github/workflows/release.yml`) extracts release notes from `docs/CHANGELOG.md` based on the version tag. Ensure the CHANGELOG follows the format `## [X.Y.Z] - YYYY-MM-DD` for proper extraction.
 
 ## Important Notes
 
