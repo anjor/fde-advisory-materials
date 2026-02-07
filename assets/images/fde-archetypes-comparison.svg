@@ -1,0 +1,67 @@
+<svg width="900" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1B3B5F; }
+      .archetype-title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #FFFFFF; }
+      .section-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1B3B5F; }
+      .content-text { font-family: Arial, sans-serif; font-size: 13px; fill: #1B3B5F; }
+      .icon { font-size: 11px; font-weight: bold; font-family: Arial, sans-serif; fill: #1B3B5F; }
+      .bridge-text { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1B3B5F; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="450" y="35" class="title" text-anchor="middle">FDE Archetypes: Two Specializations</text>
+
+  <!-- Left Column: Business-facing FDE -->
+  <rect x="50" y="70" width="350" height="80" rx="10" fill="#C96B2C"/>
+  <text x="225" y="100" class="archetype-title" text-anchor="middle">Business-facing FDE</text>
+  <text x="225" y="130" class="icon" text-anchor="middle">CLIENT</text>
+
+  <!-- Business-facing content -->
+  <rect x="50" y="160" width="350" height="240" rx="10" fill="#FFF5F0" stroke="#F39C6B" stroke-width="2"/>
+
+  <text x="70" y="190" class="section-label">Focus:</text>
+  <text x="70" y="210" class="content-text">Finding market fit</text>
+
+  <text x="70" y="240" class="section-label">Day-to-Day:</text>
+  <text x="70" y="260" class="content-text">• Embed with clients</text>
+  <text x="70" y="280" class="content-text">• Identify pain points</text>
+  <text x="70" y="300" class="content-text">• Land &amp; expand strategy</text>
+
+  <text x="70" y="330" class="section-label">Builds Toward:</text>
+  <text x="70" y="350" class="content-text">• Client relationships</text>
+  <text x="70" y="370" class="content-text">• New use cases</text>
+  <text x="70" y="390" class="content-text">• Revenue growth</text>
+
+  <!-- Middle: Bridge -->
+  <circle cx="450" cy="280" r="40" fill="#E8F4F5" stroke="#4DB8C4" stroke-width="3"/>
+  <text x="450" y="230" style="font-size: 34px; font-weight: bold;" text-anchor="middle">⟷</text>
+  <text x="450" y="276" class="bridge-text" text-anchor="middle">Teams</text>
+  <text x="450" y="294" class="bridge-text" text-anchor="middle">need</text>
+  <text x="450" y="312" class="bridge-text" text-anchor="middle">both</text>
+
+  <!-- Right Column: Product-facing FDE -->
+  <rect x="500" y="70" width="350" height="80" rx="10" fill="#7A63A8"/>
+  <text x="675" y="100" class="archetype-title" text-anchor="middle">Product-facing FDE</text>
+  <text x="675" y="130" class="icon" text-anchor="middle">PRODUCT</text>
+
+  <!-- Product-facing content -->
+  <rect x="500" y="160" width="350" height="240" rx="10" fill="#F8F5FC" stroke="#A78EC3" stroke-width="2"/>
+
+  <text x="520" y="190" class="section-label">Focus:</text>
+  <text x="520" y="210" class="content-text">Filling product gaps</text>
+
+  <text x="520" y="240" class="section-label">Day-to-Day:</text>
+  <text x="520" y="260" class="content-text">• Build the 15-20% gap</text>
+  <text x="520" y="280" class="content-text">• Create reusable patterns</text>
+  <text x="520" y="300" class="content-text">• Document as you go</text>
+
+  <text x="520" y="330" class="section-label">Builds Toward:</text>
+  <text x="520" y="350" class="content-text">• Upstream contributions</text>
+  <text x="520" y="370" class="content-text">• Next FDE's starting point</text>
+  <text x="520" y="390" class="content-text">• Platform maturity</text>
+
+  <!-- Bottom note -->
+  <text x="450" y="435" style="font-family: Arial; font-size: 12px; fill: #666666; font-style: italic;" text-anchor="middle">Individual FDEs specialize, but effective teams need both archetypes</text>
+</svg>
