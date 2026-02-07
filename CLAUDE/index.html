@@ -1230,7 +1230,7 @@
 3. Check that all referenced files still exist</p>
 <h2 id="version-control">Version Control</h2>
 <ul>
-<li>MVP version is in README.md (currently MVP-1.0.0)</li>
+<li>Version is in README.md (currently 1.0.0)</li>
 <li>Each core document file has version/date at bottom</li>
 <li>Update CHANGELOG.md for all significant changes</li>
 <li>Use semantic versioning:</li>
@@ -1251,7 +1251,7 @@
 <li>
 <p><strong>Commit changes:</strong>
    <div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>docs/CHANGELOG.md<span class="w"> </span>README.md
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;docs: release MVP-X.Y.Z&quot;</span>
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;docs: release X.Y.Z&quot;</span>
 </code></pre></div></p>
 </li>
 <li>
@@ -1272,7 +1272,7 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
 <p><strong>Verify release at:</strong> https://github.com/anjor/fde-advisory-materials/releases</p>
 </li>
 </ol>
-<p><strong>Note:</strong> The release workflow (<code>.github/workflows/release.yml</code>) extracts release notes from <code>docs/CHANGELOG.md</code> based on the version tag. Ensure the CHANGELOG follows the format <code>## [MVP-X.Y.Z] - YYYY-MM-DD</code> for proper extraction.</p>
+<p><strong>Note:</strong> The release workflow (<code>.github/workflows/release.yml</code>) extracts release notes from <code>docs/CHANGELOG.md</code> based on the version tag. Ensure the CHANGELOG follows the format <code>## [X.Y.Z] - YYYY-MM-DD</code> for proper extraction.</p>
 <h2 id="important-notes">Important Notes</h2>
 <ul>
 <li>This is an <strong>MVP-only</strong> repository - scope is intentionally limited to 3 areas</li>
