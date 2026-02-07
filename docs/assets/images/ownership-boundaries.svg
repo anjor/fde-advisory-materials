@@ -31,7 +31,7 @@
   <ellipse cx="600" cy="300" rx="220" ry="180" fill="url(#productGradient)" stroke="#A78EC3" stroke-width="3"/>
 
   <!-- Overlap Area -->
-  <ellipse cx="450" cy="300" rx="105" ry="180" fill="url(#overlapGradient)" opacity="0.65"/>
+  <ellipse cx="450" cy="300" rx="140" ry="180" fill="url(#overlapGradient)" opacity="0.65"/>
 
   <!-- FDE Team Content -->
   <text x="220" y="180" class="circle-title">FDE Team Owns</text>

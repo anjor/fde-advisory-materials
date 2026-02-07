@@ -36,10 +36,10 @@
 
   <!-- Middle: Bridge -->
   <circle cx="450" cy="280" r="40" fill="#E8F4F5" stroke="#4DB8C4" stroke-width="3"/>
-  <text x="450" y="270" style="font-size: 30px;" text-anchor="middle">⟷</text>
-  <text x="450" y="295" class="bridge-text" text-anchor="middle">Teams</text>
-  <text x="450" y="313" class="bridge-text" text-anchor="middle">need</text>
-  <text x="450" y="331" class="bridge-text" text-anchor="middle">both</text>
+  <text x="450" y="230" style="font-size: 34px; font-weight: bold;" text-anchor="middle">⟷</text>
+  <text x="450" y="276" class="bridge-text" text-anchor="middle">Teams</text>
+  <text x="450" y="294" class="bridge-text" text-anchor="middle">need</text>
+  <text x="450" y="312" class="bridge-text" text-anchor="middle">both</text>
 
   <!-- Right Column: Product-facing FDE -->
   <rect x="500" y="70" width="350" height="80" rx="10" fill="#7A63A8"/>

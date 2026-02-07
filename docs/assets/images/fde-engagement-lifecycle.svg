@@ -4,6 +4,7 @@
       .stage-name { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1B3B5F; }
       .involvement-text { font-family: Arial, sans-serif; font-size: 14px; fill: #1B3B5F; }
       .involvement-label { font-family: Arial, sans-serif; font-size: 12px; fill: #666666; }
+      .involvement-label-heavy { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #FFFFFF; }
       .icon { font-size: 11px; font-weight: bold; font-family: Arial, sans-serif; fill: #1B3B5F; }
     </style>
     <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
@@ -31,7 +32,7 @@
   <text x="250" y="125" class="stage-name" text-anchor="middle">Demo</text>
   <rect x="210" y="145" width="80" height="60" rx="5" fill="#7A63A8"/>
   <text x="250" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
-  <text x="250" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
+  <text x="250" y="195" class="involvement-label-heavy" text-anchor="middle">heavy</text>
 
   <!-- Arrow 2 -->
   <line x1="275" y1="80" x2="375" y2="80" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrowhead)"/>
@@ -42,7 +43,7 @@
   <text x="400" y="125" class="stage-name" text-anchor="middle">Pilot</text>
   <rect x="360" y="145" width="80" height="60" rx="5" fill="#7A63A8"/>
   <text x="400" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
-  <text x="400" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
+  <text x="400" y="195" class="involvement-label-heavy" text-anchor="middle">heavy</text>
 
   <!-- Arrow 3 -->
   <line x1="425" y1="80" x2="525" y2="80" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrowhead)"/>
@@ -53,7 +54,7 @@
   <text x="550" y="125" class="stage-name" text-anchor="middle">Production</text>
   <rect x="510" y="145" width="80" height="60" rx="5" fill="#7A63A8"/>
   <text x="550" y="170" class="involvement-text" text-anchor="middle" fill="#FFFFFF">FDE</text>
-  <text x="550" y="195" class="involvement-label" text-anchor="middle" fill="#FFFFFF">heavy</text>
+  <text x="550" y="195" class="involvement-label-heavy" text-anchor="middle">heavy</text>
 
   <!-- Arrow 4 -->
   <line x1="575" y1="80" x2="675" y2="80" stroke="#1B3B5F" stroke-width="2" marker-end="url(#arrowhead)"/>
