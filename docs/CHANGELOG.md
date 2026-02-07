@@ -4,6 +4,17 @@
 
 ---
 
+## [MVP-1.3.2] - 2026-02-07
+
+### Changed
+- Updated SVG figures for layout and readability
+  - Archetypes bridge text repositioned
+  - Engagement lifecycle label contrast improved
+  - Interview process tracks grouped with brace + HM alignment
+  - Ownership boundaries overlap widened
+
+---
+
 ## [MVP-1.3.1] - 2026-01-16
 
 ### Added
