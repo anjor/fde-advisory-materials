@@ -4,6 +4,12 @@
 
 These materials come from 7+ years of running FDE teams at Palantir, 1000+ technical interviews, and hands-on advisory work with companies building FDE capabilities from scratch.
 
+<div align="center">
+  <img src="assets/images/infographic-fde-guide.svg" alt="FDE Advisory Materials: Three Critical Areas - Hiring & Talent Strategy, Product-FDE Interface, and Technical Enablement" width="900">
+</div>
+
+**MVP Scope**: This repository focuses on the 3 critical areas that solve immediate problems:
+
 | Challenge | Solution |
 |-----------|----------|
 | **Just starting?** | [FDE Startup Kit](00-fde-startup-kit.md) — Get the essentials in one document |
