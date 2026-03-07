@@ -240,6 +240,7 @@ If your branch is >2 weeks old, something is wrong. Merge smaller pieces or get 
 | Hiring process | [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md) |
 | Product team expectations | [02-product-fde-interface.md](02-product-fde-interface.md) |
 | Technical standards | [03-technical-enablement.md](03-technical-enablement.md) |
+| Operating models | [04-fde-operating-models.md](04-fde-operating-models.md) |
 | Resources | [resources/](resources/index.md) |
 | Escalation help | Your FDE lead |
 | Something not covered | Ask, then document the answer |
@@ -266,4 +267,4 @@ External perspectives on Forward Deployed Engineering from practitioners and tho
 
 ---
 
-*Version 1.3.2 | Last Updated: February 7, 2026**
+*Version 1.4.0 | Last Updated: March 7, 2026*

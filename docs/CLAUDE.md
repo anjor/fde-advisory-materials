@@ -4,9 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a documentation repository containing MVP advisory materials for Forward Deployed Engineering (FDE) transformation. The repository focuses on 3 critical practice areas: Hiring & Talent Strategy, Product-FDE Interface, and Technical Enablement.
-
-**Scope**: This is an MVP, not a comprehensive framework. Content covers immediate needs for organizations starting FDE programs.
+This is a documentation repository containing advisory materials for Forward Deployed Engineering (FDE) transformation. The repository covers 4 practice areas: Hiring & Talent Strategy, Product-FDE Interface, Technical Enablement, and FDE Operating Models.
 
 ## Repository Structure
 
@@ -18,6 +16,7 @@ This is a MkDocs-based documentation site. All content files are in the `docs/` 
 - `01-hiring-talent-strategy.md` - Comprehensive hiring guidance
 - `02-product-fde-interface.md` - FDE-Product team interface patterns
 - `03-technical-enablement.md` - Technical standards and enablement
+- `04-fde-operating-models.md` - FDE operating models and day-to-day operations
 - `mvp-priorities.md` - MVP scope and rationale
 - `CHANGELOG.md` - Version history
 - `CLAUDE.md` - This file, guidance for AI assistants
@@ -29,6 +28,8 @@ This is a MkDocs-based documentation site. All content files are in the `docs/` 
   - onboarding-checklist.md
 - `resources/product/` - Product-FDE interface template (1 file)
   - interface-agreement-template.md
+- `resources/operations/` - Operations templates (1 file)
+  - operating-model-canvas.md
 
 ### Site Configuration
 - `/mkdocs.yml` - MkDocs configuration (navigation, theme, plugins)
@@ -46,18 +47,17 @@ FDEs are technical, client-facing engineers who solve customer problems by build
 
 ### MVP Philosophy
 
-This repository intentionally limits scope to 3 areas:
-1. **Hiring & Talent Strategy** - Immediate need to hire initial FDE cohort
-2. **Product-FDE Interface** - Single biggest source of friction
-3. **Technical Enablement** - FDEs can't work without this
-
-Everything else is deferred until there's actual demand based on real deployments.
+The repository covers 4 practice areas:
+1. **Hiring & Talent Strategy** - How to hire and evaluate FDEs
+2. **Product-FDE Interface** - Managing FDE-Product team relationships
+3. **Technical Enablement** - Minimum standards for FDE-ready products
+4. **FDE Operating Models** - How to run the day-to-day of an FDE function
 
 ## Working with This Repository
 
 ### Document Editing Guidelines
 
-**For Core Documents (00-, 01-, 02-, 03-):**
+**For Core Documents (00-, 01-, 02-, 03-, 04-):**
 
 1. **Maintain consistent structure** - Each document follows this pattern:
    - Title with TL;DR
@@ -78,7 +78,7 @@ Everything else is deferred until there's actual demand based on real deployment
 
 **For Resources:**
 
-- Resources go in `resources/{theme}/` folders (people/ or product/)
+- Resources go in `resources/{theme}/` folders (people/, product/, or operations/)
 - Use naming convention: `{purpose}-{type}.{extension}`
 - Include "Purpose" and "When to Use" sections
 
@@ -92,13 +92,13 @@ Everything else is deferred until there's actual demand based on real deployment
 ### Common Tasks
 
 **Expanding an existing priority area:**
-1. Find the practice area file (01-, 02-, or 03-)
+1. Find the practice area file (01-, 02-, 03-, or 04-)
 2. Locate sections that could be expanded
 3. Add content following the structure guidelines
 4. Update version/date at bottom of file
 
 **Adding a new template:**
-1. Determine which theme folder it belongs in (resources/people/ or resources/product/)
+1. Determine which theme folder it belongs in (resources/people/, resources/product/, or resources/operations/)
 2. Create file with naming convention: `{purpose}-{type}.{extension}`
 3. Include Purpose, When to Use, and Template Structure sections
 4. Reference from appropriate practice area documents
@@ -151,8 +151,8 @@ To create a new release:
 
 ## Important Notes
 
-- This is an **MVP-only** repository - scope is intentionally limited to 3 areas
-- Do not reference deleted content (framework.md, thematic folders, deferred practice areas)
+- This repository covers 4 practice areas
+- Do not reference deleted content (framework.md, old thematic folders)
 - All documentation files are in the `docs/` directory - all internal links should be relative to this directory
 - The startup kit (00-) is the primary entry point - keep it up to date
 - Resources should be ready-to-use, not aspirational placeholders

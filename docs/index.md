@@ -4,11 +4,13 @@
 
 These materials come from 7+ years of running FDE teams at Palantir, 1000+ technical interviews, and hands-on advisory work with companies building FDE capabilities from scratch.
 
+> These materials are published by [Platypus Technologies](https://platypustech.xyz), where we help companies build and run Forward Deployed Engineering functions — from hiring the team to embedding as a fractional technical leader. The materials below are free and open source. If you want hands-on help, [get in touch](mailto:work@platypustech.xyz).
+
 <div align="center">
   <img src="assets/images/infographic-fde-guide.svg" alt="FDE Advisory Materials: Three Critical Areas - Hiring & Talent Strategy, Product-FDE Interface, and Technical Enablement" width="900">
 </div>
 
-**MVP Scope**: This repository focuses on the 3 critical areas that solve immediate problems:
+This repository covers the critical areas that solve immediate problems when building FDE teams:
 
 | Challenge | Solution |
 |-----------|----------|
@@ -16,6 +18,7 @@ These materials come from 7+ years of running FDE teams at Palantir, 1000+ techn
 | **Hiring FDEs?** | [Hiring Strategy](01-hiring-talent-strategy.md) — Interview process, evaluation criteria, scorecards |
 | **FDE-Product friction?** | [Product Interface](02-product-fde-interface.md) — Clear ownership boundaries and escalation paths |
 | **Environment issues?** | [Technical Enablement](03-technical-enablement.md) — Technical standards for FDE-ready products |
+| **Running an FDE team?** | [FDE Operating Models](04-fde-operating-models.md) — Team structure, capacity planning, feedback loops |
 
 ---
 
@@ -52,6 +55,7 @@ Forward Deployed Engineers (FDEs) are technical, client-facing engineers who sol
 - **[01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)** - How to hire FDEs (interview process, evaluation, channels)
 - **[02-product-fde-interface.md](02-product-fde-interface.md)** - Managing FDE-Product team relationships and expectations
 - **[03-technical-enablement.md](03-technical-enablement.md)** - Minimum standards for FDE-ready products
+- **[04-fde-operating-models.md](04-fde-operating-models.md)** - How to run the day-to-day of an FDE function
 
 ### Resources
 
@@ -67,6 +71,7 @@ Ready-to-use [resources](resources/index.md) for building your FDE program:
 - **"We need to hire our initial FDE team"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
 - **"FDEs and Product teams are constantly in conflict"** → [02-product-fde-interface.md](02-product-fde-interface.md)
 - **"FDEs spend days just trying to set up environments"** → [03-technical-enablement.md](03-technical-enablement.md)
+- **"Our FDE team is running but we're not sure if the model is working"** → [04-fde-operating-models.md](04-fde-operating-models.md)
 - **"I need a quick overview"** → [00-fde-startup-kit.md](00-fde-startup-kit.md)
 
 ---
@@ -86,9 +91,10 @@ Currently runs [Platypus Technologies](https://platypustech.xyz), helping compan
 
 **Recent FDE Advisory Work:**
 
+- [Comand AI](https://comand.ai/) — Designed hiring process for FDE-style engineers ([case study](https://anjor.xyz/writing/2024/09/28/comand-ai-a-hiring-case-study/))
+- [Northslope Technologies](https://www.northslope.tech/) — Built bespoke FDE hiring framework ([case study](https://anjor.xyz/writing/2024/11/20/case-study-building-a-hiring-process-for-northslope/))
 - [Prodigal Tech](https://www.prodigaltech.com/) — Building FDE organization from ground up
-- [Fractal Analytics](https://fractal.ai/) — FDE organizational design for enterprise AI
-- [Object Edge](https://www.objectedge.com/) — Palantir services practice with FDE hiring and strategy
+- Plus confidential engagements as fractional technical leader at early-stage companies
 
 ---
 
@@ -126,7 +132,7 @@ Subscribe to updates and new versions:
 - **RSS Feed**: Subscribe to [releases feed](https://github.com/anjor/fde-advisory-materials/releases.atom)
 - **Check manually**: View [CHANGELOG.md](CHANGELOG.md) for version history
 
-Current version: **1.3.2** (updated 2026-02-07)
+Current version: **1.4.0** (updated 2026-03-07)
 
 ---
 
