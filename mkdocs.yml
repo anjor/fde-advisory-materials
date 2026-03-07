@@ -64,6 +64,7 @@ nav:
       - Hiring & Talent Strategy: 01-hiring-talent-strategy.md
       - Product-FDE Interface: 02-product-fde-interface.md
       - Technical Enablement: 03-technical-enablement.md
+      - FDE Operating Models: 04-fde-operating-models.md
   - Resources:
       - resources/index.md
       - People:
@@ -73,6 +74,8 @@ nav:
           - Onboarding Checklist: resources/people/onboarding-checklist.md
       - Product:
           - Interface Agreement: resources/product/interface-agreement-template.md
+      - Operations:
+          - Operating Model Canvas: resources/operations/operating-model-canvas.md
 
 extra:
   social:

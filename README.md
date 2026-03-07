@@ -11,6 +11,7 @@ This repository contains practical guidance for organizations building Forward D
 1. **Hiring & Talent Strategy** - How to hire and evaluate FDEs
 2. **Product-FDE Interface** - Managing FDE-Product team relationships
 3. **Technical Enablement** - Minimum standards for FDE-ready products
+4. **FDE Operating Models** - How to run the day-to-day of an FDE function
 
 ## Development
 
@@ -63,7 +64,7 @@ The site automatically deploys to GitHub Pages when changes are pushed to the `m
 
 ## Version
 
-**Current Version**: 1.3.2
-**Last Updated**: February 7, 2026
+**Current Version**: 1.4.0
+**Last Updated**: March 7, 2026
 
 See [docs/CHANGELOG.md](docs/CHANGELOG.md) for version history.

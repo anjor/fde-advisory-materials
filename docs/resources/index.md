@@ -60,6 +60,22 @@ Framework for establishing clear expectations and working agreements between FDE
 
 ---
 
+## Operations Resources
+
+Templates for running your FDE function:
+
+### [Operating Model Canvas](operations/operating-model-canvas.md)
+
+One-page template for defining how your FDE function operates — team structure, deployment model, capacity planning, feedback loops, and success metrics.
+
+**When to use:**
+
+- Standing up a new FDE function
+- Reviewing an existing operating model that's not working
+- Aligning leadership on how the FDE org should run
+
+---
+
 ## Using These Resources
 
 All resources are designed to be:
@@ -81,3 +97,4 @@ Each resource includes:
 - [Hiring & Talent Strategy](../01-hiring-talent-strategy.md) - Comprehensive hiring guidance
 - [Product-FDE Interface](../02-product-fde-interface.md) - Managing team relationships
 - [Technical Enablement](../03-technical-enablement.md) - Technical standards for FDE success
+- [FDE Operating Models](../04-fde-operating-models.md) - Running the day-to-day of an FDE function

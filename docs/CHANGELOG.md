@@ -4,6 +4,32 @@
 
 ---
 
+## [1.4.0] - 2026-03-07
+
+### Added
+- New practice area: FDE Operating Models (04-fde-operating-models.md)
+  - Team structure and sizing guidance
+  - Customer deployment lifecycle phases
+  - Capacity planning and rotation strategies
+  - Feedback loop mechanisms (weekly reports, upstream contributions, quarterly syncs)
+  - Career development tracks and burnout prevention
+  - Metrics and success criteria at function, customer, and individual levels
+- FDE Operating Model Canvas template (resources/operations/operating-model-canvas.md)
+  - One-page template for defining FDE operating model
+  - Covers team structure, deployment model, customer tiers, capacity planning, feedback loops, escalation paths, career development, and success metrics
+- Platypus Technologies callout at top of homepage
+
+### Changed
+- Updated client references in "About the Author" section
+  - Added Comand AI with case study link
+  - Added Northslope Technologies with case study link
+  - Removed Fractal Analytics and Object Edge
+  - Added note about confidential engagements
+- Updated navigation to include new practice area and operations resources
+- Updated "Getting Started by Challenge" section with operating models entry
+
+---
+
 ## [1.3.2] - 2026-02-07
 
 ### Changed
