@@ -372,3 +372,7 @@ For the philosophy and reasoning behind these practices:
 - [The Unreasonable Effectiveness of Hiring Assholes](https://anjor.xyz/writing/2025/11/13/the-unreasonable-effectiveness-of-hiring-assholes/) - Separating conviction from toxicity in candidates.
 - [The Database Selection Trap](https://anjor.xyz/writing/2025/07/05/the-database-selection-trap-why-your-technical-interviews-might-be-testing-the-wrong-things/) - Common interview anti-patterns to avoid.
 - [Criticality and Engagement](https://anjor.xyz/writing/2024/12/17/criticality-and-engagement/) - The two must-have traits in any hire.
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

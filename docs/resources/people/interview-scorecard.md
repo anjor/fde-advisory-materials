@@ -780,3 +780,7 @@ Notes:
 
 - Business-facing: Higher weight on communication and stakeholder management
 - Product-facing: Higher weight on technical depth and systems thinking
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

@@ -4,7 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a documentation repository containing advisory materials for Forward Deployed Engineering (FDE) transformation. The repository covers 4 practice areas: Hiring & Talent Strategy, Product-FDE Interface, Technical Enablement, and FDE Operating Models.
+This is a documentation repository: the public workbook under the Platypus FDE Blueprint. The Blueprint (`docs/blueprint.md`) is the front door and the framework; the repository then covers 4 practice areas — Hiring & Talent Strategy, Product-FDE Interface, Technical Enablement, and FDE Operating Models — plus runnable templates.
+
+**Licensing:** everything under `docs/` is CC BY 4.0 (see `LICENSE-DOCS.md`); code, CI and site configuration are MIT (see `LICENSE`). Every practice-area doc and template carries a one-line attribution footer; keep it when editing, add it when creating.
+
+**The line that must hold:** nothing tier-2 is ever added here — no calibrated interview exercises with rubrics, no decomposition prompts with what-good-looks-like, no scenario packs or injects, no assessment scoring method. Those are licensed to clients inside engagements. If a contribution contains any of them, it does not belong in this repository.
 
 ## Repository Structure
 
@@ -12,19 +16,21 @@ This is a MkDocs-based documentation site. All content files are in the `docs/` 
 
 ### Core Documents (in docs/)
 - `index.md` - Documentation site homepage
-- `00-fde-startup-kit.md` - Primary entry point, quick reference guide
+- `blueprint.md` - The Platypus FDE Blueprint: the canonical, versioned copy of the framework and the front door to the site. platypustech.xyz/blueprint mirrors it; change it here first
+- `00-fde-startup-kit.md` - Quick reference guide, the one-page version of the workbook
 - `01-hiring-talent-strategy.md` - Comprehensive hiring guidance
 - `02-product-fde-interface.md` - FDE-Product team interface patterns
 - `03-technical-enablement.md` - Technical standards and enablement
 - `04-fde-operating-models.md` - FDE operating models and day-to-day operations
-- `mvp-priorities.md` - MVP scope and rationale
 - `CHANGELOG.md` - Version history
-- `CLAUDE.md` - This file, guidance for AI assistants
+- `CLAUDE.md` - This file, guidance for AI assistants (excluded from the built site)
+- `README.md` - GitHub-facing readme for the docs folder (excluded from the built site)
 
 ### Resources Folder (in docs/resources/)
-- `resources/people/` - Hiring and onboarding templates (3 files)
+- `resources/people/` - Hiring and onboarding templates (4 files)
   - job-description-fde.md
   - interview-scorecard.md
+  - hiring-thesis-template.md
   - onboarding-checklist.md
 - `resources/product/` - Product-FDE interface template (1 file)
   - interface-agreement-template.md
@@ -33,21 +39,23 @@ This is a MkDocs-based documentation site. All content files are in the `docs/` 
 
 ### Site Configuration
 - `/mkdocs.yml` - MkDocs configuration (navigation, theme, plugins)
-- `/pyproject.toml` - Python dependencies managed with uv
+- `/pyproject.toml` - Python dependencies managed with uv; its `version` tracks the release version
 - `/.github/workflows/deploy-docs.yml` - Auto-deploy to GitHub Pages
+- `/LICENSE` - MIT, for code, CI and site configuration
+- `/LICENSE-DOCS.md` - CC BY 4.0, for everything under `docs/`
 
 ## Key Concepts
 
 ### Forward Deployed Engineering (FDE)
-FDEs are technical, client-facing engineers who solve customer problems by building on and extending product platforms. They differ from traditional consulting or staff augmentation roles by:
+Forward Deployed Engineering is a product R&D function dressed up as a delivery function (see `blueprint.md`, "The one-paragraph version"). FDEs are technical, client-facing engineers who solve customer problems by building on and extending product platforms. They differ from traditional consulting or staff augmentation roles by:
 - Taking ownership of customer outcomes
 - Contributing directly to product/platform development
 - Working across the full technical stack
 - Operating with high autonomy and pain tolerance
 
-### MVP Philosophy
+### Structure
 
-The repository covers 4 practice areas:
+The Blueprint is the framework (the "whether" and the "which path"); the practice areas are the "how":
 1. **Hiring & Talent Strategy** - How to hire and evaluate FDEs
 2. **Product-FDE Interface** - Managing FDE-Product team relationships
 3. **Technical Enablement** - Minimum standards for FDE-ready products
@@ -68,13 +76,17 @@ The repository covers 4 practice areas:
    - Common pitfalls
    - Success metrics
 
-2. **File Naming Convention** - Use numbered prefixes for MVP:
+2. **File Naming Convention** - Use numbered prefixes for the workbook:
    - ✅ Good: `01-hiring-talent-strategy.md`
    - Rationale: Numbers provide clear ordering (0=start, 1-3=priority areas)
 
 3. **Preserve the advisory perspective** - Content is written for consultants/advisors helping organizations, not for practitioners implementing directly
 
 4. **Status tracking** - Update version/date at bottom of files when making changes
+
+5. **Attribution footer** - Every practice-area doc and template ends with a horizontal rule and the line `*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*`. Keep it last in the file.
+
+6. **Consistency with the Blueprint** - The practice areas give Path A (platform) defaults. Where a section could be read as contradicting the Blueprint, add a pointer to the relevant Part rather than rewriting the Blueprint
 
 **For Resources:**
 
@@ -110,7 +122,7 @@ The repository covers 4 practice areas:
 
 ## Version Control
 
-- Version is in README.md (currently 1.0.0)
+- Version lives in five places that must agree: root `README.md`, `docs/README.md`, `docs/index.md` ("Current version"), the footer of `docs/00-fde-startup-kit.md`, and `pyproject.toml` (run `uv lock` after changing it). `docs/CHANGELOG.md` carries the entry
 - Each core document file has version/date at bottom
 - Update CHANGELOG.md for all significant changes
 - Use semantic versioning:
@@ -126,7 +138,10 @@ To create a new release:
 
 1. **Update version in files:**
    - `docs/CHANGELOG.md` - Add new version section with changes
-   - Root `README.md` - Update "Current Version" and "Last Updated"
+   - Root `README.md` and `docs/README.md` - Update "Current Version" and "Last Updated"
+   - `docs/index.md` - Update "Current version" line
+   - `docs/00-fde-startup-kit.md` - Update the version footer
+   - `pyproject.toml` - Update `version`, then run `uv lock`
 
 2. **Commit changes:**
    ```bash
@@ -151,9 +166,8 @@ To create a new release:
 
 ## Important Notes
 
-- This repository covers 4 practice areas
-- Do not reference deleted content (framework.md, old thematic folders)
+- The Blueprint (`blueprint.md`) is the front door; the startup kit (00-) is the quick reference. Keep both current
+- Do not reference deleted content (framework.md, mvp-priorities.md, old thematic folders)
 - All documentation files are in the `docs/` directory - all internal links should be relative to this directory
-- The startup kit (00-) is the primary entry point - keep it up to date
 - Resources should be ready-to-use, not aspirational placeholders
 - When making edits, edit files in `docs/` directory - changes auto-deploy via GitHub Actions

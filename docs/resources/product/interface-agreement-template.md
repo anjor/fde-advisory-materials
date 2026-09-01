@@ -503,3 +503,7 @@ This agreement needs a full rewrite (not just updates) when:
 - May need more detailed API/integration documentation commitments
 - May have separate platform team - add to ownership boundaries
 - May need client-tier SLAs (enterprise vs standard)
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

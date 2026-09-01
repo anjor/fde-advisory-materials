@@ -1,75 +1,68 @@
-# FDE Advisory Materials (MVP)
+# FDE Advisory Materials
 
-Practical guidance for organizations building Forward Deployed Engineering capabilities.
+The Platypus FDE Blueprint, and the open workbook beneath it.
 
-**MVP Scope**: This repository focuses on the 3 critical areas that solve immediate problems:
-1. Hiring & Talent Strategy
-2. Product-FDE Interface
-3. Technical Enablement
+→ **Start here**: [The Platypus FDE Blueprint](blueprint.md) — the ruler. Then the [FDE Startup Kit](00-fde-startup-kit.md) for the one-page version of the workbook.
 
-→ **Start here**: [FDE Startup Kit](00-fde-startup-kit.md)
+This file is the GitHub-facing readme for the `docs/` folder; it is not built as a page of the site. The site's homepage is [index.md](index.md).
 
 ---
 
 ## What is FDE?
 
-Forward Deployed Engineers (FDEs) are technical, client-facing engineers who solve customer problems by building on and extending product platforms. They differ from traditional consulting or staff augmentation roles by:
-
-- **Taking ownership** of customer outcomes
-- **Contributing directly** to product/platform development
-- **Working across** the full technical stack
-- **Operating with** high autonomy and pain tolerance
+Forward Deployed Engineering is a product R&D function dressed up as a delivery function. An FDE owns a customer's outcome, builds whatever the product cannot yet do, and walks the bag of weird bricks back to the people who build the product. See the [Blueprint](blueprint.md) for when the function is justified, which of two paths it is on, and how to design and measure it.
 
 ---
 
 ## What's Included
 
+### The Blueprint
+
+- **[blueprint.md](blueprint.md)** - The framework in nine parts. The canonical, versioned copy; platypustech.xyz/blueprint mirrors it.
+
 ### Core Documents
 
-- **[00-fde-startup-kit.md](00-fde-startup-kit.md)** - Quick reference guide for FDE essentials. Start here for an overview.
+- **[00-fde-startup-kit.md](00-fde-startup-kit.md)** - Quick reference guide for FDE essentials
 - **[01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)** - How to hire FDEs (interview process, evaluation, channels)
 - **[02-product-fde-interface.md](02-product-fde-interface.md)** - Managing FDE-Product team relationships and expectations
 - **[03-technical-enablement.md](03-technical-enablement.md)** - Minimum standards for FDE-ready products
+- **[04-fde-operating-models.md](04-fde-operating-models.md)** - How to run the day-to-day of an FDE function
 
 ### Resources
 
 Ready-to-use resources in `resources/`:
-- **Hiring**: Job descriptions, interview scorecards, onboarding checklists
-- **Product Interface**: FDE-Product team agreements
+- **People**: Job descriptions, interview scorecard, hiring thesis template, onboarding checklist
+- **Product**: FDE-Product interface agreement
+- **Operations**: Operating model canvas
 
 ---
 
 ## Getting Started by Challenge
 
+- **"Do we need FDEs at all, and which kind?"** → [blueprint.md](blueprint.md), Parts 1 and 2
 - **"We need to hire our initial FDE team"** → [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md)
 - **"FDEs and Product teams are constantly in conflict"** → [02-product-fde-interface.md](02-product-fde-interface.md)
 - **"FDEs spend days just trying to set up environments"** → [03-technical-enablement.md](03-technical-enablement.md)
+- **"Our FDE team is running but we're not sure the model is working"** → [04-fde-operating-models.md](04-fde-operating-models.md)
 - **"I need a quick overview"** → [00-fde-startup-kit.md](00-fde-startup-kit.md)
 
 ---
 
-## Why MVP?
+## What is here, and what is not
 
-This repository intentionally limits scope to 3 priority areas based on real field engagement patterns (the organization, Nov-Dec 2024). The burning problems were:
-
-1. **Hiring urgency** - Need to hire initial FDE cohort within target timeline
-2. **Product-FDE friction** - Single biggest source of operational pain
-3. **Technical chaos** - No documentation, scattered repos, can't work
-
-Everything else is deferred until there's demand based on real deployments. See [mvp-priorities.md](mvp-priorities.md) for the full rationale.
+Here: the framework and the runnable templates, free under CC BY 4.0 (see [LICENSE-DOCS.md](../LICENSE-DOCS.md)). Not here: calibrated interview exercises and rubrics, decomposition prompts with what-good-looks-like, scenario packs, and the assessment scoring method — those are licensed to clients inside Platypus engagements.
 
 ---
 
 ## Version
 
-**Current Version**: 1.3.2
-**Last Updated**: February 7, 2026
+**Current Version**: 1.5.0
+**Last Updated**: September 1, 2026
 
-See [CHANGELOG.md](CHANGELOG.md) for transformation details.
+See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ---
 
 ## Documentation
 
 - **[CLAUDE.md](CLAUDE.md)** - Guidance for AI assistants working with this repository
-- **[mvp-priorities.md](mvp-priorities.md)** - MVP scope definition and rationale

@@ -336,3 +336,7 @@ Watch for these patterns that indicate the operating model needs adjustment:
 ---
 
 *Version 1.4.0 | Last Updated: March 7, 2026*
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

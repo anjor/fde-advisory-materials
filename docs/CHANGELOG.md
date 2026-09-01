@@ -4,6 +4,33 @@
 
 ---
 
+## [1.5.0] - 2026-09-01
+
+### Added
+- The Platypus FDE Blueprint (blueprint.md) as the front door to the site — the canonical, versioned copy of the framework
+  - Nine parts: the reasoning gate, the fork, maturity stages, the atomic unit, the three interfaces, measurement, hiring, the eight failure modes, and how the Blueprint is used
+  - "The Blueprint" added to the navigation between Home and Getting Started
+- "What is here, and what is not" section on the homepage, stating plainly which materials are public and which are licensed to clients inside engagements
+- LICENSE-DOCS.md: documentation relicensed from MIT to CC BY 4.0 (code, CI and site configuration remain MIT)
+- Attribution footer on the startup kit, every practice area, the resources index and every template
+- "Before you start: the reasoning gate" box at the top of the startup kit, pointing to Blueprint Parts 1 and 2
+- Site-wide copyright line: "Documentation © Platypus Technologies — CC BY 4.0. Code MIT."
+
+### Changed
+- Homepage rewritten to open with the Blueprint's one-paragraph version and a "Start with the ruler" pointer
+  - New first row in the Challenge → Solution table: "Not sure you need FDEs at all?"
+  - "What is FDE?" updated to the Blueprint's definition: product R&D dressed up as delivery, and the bag-of-bricks loop
+  - Platypus callout now describes the FDE Readiness Assessment and the engagement ladder; "fractional technical leader" phrasing removed
+  - Client references updated: Prodigal, Northslope Technologies, Comand AI, and other clients held under the same discretion; case-study links corrected to the live URLs
+  - FAQ "Can I use these materials?" now states the CC BY 4.0 terms and the attribution line
+- Startup kit: one sentence added to the archetypes, lifecycle and metrics sections noting that these are Path A (platform) defaults and that Path B companies should read the fork first
+- Site description and author updated in mkdocs.yml
+- docs/README.md and docs/CLAUDE.md are no longer built as pages of the site (exclude_docs); README.md previously produced a build warning by conflicting with index.md
+- Root README.md: About list now covers the Blueprint and five areas; License section added
+- pyproject.toml version now tracks the release version (1.5.0)
+
+---
+
 ## [1.4.0] - 2026-03-07
 
 ### Added

@@ -98,3 +98,7 @@ Each resource includes:
 - [Product-FDE Interface](../02-product-fde-interface.md) - Managing team relationships
 - [Technical Enablement](../03-technical-enablement.md) - Technical standards for FDE success
 - [FDE Operating Models](../04-fde-operating-models.md) - Running the day-to-day of an FDE function
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

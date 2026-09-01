@@ -1,11 +1,18 @@
 site_name: FDE Advisory Materials
-site_description: Practical guidance for organizations building Forward Deployed Engineering capabilities
-site_author: FDE Advisory
+site_description: "The Platypus FDE Blueprint and the open workbook beneath it: hiring, the product–FDE interface, technical enablement, operating models, templates."
+site_author: Platypus Technologies
 site_url: https://anjor.github.io/fde-advisory-materials/
+copyright: "Documentation © Platypus Technologies — CC BY 4.0. Code MIT."
 
 repo_name: anjor/fde-advisory-materials
 repo_url: https://github.com/anjor/fde-advisory-materials
 edit_uri: edit/main/docs/
+
+# Repo-facing files that live in docs/ but are not pages of the site.
+# README.md would otherwise conflict with index.md; CLAUDE.md is guidance for AI assistants.
+exclude_docs: |
+  README.md
+  CLAUDE.md
 
 theme:
   name: material
@@ -59,6 +66,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - The Blueprint: blueprint.md
   - Getting Started: 00-fde-startup-kit.md
   - Practice Areas:
       - Hiring & Talent Strategy: 01-hiring-talent-strategy.md

@@ -653,3 +653,7 @@ Be honest about this. The right candidates will find it appealing.
 - Need both archetypes in team
 - May have specialized roles (field CTO, solutions architect, etc.)
 - Clear career paths to FDE leadership roles
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

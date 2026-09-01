@@ -894,3 +894,7 @@ Watch for these patterns. Intervene early.
 - "How are you doing?" → "Fine!" → repeat
 - Result: no real assessment until it's too late
 - Fix: Use success criteria checklist, be specific
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

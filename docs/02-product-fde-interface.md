@@ -437,3 +437,7 @@ A branch that diverges from main for >2 weeks is a failure mode.
 - Is FDE feedback visibly influencing your roadmap?
 - Are your docs accurate enough that FDEs trust them?
 - Can you name the top 3 FDE friction points?
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

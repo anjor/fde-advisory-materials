@@ -71,3 +71,7 @@ After deciding to extend an offer, before the offer is made. The hiring manager 
 - Revisit at 6 and 12 months to calibrate your hiring judgment
 - Share relevant sections with the candidate's manager during onboarding
 - Keep these documents to build pattern recognition over time
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

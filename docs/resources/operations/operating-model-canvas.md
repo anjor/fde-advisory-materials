@@ -108,3 +108,7 @@ A one-page template for defining how your FDE function operates. Fill this in wh
 - [FDE Operating Models](../../04-fde-operating-models.md) — Comprehensive guidance on each section of this canvas
 - [Product-FDE Interface Agreement](../product/interface-agreement-template.md) — Companion template for the FDE-Product relationship
 - [FDE Startup Kit](../../00-fde-startup-kit.md) — Overview of FDE program essentials
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

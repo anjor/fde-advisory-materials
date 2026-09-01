@@ -441,3 +441,7 @@ If a product consistently fails technical enablement:
 ## Further Reading
 
 - [The FDE Manifesto: What Would Stokes Do?](https://anjor.xyz/writing/2025/11/20/the-fde-manifesto-what-would-stokes-do/) - See "Own the Product Stack" and "Treat Information as Infrastructure" sections for the mindset behind technical enablement requirements.
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*

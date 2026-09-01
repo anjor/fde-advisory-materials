@@ -1,7 +1,10 @@
 # FDE Startup Kit
 ## Quick Reference for Getting Started
 
-> **📍 Primary Entry Point**: This is the main starting point for the FDE Advisory Materials MVP. Use this guide to understand FDE essentials, then dive into the detailed practice areas as needed.
+> **📍 Quick Reference**: This kit is the one-page version of the workbook. Use it to get the essentials, then dive into the detailed practice areas as needed. The front door to these materials is [The Platypus FDE Blueprint](blueprint.md).
+
+!!! abstract "Before you start: the reasoning gate"
+    This kit assumes you have already decided to build an FDE function. Do not assume it. Read the Blueprint first — [Part 1](blueprint.md#part-1-the-reasoning-gate-do-you-need-fdes-at-all), the reasoning gate (what is the deployment problem, which half of product-market fit are you missing, and what is the cheapest structure that solves it?), and [Part 2](blueprint.md#part-2-the-fork-where-does-the-compounding-asset-live), the fork (does the compounding asset live in a product you sell, or in a capability you keep?). The defaults in this kit — archetypes, lifecycle, ratios — are Path A (platform) defaults. Path B companies should read the fork before adopting any of them.
 
 ---
 
@@ -41,6 +44,8 @@ FDEs specialize into two main archetypes, each solving different problems in the
 - **Scaling stage** (10+ deployments): Add business-facing FDEs to drive land & expand
 - **Most orgs need both**: Individual FDEs specialize, but the team requires both archetypes
 
+These are Path A (platform) defaults, where the product-facing FDE is a scout whose role is designed to shrink; Path B (outcomes) companies should read [the fork](blueprint.md#part-2-the-fork-where-does-the-compounding-asset-live) first, because there the FDE is the steady-state product.
+
 ### Mapping Existing Roles
 
 Your organization may already have people doing FDE work under different titles:
@@ -79,6 +84,8 @@ Your organization may already have people doing FDE work under different titles:
 
 **Steady State:** Ongoing support. May transition to Customer Success.
 
+This lifecycle, and the hand-back at the end of it, is the Path A (platform) default; on Path B the FDE stays and the internal toolchain is what compounds, so read [the fork](blueprint.md#part-2-the-fork-where-does-the-compounding-asset-live) before adopting the phases as written.
+
 ---
 
 ## Quick Reference: Who Does What
@@ -111,6 +118,8 @@ These apply across your entire FDE team and help you understand program health:
 | **FDE blocked time** | Product-FDE interface health | Trending up = Product team can't support field needs |
 
 → Track these monthly. Share trends with leadership. Investigate outliers.
+
+The ratios and the revenue-per-FDE target are Path A (platform) defaults — measured company-wide, never per engagement, and healthy when fewer FDEs are needed per dollar each year; on Path B swap revenue per FDE for impact per FDE, as set out in [Blueprint Part 6](blueprint.md#part-6-measurement-two-kpis-and-one-honest-proxy).
 
 ### Individual FDE Performance: Intentionally Subjective
 
@@ -237,6 +246,7 @@ If your branch is >2 weeks old, something is wrong. Merge smaller pieces or get 
 
 | Need | Where to Go |
 |------|-------------|
+| Whether you need FDEs, and which path | [The Blueprint](blueprint.md) |
 | Hiring process | [01-hiring-talent-strategy.md](01-hiring-talent-strategy.md) |
 | Product team expectations | [02-product-fde-interface.md](02-product-fde-interface.md) |
 | Technical standards | [03-technical-enablement.md](03-technical-enablement.md) |
@@ -267,4 +277,8 @@ External perspectives on Forward Deployed Engineering from practitioners and tho
 
 ---
 
-*Version 1.4.0 | Last Updated: March 7, 2026*
+*Version 1.5.0 | Last Updated: September 1, 2026*
+
+---
+
+*Part of the Platypus FDE Blueprint workbook · © Platypus Technologies · CC BY 4.0 · [platypustech.xyz](https://platypustech.xyz)*
