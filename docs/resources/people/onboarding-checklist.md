@@ -295,6 +295,7 @@ environment      by observing      with support    outcomes
 
 - Lead one section of a client call (buddy supports)
 - Demo something you built
+- For a remote demo, rehearse with your buddy in the attendee view. Use a non-sensitive sample and ask them to identify what you highlight after switching windows. The [rehearsal record](https://light-tracer.com/wp-content/uploads/2026/10/hybrid-pointing-rehearsal-record-open-v1.pdf) is an optional free worksheet.
 - Answer client questions (with buddy as backup)
 - Take notes and send follow-up
 
